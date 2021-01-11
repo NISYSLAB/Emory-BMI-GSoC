@@ -64,7 +64,7 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 
 
-**[2] A front-end for Niffler DICOM Framework for machine learning pipelines and processing workflows
+**[2] A front-end for Niffler DICOM Framework for machine learning pipelines and processing workflows**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
