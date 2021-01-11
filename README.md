@@ -70,7 +70,7 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 **Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, and scanner utilization. However, Niffler is developed as a command-line based tool. In this project, we aim to develop a front-end for Niffler, specifically for its on-demand retrieval and real-time extraction modules.
 
-**Present Status of the work:** 
+**Present Status of the work:** Currently, Niffler does not have a front-end. The users are expected to log in to the server and run the Python scripts directly, after providing the configuration as json files. This limits the wide use of Niffler as a framework, as only those who have access to the server or VM instance can run their extractions or workflows on Niffler. A proper front-end can help with this shortcoming. However, security and access control measures must be taken as the framework will handle data with PHI.
 
 **Proposed Methodology:** 
 
@@ -79,7 +79,7 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 **Deliverables:** 
 
 
-**Required Skills:** 
+**Required Skills:** Python 
 
 **Source Code:** https://github.com/Emory-HITI/Niffler/
 
