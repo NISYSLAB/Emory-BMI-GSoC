@@ -78,9 +78,9 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 **Deliverables:** A front-end environment for Niffler. This could be an integrated web application or a modular architecture. However, the existing stand-alone execution based on command-line should continue to run as now. Several aspects must be decided. For example, how the CSV files are passed for the on-demand extraction, and how the end-user will know the location of the files for the png-extraction. Students are encouraged to make relevant assumptions and state in their proposal.
 
-The
+Several factors such as how the CSV file to extract the images on-demand should be passed and how the outputs are shared with the users should be considered. Students are encouraged to use the existing standards, frameworks, and toolkits towards implementing the functionality, rather than developing everything from the scratch. For example, RESTful interfaces maybe developed to pass the data to and from the Niffler backend. 
  
-**Required Skills:** Python 
+**Required Skills:** Python (and the relevant framework of choice).
 
 **Source Code:** https://github.com/Emory-HITI/Niffler/
 
