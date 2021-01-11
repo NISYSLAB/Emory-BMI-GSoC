@@ -68,15 +68,15 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
-**Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, and scanner utilization. However, Niffler is developed as a command-line based tool. In this project, we aim to develop a front-end for Niffler, specifically for its on-demand retrieval and real-time extraction modules.
+**Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, png extraction, and scanner utilization. However, Niffler is developed as a command-line based tool. In this project, we aim to develop a front-end for Niffler, specifically for its on-demand retrieval (cold-extraction), real-time extraction (meta-extraction), png-extraction modules.
 
 **Present Status of the work:** Currently, Niffler does not have a front-end. The users are expected to log in to the server and run the Python scripts directly, after providing the configuration as json files. This limits the wide use of Niffler as a framework, as only those who have access to the server or VM instance can run their extractions or workflows on Niffler. A proper front-end can help with this shortcoming. However, security and access control measures must be taken as the framework will handle data with PHI.
 
-**Proposed Methodology:** 
+**Proposed Methodology:** There are several approaches to implement a front-end to Niffler. The student must present their approach and defend it. Especially consider how the proposed approach will ensure only the authorized users can use Niffler. Currently, only those who can access the VM can access and use Niffler. When providing a front-end such access control must be implemented so that the front-end can be used in production.
 
-**Benefits:** 
+**Benefits:** The proposed front-end will make Niffler accessible and usable by more users. We are now limited to running the Python code after configuring the json files. A front end can make it more user-friendly. Furthermore, this enables how the framework can be used beyond the organizational boundaries, with proper firewalls and security mechanisms in place.
 
-**Deliverables:** 
+**Deliverables:** A front-end environment for Niffler. 
 
 
 **Required Skills:** Python 
