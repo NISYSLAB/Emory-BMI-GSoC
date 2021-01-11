@@ -3,7 +3,7 @@
 <img src="https://pbs.twimg.com/profile_images/535105446957182978/4PApPZ-s_400x400.png" width="150" height="150" align="left" /> Emory BMI is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from https://github.com/Emory-HITI, https://github.com/sharmalab, and https://github.com/NISYSLAB
 
 
-Emory BMI has been a successful mentoring orgnaization for [Google Summer of Code 2019](https://github.com/sharmalab/Emory-BMI-GSoC-2019)! We had 4 great students. We are excited and looking forward to working with another batch of students for GSoC 2021.
+Emory BMI has been a successful mentoring orgnaization for [Google Summer of Code 2019](https://github.com/sharmalab/Emory-BMI-GSoC-2019) and before! We had 4 great students in 2019. We are excited and looking forward to working with another batch of students for GSoC 2021.
 
 
 
@@ -14,7 +14,7 @@ We are using Slack as the primary medium of communication. Find and join the Emo
 
 Each idea on this page has at least one mentor assigned. Each project idea also has a relevant channel in the Slack workspace, listed below under each project idea. Make sure to join the rooms that are relevant for the projects that you are interested in. Specific discussions on each project idea happens in those channels.
  
-# List of Ideas (CURRENTLY UNDER CONSTRUCTION. PLEASE CHECK AGAIN FOR MORE IDEAS AS WE ADD MORE)
+# List of Ideas (CURRENTLY UNDER CONSTRUCTION. PLEASE CHECK AGAIN FOR MORE IDEAS AS WE CONTINUE TO ADD MORE)
 Discuss the project on Slack, and once you are ready to submit your application, use the template below. You must submit your application directly using the GSoC Program Site. If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your own idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
 
 
