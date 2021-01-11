@@ -76,8 +76,10 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 **Benefits:** The proposed front-end will make Niffler accessible and usable by more users. We are now limited to running the Python code after configuring the json files. A front end can make it more user-friendly. Furthermore, this enables how the framework can be used beyond the organizational boundaries, with proper firewalls and security mechanisms in place.
 
-**Deliverables:** A front-end environment for Niffler. This could be an integrated web application or a modular architecture. However, the existing stand-alone execution based on command-line should continue to run as now. Several aspects must be decided. For example, how the CSV files are passed for the on-demand extraction, and how the end-user will know the location of the files for the png-extraction.
+**Deliverables:** A front-end environment for Niffler. This could be an integrated web application or a modular architecture. However, the existing stand-alone execution based on command-line should continue to run as now. Several aspects must be decided. For example, how the CSV files are passed for the on-demand extraction, and how the end-user will know the location of the files for the png-extraction. Students are encouraged to make relevant assumptions and state in their proposal.
 
+The
+ 
 **Required Skills:** Python 
 
 **Source Code:** https://github.com/Emory-HITI/Niffler/
