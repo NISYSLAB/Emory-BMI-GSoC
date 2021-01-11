@@ -14,8 +14,9 @@ We are using Slack as the primary medium of communication. Find and join the Emo
 
 Each idea on this page has at least one mentor assigned. Each project idea also has a relevant channel in the Slack workspace, listed below under each project idea. Make sure to join the rooms that are relevant for the projects that you are interested in. Specific discussions on each project idea happens in those channels.
  
-# List of Ideas
+# List of Ideas (CURRENTLY UNDER CONSTRUCTION. PLEASE CHECK AGAIN FOR MORE IDEAS AS WE ADD MORE)
 Discuss the project on Slack, and once you are ready to submit your application, use the template below. You must submit your application directly using the GSoC Program Site. If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your own idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
+
 
 
 **[1] TensorFlow-GUI: A Graphical User Interface for Tensorflow**
@@ -63,9 +64,29 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 
 
+**[2] A front-end for Niffler DICOM Framework for machine learning pipelines and processing workflows
+
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, and scanner utilization. However, Niffler is developed as a command-line based tool. In this project, we aim to develop a front-end for Niffler, specifically for its on-demand retrieval and real-time extraction modules.
+
+**Present Status of the work:** 
+
+**Proposed Methodology:** 
+
+**Benefits:** 
+
+**Deliverables:** 
 
 
+**Required Skills:** 
 
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Slack room:** gsoc-emory-bmi.slack.com niffler-fe
+
+
+***
 
 
 # Application Template
