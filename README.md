@@ -120,7 +120,7 @@ Summarize the project in your own words.
 
 **8) Project Schedule**
 
-Break the timeline into periods of 3 – 4 days
+Break the timeline into periods of up to 7 days
 
 **8.1) Community Bonding Period**
 
