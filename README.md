@@ -89,6 +89,26 @@ Several factors such as how the CSV file to extract the images on-demand should 
 
 ***
 
+**[3] A Front-end for LoopSim Framework to model workflows with closed loops**
+
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
+
+**Overview:** LoopSim framework aims to facilitate workflows with loops, including simple and nested loops. Such workflows deviate from the standard workflows that consist of specific start and end services. As such, existing CWL and WDL workflow composers, including those with a compact front-end such as Rabix, cannot be used as such for loops. The current workflow frameworks limit their focus to supporting directed acyclic graphs (DAGs). Furthermore, workflow definitions can be made more efficient by representing them with more generic formats such as directed hypergraphs. A directed hypergraph supports workflows containing edges that connect multiple nodes. To support complex loops efficiently, we must expand our scope to include all the directed hypergraphs. Currently, LoopSim uses yEd GraphML editor as its front end. However, yEd is not open source and not ideal for customizing as our integrated front-end. As such, a custom front-end for LoopSim will be more advantageous.
+
+**Present Status of the work:** Currently, LoopSim utilizes yEd to visualize its workflows. The workflows drawn using yEd are stored as GraphML files. The GraphML files are then parsed with LoopSim based on BeautifulSoup to represent them as hypergraphs in Python. The proposal is to custom-build a front-end framework to replace yEd. Students are encouraged to find open-source projects that can be extended and leveraged for the front-end.
+
+**Proposed Methodology:** LoopSim is currently under active development. We aim to have the front-end that evolves with the framework. The students are encouraged to find open-source frameworks that support drag-and-drop of the components to create workflows with loops - as depicted in LoopSim with yEd as samples. 
+
+**Benefits:** LoopSim currently uses yEd to design its directed hypergraphs. However, yEd is not open source. As such, adopting yEd for LoopSim poses a few challenges. First, we cannot adopt the front-end to customize based on LoopSim’s requirement. Second, as it is not open-source, a complete bundling of the framework is not possible. An open-source solution also removes the potential for vendor lockin, especially if yEd is discontinued in the future. Since this is also an on-going research project, the successful student also can contribute to the research as a co-author.
+
+**Deliverables:** A minimal drag-and-drop front-end interface to compose workflows that can be represented by a diverse set of graphs, rather than being limited to DAGs. The minimal drag-and-drop front-end must be integrated into the existing graph parser to replace the current yEd-based graph composer. While several open-source frameworks such as Apache Airavata provide such a drag-and-drop interface, they do not offer the capability to compose workflows with loops with containerized microservices. As such, a front-end to LoopSim will make it towards a complete workflow framework. 
+
+**Required Skills:** Python or the relevant frameworks/languages of choice.
+
+**Source Code:** https://github.com/NISYSLAB/LoopSim
+
+**Slack room:** gsoc-emory-bmi.slack.com loopsim-fe
+
 
 # Application Template
 
