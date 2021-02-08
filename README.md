@@ -64,7 +64,7 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 
 
-**[2] A front-end for Niffler DICOM Framework for machine learning pipelines and processing workflows**
+**[2] A front-end for Niffler DICOM framework for machine learning pipelines and processing workflows**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Ramon Correa (ramon -at- dbmi.emory.edu) 
 
@@ -89,7 +89,7 @@ Several factors such as how the CSV file to extract the images on-demand should 
 
 ***
 
-**[3] A Front-end for LoopSim Framework to model workflows with closed loops**
+**[3] A front-end for LoopSim framework to model workflows with closed loops**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
