@@ -109,6 +109,7 @@ Several factors such as how the CSV file to extract the images on-demand should 
 
 **Slack room:** gsoc-emory-bmi.slack.com loopsim-fe
 
+***
 
 # Application Template
 
