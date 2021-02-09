@@ -210,6 +210,24 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 ***
 
+**[8] A Middleware framework to integrate the backend frameworks with front-end visualization frameworks**
+
+**Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:** 
+
+**Present Status of the work:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
+
+**Expected results:** An integration middleware that facilitates the dynamic integration of front-end interfaces with the back-ends, such as servers and local file systems. Students can start with certain file types and frameworks. For example, DICOM images. The project is intentionally left broad for the students to select the best potential frameworks and applications.
+
+**Required Skills:** APIs, Middleware, Selected language of choice.
+
+**Community and Code License:** Apache License 2.0
+
+**Slack room:** gsoc-emory-bmi.slack.com middleware
+
+
+***
 
 # Application Template
 
