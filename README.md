@@ -205,7 +205,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Community and Code License:** Apache License 2.0
 
-**Slack room:** gsoc2019-bmi.slack.com openslider-tf
+**Slack room:** gsoc-emory-bmi.slack.com  openslider-tf
 
 
 ***
