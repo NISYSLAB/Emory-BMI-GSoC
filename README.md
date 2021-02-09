@@ -229,6 +229,8 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **[9] Development of an AI-based Android Application for distinguishing COVID-19 and Pneumonia using Computed Tomography Images**
 
+**Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) 
+
 **Overview:** Coronavirus disease 2019 (COVID-19) is a highly contagious respiratory disease caused by SARS-CoV-2. Uncounted people around the world got affected due to this virus. Various articles have reported that COVID-19 and Pneumonia cases have very few distinct features. We aim to develop an AI-based Android Application, which will distinguish COVID-19 and Pneumonia cases using computed tomography (CT) images.
 
 **Present Status of the work:** A classification architecture using TensorFlow has been developed using Python. It works on Linux, Mac, and Windows systems.  
@@ -239,9 +241,9 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Source Code:** This Will be shared later
 
+**Community and Code License:** Apache License 2.0
+
 **Slack room:** 
-
-
 
 
 
