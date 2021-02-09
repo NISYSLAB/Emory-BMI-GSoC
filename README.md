@@ -66,7 +66,7 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 **[2] A front-end for Niffler DICOM framework for machine learning pipelines and processing workflows**
 
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Ramon Correa (ramon -at- dbmi.emory.edu) 
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Imon Banerjee (imon.banerjee -at- dbmi.emory.edu) 
 
 **Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, png extraction, and scanner utilization. However, Niffler is developed as a command-line based tool. In this project, we aim to develop a front-end for Niffler, specifically for its on-demand retrieval (cold-extraction), real-time extraction (meta-extraction), png-extraction modules.
 
@@ -88,6 +88,7 @@ Several factors such as how the CSV file to extract the images on-demand should 
 
 
 ***
+
 **[3] Interactive Multidimensional Visualizations**
 
 **Mentors:**  Ramon Correa  (ramon -at- dbmi.emory.edu) 
