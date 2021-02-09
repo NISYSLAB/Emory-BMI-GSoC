@@ -191,6 +191,26 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 ***
 
 
+**[7] An OpenSlide Reader for TensorFlow: Enabling Machine-Learning for Digital Pathology**
+
+**Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Lee Cooper (lee.cooper -at- emory.edu)
+
+**Overview:** This project seeks to develop a custom TensorFlow reader for digital pathology whole slide images (WSIs). These images are massive, often 80K x 120K or larger, and are stored in proprietary formats that can be read by the OpenSlide Library but can not be directly read by Tensorflow. This project will develop a C reader based on OpenSlide to enable these images to be read efficiently within TensorFlow.
+
+**Present Status of the work:** As per our knowledge, there is no such tool in the existing OpenSlide software for converting the images/datasets into the Tensorflow supported "TfRecord" file format (extension of files  .tfrecord). On the other hand, Tensorflow doesn't encourage the user to use some other file formats rather than TfRecords. TfRecords are the best way to handle a complex training dataset structure in a single record file. 
+
+**Expected results:** A documented, tested implementation with build instructions for popular platforms.
+
+**Required Skills:** C, software profiling, and optimization.
+
+**Community and Code License:** Apache License 2.0
+
+**Slack room:** gsoc2019-bmi.slack.com openslider-tf
+
+
+***
+
+
 # Application Template
 
 The students are encouraged to follow this template. However, they are not expected to strictly follow this template. They are rather advised to clearly include all the requested information in their application.
