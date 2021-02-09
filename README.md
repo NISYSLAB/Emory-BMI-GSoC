@@ -225,7 +225,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 **Community and Code License:** Apache License 2.0
 
 **Slack room:** gsoc-emory-bmi.slack.com middleware
-
+***
 
 **[9] Development of an AI-based Android Application for distinguishing COVID-19 and Pneumonia using Computed Tomography Images**
 
