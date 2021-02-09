@@ -133,7 +133,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Slack room:** gsoc-emory-bmi.slack.com loopsim-fe
 
-***
+
 
 ***
 
