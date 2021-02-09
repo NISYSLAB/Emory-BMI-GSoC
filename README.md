@@ -135,6 +135,61 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 ***
 
+***
+
+**[5] Extensions to Bindaas Data Integration Middleware**
+
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Tushar Aggarwal (tushar1997 -at- gmail.com)
+
+**Overview:** Bindaas is a service-based data framework that offers unified access and RESTful APIs to various data sources, such as MySQL, PostgreSQL, Mongo, and Apache Drill. Additional data service providers can be implemented for various data sources and access mechanisms such as HTTP access. Bindaas is the backbone of several production systems such as the Cancer Imaging Archive (TCIA).
+
+There have been several proposals to improve Bindaas’ usability. There are several tasks to follow up.
+
+First, more data source providers. Namely, we should extend Bindaas for cloud file systems and storages such as S3, by incorporating with the cloud CLIs.
+
+Second, currently Bindaas limits its API to REST. We also propose to have more interfaces to Bindaas such as GraphQL query language interfaces, in addition to its RESTful interfaces.
+
+
+**Expected results:** We are aiming for the Bindaas 4.5 release with the enhancements in place.
+
+**Code challenge:** The students are expected to configure Bindaas locally during the application period to understand the code base and to illustrate their capability in completing this task. If the student manages to resolve one of the issues listed in https://github.com/sharmalab/bindaas/issues, it will make them a strong candidate.
+   
+**Required Skills:** Java, Web Services, Apache Maven, OSGi, GraphQL, Cloud Computing
+
+**Source Code:**  https://github.com/sharmalab/bindaas
+
+**Slack room:** gsoc-emory-bmi.slack.com bindaas
+
+***
+
+**[6] Performance Enhancements to Bindaas Data Integration Middleware**
+ 
+**Mentors:**  Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:** Bindaas is a service-based data framework that offers unified access and RESTful APIs to various data sources, such as MySQL, PostgreSQL, Mongo, and Apache Drill. Additional data service providers can be implemented for various data sources and access mechanisms such as HTTP access. Bindaas is the backbone of several production systems such as the Cancer Imaging Archive (TCIA).
+
+Performance is an essential aspect of the Bindaas framework. Therefore, there have been several proposals for improving Bindaas’ performance. This project aims to improve the performance of Bindaas by addressing some of those proposals.
+
+First, better serialization of Bindaas internal representation with Protobuf, Kryo, or other efficient serialization and deserialization approaches.
+
+Second, the SQLite-based audit logs have some performance and scalability limitation. The tight-coupling with SQLite should be removed, and replaced with a generic interface. Then, also implement persistence based on other data stores as alternatives. Consider Mongo and In-Memory Data Grids such as Infinispan and Hazelcast.
+
+Third, Bindaas currently does not optimize its database queries. We should be able to reach better outputs than the database APIs themselves through query optimization.
+
+**Expected results:** We are aiming for the Bindaas 4.5 release with the enhancements in place.
+
+**Code challenge:** The students are expected to configure Bindaas locally during the application period to understand the code base and to illustrate their capability in completing this task. If the student manages to resolve one of the issues listed in https://github.com/sharmalab/bindaas/issues, it will make them a strong candidate.
+
+**Required Skills:** Java, Web Services, Apache Maven, OSGi
+
+**Source Code:** https://github.com/sharmalab/bindaas
+
+**Slack room:** gsoc-emory-bmi.slack.com bindaas
+
+
+***
+
+
 # Application Template
 
 The students are encouraged to follow this template. However, they are not expected to strictly follow this template. They are rather advised to clearly include all the requested information in their application.
