@@ -88,8 +88,32 @@ Several factors such as how the CSV file to extract the images on-demand should 
 
 
 ***
+**[3] Interactive Multidimensional Visualizations**
 
-**[3] A front-end for LoopSim framework to model workflows with closed loops**
+**Mentors:**  Ramon Correa  (ramon -at- dbmi.emory.edu) 
+
+**Overview:** DataScope is a framework for exploratory analysis on high dimensional datasets, especially biomedical datasets. Currently Datascope uses templated visualizations. 
+
+This project would involve creating or adapting interactive visualizations that would assist with cohort creation, manual dimensionality reduction, and dataset exploration. There could be several approaches the student could consider. For example, we could provide users the ability to declaratively specify what visualizations they’d want to see in datascope using an existing tool such as [Vega](https://vega.github.io/). All of Datascope’s visualizations are interactive, so the challenge would be to ensure that whichever visalizations chosen are smoothly integrated with interactivity.
+
+Adding multidimensional interactive visualizations would allow users to explore the relationship between two or more variables, and to create cohorts based upon combinations of interest.
+
+**Current Status:** Currently, DataScope has interactive visualizations, but only of a single variable each, and has some multidimensional visualizations, but they are noninteractive.
+
+**Required Skills:** Javascript, D3 (recommended)
+
+**Code Challenge:** Either from scratch or an existing toolkit, make a simple univariate interactive visualization. Alternatively, a meaningful bug report or contribution to the Datascope Repository.
+
+**Source Code:** https://github.com/sharmalab/Datascope 
+
+**Slack room:** gsoc-emory-bmi.slack.com multidimensional-viz
+
+***
+
+
+
+
+**[4] A front-end for LoopSim framework to model workflows with closed loops**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
