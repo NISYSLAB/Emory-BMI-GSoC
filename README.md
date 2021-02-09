@@ -193,7 +193,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **[7] An OpenSlide Reader for TensorFlow: Enabling Machine-Learning for Digital Pathology**
 
-**Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Lee Cooper (lee.cooper -at- emory.edu)
+**Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) 
 
 **Overview:** This project seeks to develop a custom TensorFlow reader for digital pathology whole slide images (WSIs). These images are massive, often 80K x 120K or larger, and are stored in proprietary formats that can be read by the OpenSlide Library but can not be directly read by Tensorflow. This project will develop a C reader based on OpenSlide to enable these images to be read efficiently within TensorFlow.
 
