@@ -214,7 +214,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
-**Overview:** 
+**Overview:** The proliferation of infrastructures for biomedical informatics machine learning applications, including backend frameworks and visualization frameworks have posed an interesting challenge of integration. While the back-end applications stand alone, they often lack of a proper front-end to visualize the data from the backend. On the other hand, front-end interfaces can be utilized to view the images and models stored by these backend frameworks better. However, such a seamless integration does not exist, and integrations are often custom-built scripts. An extensible seamless middleware that consumes the APIS of the frontend and backend could avoid this repeated manual effort of custom configurations.
 
 **Present Status of the work:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
 
@@ -243,7 +243,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Community and Code License:** Apache License 2.0
 
-**Slack room:** 
+**Slack room:** gsoc-emory-bmi.slack.com covid19
 
 
 
