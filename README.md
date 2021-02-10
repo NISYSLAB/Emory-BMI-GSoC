@@ -214,11 +214,11 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
-**Overview:** The proliferation of infrastructures for biomedical informatics machine learning applications, including backend frameworks and visualization frameworks have posed an interesting challenge of integration. While the back-end applications stand alone, they often lack of a proper front-end to visualize the data from the backend. On the other hand, front-end interfaces can be utilized to view the images and models stored by these backend frameworks better. However, such a seamless integration does not exist, and integrations are often custom-built scripts. An extensible seamless middleware that consumes the APIS of the frontend and backend could avoid this repeated manual effort of custom configurations.
+**Overview:** The proliferation of infrastructures for biomedical informatics machine learning applications, including backend frameworks and visualization frameworks have posed an interesting challenge of integration. While the backend applications stand alone, they often lack of a proper frontend to visualize the data from the backend. On the other hand, frontend interfaces can be utilized to view the images and models stored by these backend frameworks better. However, such a seamless integration does not exist, and integrations are often custom-built scripts. An extensible seamless middleware that consumes the APIs of the frontend and backend could avoid this repeated manual effort of custom configurations. The middleware could enable federation of data sources that are viewable through potential front-ends.
 
 **Present Status of the work:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
 
-**Expected results:** An integration middleware that facilitates the dynamic integration of front-end interfaces with the back-ends, such as servers and local file systems. Students can start with certain file types and frameworks. For example, DICOM images. The project is intentionally left broad for the students to select the best potential frameworks and applications.
+**Expected results:** An integration middleware that facilitates the dynamic integration of frontend interfaces with the backends, such as servers and local file systems. Students can start with certain file types and frameworks. For example, DICOM images. Images retrieved to a server with Niffler could be configured to view through DICOM viewers such as the OHIF Viewer. The project is intentionally left broad for the students to select the best potential frameworks and applications.
 
 **Required Skills:** APIs, Middleware, Selected language of choice.
 
@@ -239,7 +239,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Required Skills:** The student should have prior experience to develop an Android application and machine learning algorithms. The students have full freedom to choose any architecture/codes as per their comfort level. 
 
-**Source Code:** This Will be shared later
+**Source Code:** This will be shared later
 
 **Community and Code License:** Apache License 2.0
 
