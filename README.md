@@ -245,6 +245,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Slack room:** gsoc-emory-bmi.slack.com covid19
 
+***
 
 **[10] Creating shareable "albums" from Niffler data sets**
 
@@ -270,7 +271,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 ***
 
 
-***
+
 
 # Application Template
 
