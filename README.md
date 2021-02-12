@@ -165,7 +165,7 @@ Second, currently Bindaas limits its API to REST. We also propose to have more i
 
 **[6] Performance Enhancements to Bindaas Data Integration Middleware**
  
-**Mentors:**  Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**Mentors:**  Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Ashish Sharma (ashish.sharma -at- emory.edu)
 
 **Overview:** Bindaas is a service-based data framework that offers unified access and RESTful APIs to various data sources, such as MySQL, PostgreSQL, Mongo, and Apache Drill. Additional data service providers can be implemented for various data sources and access mechanisms such as HTTP access. Bindaas is the backbone of several production systems such as the Cancer Imaging Archive (TCIA).
 
@@ -210,11 +210,11 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 ***
 
-**[8] A Middleware framework to integrate the backend frameworks with front-end visualization frameworks**
+**[8] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
 
 **Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
-**Overview:** The proliferation of infrastructures for biomedical informatics machine learning applications, including backend frameworks and visualization frameworks have posed an interesting challenge of integration. While the backend applications stand alone, they often lack of a proper frontend to visualize the data from the backend. On the other hand, frontend interfaces can be utilized to view the images and models stored by these backend frameworks better. However, such a seamless integration does not exist, and integrations are often custom-built scripts. An extensible seamless middleware that consumes the APIs of the frontend and backend could avoid this repeated manual effort of custom configurations. The middleware could enable federation of data sources that are viewable through potential front-ends.
+**Overview:** The proliferation of infrastructures for biomedical informatics machine learning applications, including backend frameworks and visualization frameworks have posed an interesting challenge of integration. While the backend applications stand alone, they often lack of a proper frontend to visualize the data from the backend. On the other hand, frontend interfaces can be utilized to view the images and models stored by these backend frameworks better. However, such a seamless integration does not exist, and integrations are often custom-built scripts. An extensible seamless middleware that consumes the APIs of the frontend and backend could avoid this repeated manual effort of custom configurations. The middleware could enable federation of data sources that are viewable through potential frontends.
 
 **Present Status of the work:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
 
