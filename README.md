@@ -19,7 +19,31 @@ Discuss the project on Slack, and once you are ready to submit your application,
 
 
 
-**[1] TensorFlow-GUI: A Graphical User Interface for Tensorflow**
+**[1] A test framework for Niffler DICOM frameworks for continuous integration and deployment**
+
+**Mentors:** Ramon Correa (ramon -at- dbmi.emory.edu) and Hari Trivedi (hari.trivedi -at- dbmi.emory.edu) 
+
+**Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, png extraction, and scanner utilization. In this project, we aim to develop a continuous integration test for Niffler, specifically for its on-demand retrieval (cold-extraction), real-time extraction (meta-extraction), png-extraction modules.
+
+**Present Status of the work:** Currently, Niffler does not have posses checks to confirm commits do not break the functionality. As such, each major release requires a considerable manual testing before deploying on production. We test the modified modules for each release manually for failures before deploying a later version. We also test each modules locally before committing. However, especially for real-time and on-demand extraction such tests work only in the actual deployment environment. This has made updates more time consuming. Furthermore, currently, the code has little test coverage. As such, errors are harder to spot.
+
+**Proposed Methodology:** Most modules of Niffler are developed in Python (cold-xtraction, meta-extraction, and png-extraction). The application layer (specifically, scanner utilization project) is developed in Java. A continuous integration framework should confirm that updates to Niffler do not break the features, slow down the extractions, or introduce new bugs. This can be a local execution as well as a GitHub integration, to handle the unit tests as well as integration tests.
+
+**Benefits:** The proposed continuous integration tests for each update will reduce the manual effort in testing. We do not aim to remove the manual testing altogether. But we envision that such tests will significantly reduce the potential for bugs with each commits, and allowing us to deploy newer versions seamlessly.
+
+**Deliverables:** The integration test framework for all the Niffler modules. For each commit made to the Niffler github repository, such tests should be triggered, and allowing merge into the main branch only when no failures are reported.
+ 
+**Required Skills:** Python, Java (and the relevant framework of choice).
+
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Slack room:** gsoc-emory-bmi.slack.com niffler
+
+
+***
+
+
+**[2] TensorFlow-GUI: A Graphical User Interface for Tensorflow**
 
 **Mentors:**  Monjoy Saha (monjoy.saha -at- emory.edu)
 
@@ -64,31 +88,6 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 
 
-**[2] A front-end for Niffler DICOM framework for machine learning pipelines and processing workflows**
-
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Imon Banerjee (imon.banerjee -at- dbmi.emory.edu) 
-
-**Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, png extraction, and scanner utilization. However, Niffler is developed as a command-line based tool. In this project, we aim to develop a front-end for Niffler, specifically for its on-demand retrieval (cold-extraction), real-time extraction (meta-extraction), png-extraction modules.
-
-**Present Status of the work:** Currently, Niffler does not have a front-end. The users are expected to log in to the server and run the Python scripts directly, after providing the configuration as json files. This limits the wide use of Niffler as a framework, as only those who have access to the server or VM instance can run their extractions or workflows on Niffler. A proper front-end can help with this shortcoming. However, security and access control measures must be taken as the framework will handle data with PHI.
-
-**Proposed Methodology:** There are several approaches to implement a front-end to Niffler. The student must present their approach and defend it. Especially consider how the proposed approach will ensure only the authorized users can use Niffler. Currently, only those who can access the VM can access and use Niffler. When providing a front-end such access control must be implemented so that the front-end can be used in production.
-
-**Benefits:** The proposed front-end will make Niffler accessible and usable by more users. We are now limited to running the Python code after configuring the json files. A front end can make it more user-friendly. Furthermore, this enables how the framework can be used beyond the organizational boundaries, with proper firewalls and security mechanisms in place.
-
-**Deliverables:** A front-end environment for Niffler. This could be an integrated web application or a modular architecture. However, the existing stand-alone execution based on command-line should continue to run as now. Several aspects must be decided. For example, how the CSV files are passed for the on-demand extraction, and how the end-user will know the location of the files for the png-extraction. Students are encouraged to make relevant assumptions and state in their proposal.
-
-Several factors such as how the CSV file to extract the images on-demand should be passed and how the outputs are shared with the users should be considered. Students are encouraged to use the existing standards, frameworks, and toolkits towards implementing the functionality, rather than developing everything from the scratch. For example, RESTful interfaces maybe developed to pass the data to and from the Niffler backend. 
- 
-**Required Skills:** Python (and the relevant framework of choice).
-
-**Source Code:** https://github.com/Emory-HITI/Niffler/
-
-**Slack room:** gsoc-emory-bmi.slack.com niffler
-
-
-***
-
 **[3] Interactive Multidimensional Visualizations**
 
 **Mentors:**  Ramon Correa  (ramon -at- dbmi.emory.edu) 
@@ -114,7 +113,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 
 
-**[4] A front-end for LoopSim framework to model workflows with closed loops**
+**[4] A frontend for LoopSim framework to model workflows with closed loops**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
@@ -271,6 +270,30 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 ***
 
 
+**[11] A frontend for Niffler DICOM framework for machine learning pipelines and processing workflows**
+
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Imon Banerjee (imon.banerjee -at- dbmi.emory.edu) 
+
+**Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, png extraction, and scanner utilization. However, Niffler is developed as a command-line based tool. In this project, we aim to develop a front-end for Niffler, specifically for its on-demand retrieval (cold-extraction), real-time extraction (meta-extraction), png-extraction modules.
+
+**Present Status of the work:** Currently, Niffler does not have a front-end. The users are expected to log in to the server and run the Python scripts directly, after providing the configuration as json files. This limits the wide use of Niffler as a framework, as only those who have access to the server or VM instance can run their extractions or workflows on Niffler. A proper front-end can help with this shortcoming. However, security and access control measures must be taken as the framework will handle data with PHI.
+
+**Proposed Methodology:** There are several approaches to implement a front-end to Niffler. The student must present their approach and defend it. Especially consider how the proposed approach will ensure only the authorized users can use Niffler. Currently, only those who can access the VM can access and use Niffler. When providing a front-end such access control must be implemented so that the front-end can be used in production.
+
+**Benefits:** The proposed front-end will make Niffler accessible and usable by more users. We are now limited to running the Python code after configuring the json files. A front end can make it more user-friendly. Furthermore, this enables how the framework can be used beyond the organizational boundaries, with proper firewalls and security mechanisms in place.
+
+**Deliverables:** A front-end environment for Niffler. This could be an integrated web application or a modular architecture. However, the existing stand-alone execution based on command-line should continue to run as now. Several aspects must be decided. For example, how the CSV files are passed for the on-demand extraction, and how the end-user will know the location of the files for the png-extraction. Students are encouraged to make relevant assumptions and state in their proposal.
+
+Several factors such as how the CSV file to extract the images on-demand should be passed and how the outputs are shared with the users should be considered. Students are encouraged to use the existing standards, frameworks, and toolkits towards implementing the functionality, rather than developing everything from the scratch. For example, RESTful interfaces maybe developed to pass the data to and from the Niffler backend. 
+ 
+**Required Skills:** Python (and the relevant framework of choice).
+
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Slack room:** gsoc-emory-bmi.slack.com niffler
+
+
+***
 
 
 # Application Template
