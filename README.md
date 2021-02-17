@@ -202,6 +202,8 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Required Skills:** C, software profiling, and optimization.
 
+**Source Code:** New Project
+
 **Community and Code License:** Apache License 2.0
 
 **Slack room:** gsoc-emory-bmi.slack.com  openslider-tf
@@ -238,7 +240,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **Required Skills:** The student should have prior experience to develop an Android application and machine learning algorithms. The students have full freedom to choose any architecture/codes as per their comfort level. 
 
-**Source Code:** This will be shared later
+**Source Code:** New Project
 
 **Community and Code License:** Apache License 2.0
 
