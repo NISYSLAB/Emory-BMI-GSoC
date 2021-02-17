@@ -297,6 +297,26 @@ Several factors such as how the CSV file to extract the images on-demand should 
 
 ***
 
+**[12] Graphical User Interface for OpenAI Gym**
+
+**Mentors:** Parisa Sarikhani (psarikh -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
+
+**Overview:** The goal of this project is to develop a graphical user interface (GUI) for simulating openai gym environments and RL algorithms. Openai gym is a toolkit that has a common interface for developing and comparing the performance of different RL algorithms. 
+
+The goal is to develop a system-design platform that users can graphically select different gym environments and RL algorithms to train an agent. This development will result in a visual interface in forms of graphical block diagrams. These graphical block diagrams could represent the functions of the whole gym environment or the environment’s components, and the RL algorithms, which will be connected with links or wires in order tol define the execution flow of the system. The GUI will also enable visualizing some performance metrics, like the reward function during training and testing.
+
+**Proposed Methodology:** This GUI will be inherited from the current structure of openai gym environment and RL algorithms that are compatible with openai gym, e.g. stable baseline, or spinning up. Each component will be converted into graphical block diagrams that users can select from to train a gym agent with their algorithm of choice.
+
+**Benefits:** This technique will be helpful for the beginners who don't have sufficient programming knowledge, but are willing to test the functionalities of the RL algorithms in a similar setup to openai gym.
+Deliverables: A minimal implementation of the user interface with minimal set of environments from openai gym and RL algorithms from stable baseline or spinning up libraries with the detailed documentation.
+
+**Required Skills:** Python, PyQt5, and relevant frameworks of choice
+
+**Source Code:** New Project
+
+**Slack room:** gsoc-emory-bmi.slack.com openai
+
+***
 
 # Application Template
 
