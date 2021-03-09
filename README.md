@@ -139,7 +139,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **[5] Enhancements to Bindaas Data Integration Middleware**
 
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), Ashish Sharma (ashish.sharma -at- emory.edu), and Tushar Aggarwal (tushar1997 -at- gmail.com)
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Tushar Aggarwal (tushar1997 -at- gmail.com)
 
 **Overview:** Bindaas is a service-based data framework that offers unified access and RESTful APIs to various data sources, such as MySQL, PostgreSQL, Mongo, and Apache Drill. Additional data service providers can be implemented for various data sources and access mechanisms such as HTTP access. Bindaas is the backbone of several production systems such as the Cancer Imaging Archive (TCIA). Performance is an essential aspect of the Bindaas framework. Therefore, there have been several proposals for improving Bindaas’ performance. This project aims to improve the performance and usability of Bindaas by addressing some of those proposals. Students can choose a few from the below list of ideas or propose their own.
 
