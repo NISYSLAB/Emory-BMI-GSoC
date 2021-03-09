@@ -213,13 +213,16 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 **[8] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
 
-**Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Rishi Kamaleswaran (rkgsoc -at- gmail.com)
 
 **Overview:** The proliferation of infrastructures for biomedical informatics machine learning applications, including backend frameworks and visualization frameworks have posed an interesting challenge of integration. While the backend applications stand alone, they often lack of a proper frontend to visualize the data from the backend. On the other hand, frontend interfaces can be utilized to view the images and models stored by these backend frameworks better. However, such a seamless integration does not exist, and integrations are often custom-built scripts. An extensible seamless middleware that consumes the APIs of the frontend and backend could avoid this repeated manual effort of custom configurations. The middleware could enable federation of data sources that are viewable through potential frontends.
 
 **Present Status of the work:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
 
 **Expected results:** An integration middleware that facilitates the dynamic integration of frontend interfaces with the backends, such as servers and local file systems. Students can start with certain file types and frameworks. For example, DICOM images. Images retrieved to a server with Niffler could be configured to view through DICOM viewers such as the OHIF Viewer. The project is intentionally left broad for the students to select the best potential frameworks and applications.
+
+We envision a visual analytic pipeline that connects with real-time data from a variety of sources, along with asynchronous data to display on a visual frontend.
+The tool will both display information from real-time sources, and also integrate machine learning predictions, forecasts, among other derivations. 
 
 **Required Skills:** APIs, Middleware, Selected language of choice.
 
@@ -320,6 +323,25 @@ Deliverables: A minimal implementation of the user interface with minimal set of
 
 
 **[13] Reconstruct data visualized in a plot**
+
+**Mentors:** Matt Reyna (matthew.a.reyna -at- emory.edu)
+
+**Overview:** 
+There are a variety of software packages for visualizing data with plots, but recovering or reconstructing data that is visualized in a plot is a more difficult task — this is an example of an inverse problem. In some cases, the data shown in a plot may be unavailable, and recovering the data from the plot may be important for further analysis. There are existing tools for recovering data from general purpose plots (e.g., [WebPlotDigitizer](https://github.com/ankitrohatgi/WebPlotDigitizer) for an open-source package). This project proposes the creation of an open-source software package in Python or Julia for recovering data from plots that are common in clinical applications, helping clinicians and data scientists with their work. 
+
+**Expected results:** A tool that recovers data from plots.
+
+**Code Challenge:** Any similar work that demonstrates expertise in Python or Julia (the language that you choose to develop this project)
+
+**Required Skills:** Python or Julia
+
+**Source Code:** New project. 
+
+**Slack room:** gsoc-emory-bmi.slack.com reconstruct-data
+
+***
+
+**[14] Reconstruct data visualized in a plot**
 
 **Mentors:** Matt Reyna (matthew.a.reyna -at- emory.edu)
 
