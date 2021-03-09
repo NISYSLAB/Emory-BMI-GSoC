@@ -137,20 +137,25 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 ***
 
-**[5] Extensions to Bindaas Data Integration Middleware**
+**[5] Enhancements to Bindaas Data Integration Middleware**
 
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Tushar Aggarwal (tushar1997 -at- gmail.com)
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), Ashish Sharma (ashish.sharma -at- emory.edu), and Tushar Aggarwal (tushar1997 -at- gmail.com)
 
-**Overview:** Bindaas is a service-based data framework that offers unified access and RESTful APIs to various data sources, such as MySQL, PostgreSQL, Mongo, and Apache Drill. Additional data service providers can be implemented for various data sources and access mechanisms such as HTTP access. Bindaas is the backbone of several production systems such as the Cancer Imaging Archive (TCIA).
+**Overview:** Bindaas is a service-based data framework that offers unified access and RESTful APIs to various data sources, such as MySQL, PostgreSQL, Mongo, and Apache Drill. Additional data service providers can be implemented for various data sources and access mechanisms such as HTTP access. Bindaas is the backbone of several production systems such as the Cancer Imaging Archive (TCIA). Performance is an essential aspect of the Bindaas framework. Therefore, there have been several proposals for improving Bindaas’ performance. This project aims to improve the performance and usability of Bindaas by addressing some of those proposals. Students can choose a few from the below list of ideas or propose their own.
 
 There have been several proposals to improve Bindaas’ usability. There are several tasks to follow up.
 
-First, more data source providers. Namely, we should extend Bindaas for cloud file systems and storages such as S3, by incorporating with the cloud CLIs.
+* More data source providers. Namely, we should extend Bindaas for cloud file systems and storages such as S3, by incorporating with the cloud CLIs.
 
-Second, currently Bindaas limits its API to REST. We also propose to have more interfaces to Bindaas such as GraphQL query language interfaces, in addition to its RESTful interfaces.
+* Currently Bindaas limits its API to REST. We also propose to have more interfaces to Bindaas such as GraphQL query language interfaces, in addition to its RESTful interfaces.
 
+* Better serialization of Bindaas internal representation with Protobuf, Kryo, or other efficient serialization and deserialization approaches.
 
-**Expected results:** We are aiming for the Bindaas 4.5 release with the enhancements in place.
+* SQLite-based audit logs have some performance and scalability limitation. The tight-coupling with SQLite should be removed, and replaced with a generic interface. Then, also implement persistence based on other data stores as alternatives. Consider Mongo and In-Memory Data Grids such as Infinispan and Hazelcast.
+
+* Bindaas currently does not optimize its database queries. We should be able to reach better outputs than the database APIs themselves through query optimization.
+
+**Expected results:** We are aiming for the Bindaas 4.5 release with a few of the enhancements and features in place.
 
 **Code challenge:** The students are expected to configure Bindaas locally during the application period to understand the code base and to illustrate their capability in completing this task. If the student manages to resolve one of the issues listed in https://github.com/sharmalab/bindaas/issues, it will make them a strong candidate.
    
@@ -162,35 +167,9 @@ Second, currently Bindaas limits its API to REST. We also propose to have more i
 
 ***
 
-**[6] Performance Enhancements to Bindaas Data Integration Middleware**
- 
-**Mentors:**  Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Ashish Sharma (ashish.sharma -at- emory.edu)
-
-**Overview:** Bindaas is a service-based data framework that offers unified access and RESTful APIs to various data sources, such as MySQL, PostgreSQL, Mongo, and Apache Drill. Additional data service providers can be implemented for various data sources and access mechanisms such as HTTP access. Bindaas is the backbone of several production systems such as the Cancer Imaging Archive (TCIA).
-
-Performance is an essential aspect of the Bindaas framework. Therefore, there have been several proposals for improving Bindaas’ performance. This project aims to improve the performance of Bindaas by addressing some of those proposals.
-
-First, better serialization of Bindaas internal representation with Protobuf, Kryo, or other efficient serialization and deserialization approaches.
-
-Second, the SQLite-based audit logs have some performance and scalability limitation. The tight-coupling with SQLite should be removed, and replaced with a generic interface. Then, also implement persistence based on other data stores as alternatives. Consider Mongo and In-Memory Data Grids such as Infinispan and Hazelcast.
-
-Third, Bindaas currently does not optimize its database queries. We should be able to reach better outputs than the database APIs themselves through query optimization.
-
-**Expected results:** We are aiming for the Bindaas 4.5 release with the enhancements in place.
-
-**Code challenge:** The students are expected to configure Bindaas locally during the application period to understand the code base and to illustrate their capability in completing this task. If the student manages to resolve one of the issues listed in https://github.com/sharmalab/bindaas/issues, it will make them a strong candidate.
-
-**Required Skills:** Java, Web Services, Apache Maven, OSGi
-
-**Source Code:** https://github.com/sharmalab/bindaas
-
-**Slack room:** gsoc-emory-bmi.slack.com bindaas
 
 
-***
-
-
-**[7] An OpenSlide Reader for TensorFlow: Enabling Machine-Learning for Digital Pathology**
+**[6] An OpenSlide Reader for TensorFlow: Enabling Machine-Learning for Digital Pathology**
 
 **Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) 
 
@@ -211,7 +190,7 @@ Third, Bindaas currently does not optimize its database queries. We should be ab
 
 ***
 
-**[8] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
+**[7] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
 
 **Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) and Rishi Kamaleswaran (rkgsoc -at- gmail.com)
 
@@ -231,7 +210,7 @@ The tool will both display information from real-time sources, and also integrat
 **Slack room:** gsoc-emory-bmi.slack.com middleware
 ***
 
-**[9] Development of an AI-based Android Application for distinguishing COVID-19 and Pneumonia using Computed Tomography Images**
+**[8] Development of an AI-based Android Application for distinguishing COVID-19 and Pneumonia using Computed Tomography Images**
 
 **Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) 
 
@@ -251,7 +230,7 @@ The tool will both display information from real-time sources, and also integrat
 
 ***
 
-**[10] Creating shareable "albums" from Niffler data sets**
+**[9] Creating shareable "albums" from Niffler data sets**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Judy Gichoya (judywawira -at- emory.edu) 
 
@@ -275,7 +254,7 @@ The tool will both display information from real-time sources, and also integrat
 ***
 
 
-**[11] A frontend for Niffler DICOM framework for machine learning pipelines and processing workflows**
+**[10] A frontend for Niffler DICOM framework for machine learning pipelines and processing workflows**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Imon Banerjee (imon.banerjee -at- dbmi.emory.edu) 
 
@@ -300,7 +279,7 @@ Several factors such as how the CSV file to extract the images on-demand should 
 
 ***
 
-**[12] Graphical User Interface for OpenAI Gym**
+**[11] Graphical User Interface for OpenAI Gym**
 
 **Mentors:** Parisa Sarikhani (psarikh -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
@@ -322,7 +301,7 @@ Deliverables: A minimal implementation of the user interface with minimal set of
 ***
 
 
-**[13] Reconstruct data visualized in a plot**
+**[12] Reconstruct data visualized in a plot**
 
 **Mentors:** Matt Reyna (matthew.a.reyna -at- emory.edu)
 
@@ -341,24 +320,7 @@ There are a variety of software packages for visualizing data with plots, but re
 
 ***
 
-**[14] Reconstruct data visualized in a plot**
 
-**Mentors:** Matt Reyna (matthew.a.reyna -at- emory.edu)
-
-**Overview:** 
-There are a variety of software packages for visualizing data with plots, but recovering or reconstructing data that is visualized in a plot is a more difficult task — this is an example of an inverse problem. In some cases, the data shown in a plot may be unavailable, and recovering the data from the plot may be important for further analysis. There are existing tools for recovering data from general purpose plots (e.g., [WebPlotDigitizer](https://github.com/ankitrohatgi/WebPlotDigitizer) for an open-source package). This project proposes the creation of an open-source software package in Python or Julia for recovering data from plots that are common in clinical applications, helping clinicians and data scientists with their work. 
-
-**Expected results:** A tool that recovers data from plots.
-
-**Code Challenge:** Any similar work that demonstrates expertise in Python or Julia (the language that you choose to develop this project)
-
-**Required Skills:** Python or Julia
-
-**Source Code:** New project. 
-
-**Slack room:** gsoc-emory-bmi.slack.com reconstruct-data
-
-***
 
 # Application Template
 
