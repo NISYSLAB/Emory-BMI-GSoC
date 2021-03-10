@@ -131,7 +131,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Source Code:** https://github.com/NISYSLAB/LoopSim
 
-**Slack room:** gsoc-emory-bmi.slack.com loopsim-fe
+**Slack room:** gsoc-emory-bmi.slack.com loopsim
 
 
 
