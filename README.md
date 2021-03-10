@@ -92,9 +92,9 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 **Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Ramon Correa  (ramon -at- dbmi.emory.edu) 
 
-**Overview:** DataScope is a framework for exploratory analysis on high dimensional datasets, especially biomedical datasets. Currently Datascope uses templated visualizations. 
+**Overview:** DataScope is a framework for exploratory analysis on high dimensional datasets, especially biomedical datasets. Currently Eaglescope uses templated visualizations. 
 
-This project would involve creating or adapting interactive visualizations that would assist with cohort creation, manual dimensionality reduction, and dataset exploration. There could be several approaches the student could consider. For example, we could provide users the ability to declaratively specify what visualizations they’d want to see in datascope using an existing tool such as [Vega](https://vega.github.io/). All of Datascope’s visualizations are interactive, so the challenge would be to ensure that whichever visalizations chosen are smoothly integrated with interactivity.
+This project would involve creating or adapting interactive visualizations that would assist with cohort creation, manual dimensionality reduction, and dataset exploration. There could be several approaches the student could consider. For example, we could provide users the ability to declaratively specify what visualizations they’d want to see in datascope using an existing tool such as [Vega](https://vega.github.io/). All of Eaglescope's visualizations are interactive, so the challenge would be to ensure that whichever visalizations chosen are smoothly integrated with interactivity.
 
 Adding multidimensional interactive visualizations would allow users to explore the relationship between two or more variables, and to create cohorts based upon combinations of interest.
 
@@ -102,11 +102,11 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Required Skills:** Javascript, D3 (recommended)
 
-**Code Challenge:** Either from scratch or an existing toolkit, make a simple univariate interactive visualization. Alternatively, a meaningful bug report or contribution to the Datascope Repository.
+**Code Challenge:** Either from scratch or an existing toolkit, make a simple univariate interactive visualization. Alternatively, a meaningful bug report or contribution to the Eaglescope Repository.
 
-**Source Code:** https://github.com/sharmalab/Datascope 
+**Source Code:** https://github.com/sharmalab/Eaglescope 
 
-**Slack room:** gsoc-emory-bmi.slack.com multidimensional-viz
+**Slack room:** gsoc-emory-bmi.slack.com eaglescope
 
 ***
 
