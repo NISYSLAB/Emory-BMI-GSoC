@@ -90,7 +90,7 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 **[3] Interactive Multidimensional Visualizations**
 
-**Mentors:**  Ramon Correa  (ramon -at- dbmi.emory.edu) 
+**Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Ramon Correa  (ramon -at- dbmi.emory.edu) 
 
 **Overview:** DataScope is a framework for exploratory analysis on high dimensional datasets, especially biomedical datasets. Currently Datascope uses templated visualizations. 
 
