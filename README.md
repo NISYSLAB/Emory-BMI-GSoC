@@ -88,7 +88,7 @@ The fifth part is the Tensorboard integration part. Tensorboard is already integ
 
 
 
-**[3] Interactive Multidimensional Visualizations**
+**[3] Interactive Multidimensional Visualizations for Eaglescope**
 
 **Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Ramon Correa  (ramon -at- dbmi.emory.edu) 
 
