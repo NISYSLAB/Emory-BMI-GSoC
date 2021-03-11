@@ -35,6 +35,8 @@ Discuss the project on Slack, and once you are ready to submit your application,
  
 **Required Skills:** Python, Java (and the relevant framework of choice).
 
+**Code Challenge:** A bug fix from the Niffler repository or a sample test for one of its modules.
+
 **Source Code:** https://github.com/Emory-HITI/Niffler/
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
@@ -246,6 +248,8 @@ The tool will both display information from real-time sources, and also integrat
  
 **Required Skills:** Python and Java.
 
+**Code Challenge:** A demonstration of potential integration of Niffler with such existing frameworks. The proposed frameworks are samples only. The students may choose their own.
+
 **Source Code:** https://github.com/Emory-HITI/Niffler/
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
@@ -271,6 +275,8 @@ The tool will both display information from real-time sources, and also integrat
 Several factors such as how the CSV file to extract the images on-demand should be passed and how the outputs are shared with the users should be considered. Students are encouraged to use the existing standards, frameworks, and toolkits towards implementing the functionality, rather than developing everything from the scratch. For example, RESTful interfaces maybe developed to pass the data to and from the Niffler backend. 
  
 **Required Skills:** Python (and the relevant framework of choice).
+
+**Code Challenge:** A mock GUI to present a potential front-end to Niffler or a bug fix from the Niffler repository.
 
 **Source Code:** https://github.com/Emory-HITI/Niffler/
 
