@@ -52,7 +52,7 @@ Discuss the project on Slack, and once you are ready to submit your application,
 **Overview:** This project aims to develop a graphical user interface (GUI) for any deep learning model development and visualization of outcomes based on the existing TensorFlow functions. This interface will act just like a simulator similar to MATLAB. 
         
 **Present Status of the work:** 
-Preliminary work has been done on GUI development as part of the GSoC 2019.  Please see the GitHub link for details. There are very few organizations that are also working on the development of almost similar kinds of tools. [Deep Cognition](https://deepcognition.ai/) is one of them. They charge for their services. 
+Preliminary work has been done on GUI development as part of the GSoC 2019.  Please see the GitHub link for details. There are very few organizations that are working on the development of almost similar kinds of tools. [Deep Cognition](https://deepcognition.ai/) is one of them. They charge for their services. 
         
 **Proposed method:** 
 Each operation, such as convolution, transpose convolution, pooling, and ReLu, will be as blocks. All the blocks should have drag-down properties. The parameters of each block will change as per the requirement. See previous code for details. 
