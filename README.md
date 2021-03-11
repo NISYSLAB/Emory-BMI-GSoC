@@ -63,7 +63,8 @@ This GUI will be helpful for beginners and non-technical persons.
 **Deliverables:** 
 The student will work on our existing GUI codes for future developments. Our goal is to develop a user-friendly software package. 
 
-Data pipeline- The GUI should support images (.png, jpg, tiff), texts (.csv, .txt), and signals as input data pipeline. 
+Data pipeline- The GUI should support images (.png, jpg, tiff), texts (.csv, .txt), and signals as input. 
+
 Operations- The GUI should have all the essential operations, which are required for building a deep learning model. 
 
 Training and testing - The GUI needs to be developed in such as way so that anyone can create a new model and tweak existing models. 
