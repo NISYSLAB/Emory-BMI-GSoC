@@ -208,7 +208,7 @@ The tool will both display information from real-time sources, and also integrat
 **Slack room:** gsoc-emory-bmi.slack.com middleware
 ***
 
-**[8] Development of an AI-based Android Application for distinguishing COVID-19 and Pneumonia using Computed Tomography Images**
+**[8] CovCT: Development of an AI-based Android Application for distinguishing COVID-19 and Pneumonia using Computed Tomography Images**
 
 **Mentors:** Monjoy Saha (monjoy.saha -at- emory.edu) 
 
@@ -220,7 +220,7 @@ The tool will both display information from real-time sources, and also integrat
 
 **Required Skills:** The student should have prior experience to develop an Android application and machine learning algorithms. The students have full freedom to choose any architecture/codes as per their comfort level. 
 
-**Source Code:** New Project
+**Source Code:** https://github.com/monjoybme/CovCT
 
 **Community and Code License:** Apache License 2.0
 
