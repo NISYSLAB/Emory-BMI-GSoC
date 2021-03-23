@@ -256,7 +256,7 @@ The tool will both display information from real-time sources, and also integrat
 
 **[10] A frontend for Niffler DICOM framework for machine learning pipelines and processing workflows**
 
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Imon Banerjee (imon.banerjee -at- dbmi.emory.edu) 
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Imon Banerjee (imon.banerjee -at- emory.edu) 
 
 **Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, png extraction, and scanner utilization. However, Niffler is developed as a command-line based tool. In this project, we aim to develop a front-end for Niffler, specifically for its on-demand retrieval (cold-extraction), real-time extraction (meta-extraction), png-extraction modules.
 
