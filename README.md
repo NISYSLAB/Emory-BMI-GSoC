@@ -10,7 +10,7 @@ Emory BMI has been a successful mentoring orgnaization for [Google Summer of Cod
 
 # Communicating with the mentors
 
-We are using Slack as the primary medium of communication. Find and join the Emory BMI slack workspace using the link - http://bit.ly/emory-bmi.
+We are using Slack as the primary medium of communication. Find and join the Emory BMI slack workspace for askind your doubts and project related queries using the link - http://bit.ly/emory-bmi.
 
 Each idea on this page has at least one mentor assigned. Each project idea also has a relevant channel in the Slack workspace, listed below under each project idea. Make sure to join the rooms that are relevant for the projects that you are interested in. Specific discussions on each project idea happens in those channels.
  
@@ -58,7 +58,7 @@ Preliminary work has been done on GUI development as part of the GSoC 2019.  Ple
 Each operation, such as convolution, transpose convolution, pooling, and ReLu, will be as blocks. All the blocks should have drag-down properties. The parameters of each block will change as per the requirement. See previous code for details. 
 
 **Benefits:** 
-This GUI will be helpful for beginners and non-technical persons. 
+This GUI will be helpful for beginners and non-technical persons for starting their open source journey. 
 
 **Deliverables:** 
 The student will work on our existing GUI codes for future developments. Our goal is to develop a user-friendly software package. 
@@ -177,7 +177,7 @@ There have been several proposals to improve Bindaas’ usability. There are sev
 
 **Expected results:** A documented, tested implementation with build instructions for popular platforms.
 
-**Required Skills:** C, software profiling, and optimization.
+**Required Skills:** C lang, software profiling, and optimization.
 
 **Source Code:** New Project
 
@@ -372,7 +372,7 @@ Please indicate if you have any lectures/classes, examinations, or other persona
 
 **11) Skill Set**
 
-Your relevant skill set to complete this project. Include pointers to bug fixes, demos, and previous work.
+Your relevant skill set to complete this project. Include pointers to bug and issue fixes, demos, and previous work.
 
 Also include pointers to the completed Code Challenge (if applicable).
 
