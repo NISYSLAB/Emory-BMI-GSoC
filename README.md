@@ -292,7 +292,8 @@ The goal is to develop a system-design platform that users can graphically selec
 **Proposed Methodology:** This GUI will be inherited from the current structure of openai gym environment and RL algorithms that are compatible with openai gym, e.g. stable baseline, or spinning up. Each component will be converted into graphical block diagrams that users can select from to train a gym agent with their algorithm of choice.
 
 **Benefits:** This technique will be helpful for the beginners who don't have sufficient programming knowledge, but are willing to test the functionalities of the RL algorithms in a similar setup to openai gym.
-Deliverables: A minimal implementation of the user interface with minimal set of environments from openai gym and RL algorithms from stable baseline or spinning up libraries with the detailed documentation.
+
+**Deliverables:** A minimal implementation of the user interface with minimal set of environments from openai gym and RL algorithms from stable baseline or spinning up libraries with the detailed documentation.
 
 **Required Skills:** Python, PyQt5, and relevant frameworks of choice
 
