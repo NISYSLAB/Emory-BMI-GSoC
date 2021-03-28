@@ -113,7 +113,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **[4] A frontend for LoopSim framework to model workflows with closed loops**
 
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
 **Overview:** LoopSim framework aims to facilitate workflows with loops, including simple and nested loops. Such workflows deviate from the standard workflows that consist of specific start and end services. As such, existing CWL and WDL workflow composers, including those with a compact front-end such as Rabix, cannot be used as such for loops. The current workflow frameworks limit their focus to supporting directed acyclic graphs (DAGs). Furthermore, workflow definitions can be made more efficient by representing them with more generic formats such as directed hypergraphs. A directed hypergraph supports workflows containing edges that connect multiple nodes. To support complex loops efficiently, we must expand our scope to include all the directed hypergraphs. Currently, LoopSim uses yEd GraphML editor as its front end. However, yEd is not open source and not ideal for customizing as our integrated front-end. As such, a custom front-end for LoopSim will be more advantageous.
 
