@@ -21,7 +21,7 @@ Discuss the project on Slack, and once you are ready to submit your application,
 
 **[1] A test framework for Niffler DICOM frameworks for continuous integration and deployment**
 
-**Mentors:** Ramon Correa (ramon -at- dbmi.emory.edu) and Hari Trivedi (hari.trivedi -at- emory.edu) 
+**Mentors:** Ramon Correa (ramon -at- dbmi.emory.edu), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Hari Trivedi (hari.trivedi -at- emory.edu) 
 
 **Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Niffler consists of multiple modules, for real-time extraction, on-demand retrieval, png extraction, and scanner utilization. In this project, we aim to develop a continuous integration test for Niffler, specifically for its on-demand retrieval (cold-extraction), real-time extraction (meta-extraction), png-extraction modules.
 
