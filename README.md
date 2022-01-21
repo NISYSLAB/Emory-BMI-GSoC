@@ -1,6 +1,6 @@
 # Emory BMI GSoC 2022
 
-We are currently actively working on the project ideas. Please make sure to come back to check the complete list of the project ideas.
+We are currently actively working on the project ideas. Please make sure to come back to check the complete list of the project ideas next week.
 
 <img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Emory BMI is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from https://github.com/Emory-HITI, https://github.com/sharmalab, and https://github.com/NISYSLAB
 
