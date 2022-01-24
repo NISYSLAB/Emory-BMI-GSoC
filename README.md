@@ -40,7 +40,7 @@ Discuss the project on Slack, and once you are ready to submit your application,
 
 **[2] Interactive Multidimensional Visualizations for Eaglescope**
 
-**Mentors:**  Ryan Birmingham (rainventions -at- gmail.com)
+**Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Nan Li (nan.li -at- emory.edu)
 
 **Overview:** EagleScope (also known as Datascope2) is a framework for exploratory analysis on high dimensional datasets, especially biomedical datasets. Currently Eaglescope uses templated visualizations. 
 
