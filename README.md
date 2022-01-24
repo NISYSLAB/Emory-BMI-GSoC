@@ -20,8 +20,25 @@ Each idea on this page has at least one mentor assigned. Each project idea also 
 Discuss the project on Slack, and once you are ready to submit your application, use the template below. You must submit your application directly using the GSoC Program Site. If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your own idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
 
 
+**[1] Adopt DHGWorkflow for Concore with a seamless integration**
 
-**[1] Interactive Multidimensional Visualizations for Eaglescope**
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:** Concore is a framework for closed-Loop peripheral neuromodulation control systems https://github.com/ControlCore-Project/concore. DHG Workflow is a browser-based directed hypergraph editor. Concore uses DHG Workflow as a front-end workflow editor. However, DHG Workflow is a stand-alone graph editor. A seamless integration with DHG Workflow with user-defined validation will make the concore framework more user-friendly.
+
+**Current Status:** Concore scripts can run DHG Workflow to compose a concore workflow. However, many enhancements such as custom user-defined validations, composing workflows with awareness of existing concore programs, a seamless integration with concore are proposed.
+
+**Required Skills:** Javascript, Python (recommended)
+
+**Code Challenge:** 
+
+**Source Code:** https://nisyslab.github.io/DHGWorkflow/
+
+**Slack room:** gsoc-emory-bmi.slack.com concore
+
+**Effort:** Full-time
+
+**[2] Interactive Multidimensional Visualizations for Eaglescope**
 
 **Mentors:**  Ryan Birmingham (rainventions -at- gmail.com)
 
@@ -41,9 +58,11 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Slack room:** gsoc-emory-bmi.slack.com eaglescope
 
+**Effort:** Full-time/Half-time
+
 ***
 
-**[2] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
+**[3] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Rishi Kamaleswaran (rkgsoc -at- gmail.com)
 
@@ -61,10 +80,13 @@ The tool will both display information from real-time sources, and also integrat
 **Community and Code License:** Apache License 2.0
 
 **Slack room:** gsoc-emory-bmi.slack.com middleware
+
+**Effort:** Full-time/Half-time
+
 ***
 
 
-**[3] Creating shareable "albums" from Niffler data sets**
+**[4] Creating shareable "albums" from Niffler data sets**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Judy Gichoya (judywawira -at- emory.edu) 
 
@@ -86,13 +108,14 @@ The tool will both display information from real-time sources, and also integrat
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
+**Effort:** Half-time
 
 ***
 
 
 
 
-**[4] Reconstruct data visualized in a plot**
+**[5] Reconstruct data visualized in a plot**
 
 **Mentors:** Matt Reyna (matthew.a.reyna -at- emory.edu)
 
@@ -108,6 +131,8 @@ There are a variety of software packages for visualizing data with plots, but re
 **Source Code:** New project. 
 
 **Slack room:** gsoc-emory-bmi.slack.com reconstruct-data
+
+**Effort:** Half-time
 
 ***
 
