@@ -115,27 +115,6 @@ The tool will both display information from real-time sources, and also integrat
 
 
 
-**[5] Reconstruct data visualized in a plot**
-
-**Mentors:** Matt Reyna (matthew.a.reyna -at- emory.edu)
-
-**Overview:** 
-There are a variety of software packages for visualizing data with plots, but recovering or reconstructing data that is visualized in a plot is a more difficult task — this is an example of an inverse problem. In some cases, the data shown in a plot may be unavailable, and recovering the data from the plot may be important for further analysis. There are existing tools for recovering data from general purpose plots (e.g., [WebPlotDigitizer](https://github.com/ankitrohatgi/WebPlotDigitizer) for an open-source package). This project proposes the creation of an open-source software package in Python or Julia for recovering data from plots that are common in clinical applications, helping clinicians and data scientists with their work. 
-
-**Expected results:** A tool that recovers data from plots.
-
-**Code Challenge:** Any similar work that demonstrates expertise in Python or Julia (the language that you choose to develop this project)
-
-**Required Skills:** Python or Julia
-
-**Source Code:** New project. 
-
-**Slack room:** gsoc-emory-bmi.slack.com reconstruct-data
-
-**Effort:** Half-time
-
-***
-
 
 
 # Application Template
