@@ -115,6 +115,39 @@ The tool will both display information from real-time sources, and also integrat
 
 
 
+**[5] Better representations of scanner utilization from DICOM metadata**
+
+**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:**  Niffler enables computing scanner utilization using real-time DICOM metadata extraction. Niffler acquires images from the PACS in real-time (meta-extraction) and on-demand (cold-extraction), then extracts DICOM metadata into a Mongo database or a CSV file, and performs computations on the metadata to compute utilization metrics for the scanners. We did the computations for the MR scanners, although it can be used for any modality. However, our computations were largely limited to the study level - how frequently a scanner idled between studies and how long it took for a scanner to perform a given study. Computing those metrics in a finger granularity, at the series level, is more challenging since the start time and end time of a series is harder to find with just public DICOM headers.
+
+Furthermore, while we have a scanner utiliization computed in the backend, there is no integrated front-end to present the results elegantly. The created results are currently stored in CSV files and displayed through an Eaglescope (https://github.com/sharmalab/eaglescope) dashboard. The front-end can be improved with a better integration.
+
+**Present Status of the work:** DICOM tags are used to compute scanner utilization (https://github.com/Emory-HITI/Niffler/tree/dev/modules/suvpar and https://github.com/Emory-HITI/Niffler/tree/dev/modules/app-layer) in a prototype. But using private tags, the computations can be made more accurate at series level - although they will be specific to the vendors.
+
+Computing scanner utilization from the DICOM images currently go as either:
+a) cold-extraction (retrieve images on-demand from the PACS to the research cluster) -> png-extraction (extract all the DICOM attributes from the images in a CSV file) -> suvpar (compute scanner utilization from the csv file and produce an output csv file, currently developed in python)
+or
+b) meta-extraction (retrieve images in real-time from scanners to the research cluster and store the metadata in a mongo database) -> app-layer (compute scanner utilization from the mongo database, and store in an output csv file, developed in java).
+
+**Proposed Methodology:** Private tags, used in conjunction with the public tags. Currently, png-extraction module that extracts the DICOM metadata from the DICOM files do not consider private tags. That must be extended to support certain private tags. Approach (a) above is recommended as it does not require an existing PACS, rather just a set of DICOM images.
+
+**Benefits:** 
+
+**Deliverables:** 
+
+**Required Skills:** Python or Java, Javascript (optionally, for front-end), and prior experience with DICOM would be a plus.
+
+**Code Challenge:** A demonstration of potential integration of Niffler with such existing frameworks. The proposed frameworks are samples only. The students may choose their own.
+
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Slack room:** gsoc-emory-bmi.slack.com niffler
+
+**Effort:** Full-time
+
+***
+
 
 
 # Application Template
