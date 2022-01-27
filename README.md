@@ -38,6 +38,8 @@ Discuss the project on Slack, and once you are ready to submit your application,
 
 **Effort:** Full-time
 
+***
+
 **[2] Interactive Multidimensional Visualizations for Eaglescope**
 
 **Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Nan Li (nan.li -at- emory.edu)
