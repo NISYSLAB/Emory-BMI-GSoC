@@ -81,8 +81,6 @@ The tool will both display information from real-time sources, and also integrat
 
 **Required Skills:** APIs, Middleware, Selected language of choice.
 
-**Community and Code License:** Apache License 2.0
-
 **Slack room:** gsoc-emory-bmi.slack.com middleware
 
 **Effort:** Full-time/Half-time
