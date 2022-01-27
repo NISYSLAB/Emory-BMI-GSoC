@@ -5,7 +5,7 @@ We are currently actively working on the project ideas. Please make sure to come
 <img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Emory BMI is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from https://github.com/Emory-HITI, https://github.com/sharmalab, and https://github.com/NISYSLAB
 
 
-Emory BMI has been a successful mentoring orgnaization for Google Summer of Code 2021, 2019, 2016, and all the previous years from 2012! We had 6 great students in 2021. We are excited and looking forward to working with another batch of students for GSoC 2022.
+Emory BMI has been a successful mentoring orgnaization for Google Summer of Code 2021, 2019, 2016, and all the previous years from 2012! We had 6 great contributors in 2021. We are excited and looking forward to working with another batch of contributors for GSoC 2022.
 
 
 
@@ -46,7 +46,7 @@ Discuss the project on Slack, and once you are ready to submit your application,
 
 **Overview:** EagleScope (also known as Datascope2) is a framework for exploratory analysis on high dimensional datasets, especially biomedical datasets. Currently Eaglescope uses templated visualizations. 
 
-This project would involve creating or adapting interactive visualizations that would assist with cohort creation, manual dimensionality reduction, and dataset exploration. There could be several approaches the student could consider. For example, we could provide users the ability to declaratively specify what visualizations they’d want to see in Eaglescope using an existing tool such as [Vega](https://vega.github.io/). All of Eaglescope's visualizations are interactive, so the challenge would be to ensure that whichever visalizations chosen are smoothly integrated with interactivity.
+This project would involve creating or adapting interactive visualizations that would assist with cohort creation, manual dimensionality reduction, and dataset exploration. There could be several approaches the contributor could consider. For example, we could provide users the ability to declaratively specify what visualizations they’d want to see in Eaglescope using an existing tool such as [Vega](https://vega.github.io/). All of Eaglescope's visualizations are interactive, so the challenge would be to ensure that whichever visalizations chosen are smoothly integrated with interactivity.
 
 Adding multidimensional interactive visualizations would allow users to explore the relationship between two or more variables, and to create cohorts based upon combinations of interest.
 
@@ -72,7 +72,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Present Status of the work:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
 
-**Expected results:** An integration middleware that facilitates the dynamic integration of frontend interfaces with the backends, such as servers and local file systems. Students can start with certain file types and frameworks. For example, DICOM images. Images retrieved to a server with Niffler could be configured to view through DICOM viewers such as the OHIF Viewer. The project is intentionally left broad for the students to select the best potential frameworks and applications.
+**Expected results:** An integration middleware that facilitates the dynamic integration of frontend interfaces with the backends, such as servers and local file systems. Contributors can start with certain file types and frameworks. For example, DICOM images. Images retrieved to a server with Niffler could be configured to view through DICOM viewers such as the OHIF Viewer. The project is intentionally left broad for the contributors to select the best potential frameworks and applications.
 
 We envision a visual analytic pipeline that connects with real-time data from a variety of sources, along with asynchronous data to display on a visual frontend.
 The tool will both display information from real-time sources, and also integrate machine learning predictions, forecasts, among other derivations. 
@@ -100,11 +100,11 @@ The tool will both display information from real-time sources, and also integrat
 
 **Benefits:** The proposed feature will make the images retrieved by Niffler accessible by more researchers for their experiments, by replacing the current manual efforts of data sharing. Moreover, Kheops natively integrate with OHIF Viewer. As such, images retrived by Niffler can be viewed through OHIF Viewer, by creating albums with Kheops.
 
-**Deliverables:** An approach to creating shareable datasets from the DICOM images retrieved by Niffler. It could be adopting existing frameworks such as MEDIator and Kheops and scripts and integration code with those frameworks or an entirely new module to Niffler for this feature. However, students are encouraged to use Kheops or alternatives, rather than reinventing the wheel (unless there is a convincing reason).
+**Deliverables:** An approach to creating shareable datasets from the DICOM images retrieved by Niffler. It could be adopting existing frameworks such as MEDIator and Kheops and scripts and integration code with those frameworks or an entirely new module to Niffler for this feature. However, contributors are encouraged to use Kheops or alternatives, rather than reinventing the wheel (unless there is a convincing reason).
  
 **Required Skills:** Python and Java.
 
-**Code Challenge:** A demonstration of potential integration of Niffler with such existing frameworks. The proposed frameworks are samples only. The students may choose their own.
+**Code Challenge:** A demonstration of potential integration of Niffler with such existing frameworks. The proposed frameworks are samples only. The contributors may choose their own.
 
 **Source Code:** https://github.com/Emory-HITI/Niffler/
 
@@ -154,7 +154,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 # Application Template
 
-The students are encouraged to follow this template. However, they are not expected to strictly follow this template. They are rather advised to clearly include all the requested information in their application.
+The contributors are encouraged to follow this template. However, they are not expected to strictly follow this template. They are rather advised to clearly include all the requested information in their application.
 
 **1) Project Title:**
 
@@ -162,9 +162,9 @@ The students are encouraged to follow this template. However, they are not expec
 
 Summarize the project in your own words.
 
-**3) Student Name:**
+**3) Contributor Name:**
 
-**4) Student Email and Slack username:**
+**4) Contributor Email and Slack username:**
 
 **5) Potential Mentor(s):**
 
@@ -192,7 +192,9 @@ Break the timeline into periods of up to 7 days
 
 **9) Planned GSoC work hours**
 
-This year, students are expected a 18 hours a week of contribution (as opposed to 2020 and previous editions which expected a full-time commitment of 35 hours). Please indicate the work hours (including the timezone), that you hope to work on your project. 
+This year, the full-time projects are expected a 35 hours a week contribution (large project) and half-time projects are expected a 18 hours a week contribution (medium size project). Please indicate your choice of the project length. All project ideas have an indication how we see a project to be (full-time, half-time, or a potential/flexibility to be either based on the contributor's proposal).
+
+Please also indicate the work hours (including the timezone), that you hope to work on your project. 
 
 **10) Planned absence/vacation days and other commitments during the GSoC period (including the community bonding period)**
 
