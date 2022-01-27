@@ -22,7 +22,7 @@ Discuss the project on Slack, and once you are ready to submit your application,
 
 **[1] Adopt DHGWorkflow for Concore with a seamless integration**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Babak Mahmoudi (b.mahmoudi at emory.edu).
 
 **Overview:** Concore is a framework for closed-Loop peripheral neuromodulation control systems https://github.com/ControlCore-Project/concore. DHG Workflow is a browser-based directed hypergraph editor. Concore uses DHG Workflow as a front-end workflow editor. However, DHG Workflow is a stand-alone graph editor. A seamless integration with DHG Workflow with user-defined validation will make the concore framework more user-friendly.
 
@@ -88,7 +88,7 @@ The tool will both display information from real-time sources, and also integrat
 
 **[4] Creating shareable "albums" from Niffler data sets**
 
-**Mentors:** Judy Gichoya (judywawira -at- emory.edu) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**Mentors:** Judy Gichoya (judywawira -at- emory.edu)
 
 **Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Images can be retrieved from a PACS via Niffler in real-time (via Niffler meta-extraction module) or on-demand (via Niffler cold-extraction module). However, these downloaded data sets remain in the local environments such as a research server or a cluster where Niffler is run from. To use this data, researchers must identify certain subsets of data. This can be achieved by querying the retrieved data. For instance, Niffler stores the metadata of the data retrieved in real-time in a Mongo database. By querying the metadata, subsets of images can be identified. However, currently Niffler does not possess the ability to create such "albums" from a set of DICOM images retrieved by Niffler, and share with other users.
 
@@ -117,7 +117,7 @@ The tool will both display information from real-time sources, and also integrat
 
 **[5] Better representations of scanner utilization from DICOM metadata**
 
-**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu), Nan Li (nan.li -at- emory.edu), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
 **Overview:**  Niffler enables computing scanner utilization using real-time DICOM metadata extraction. Niffler acquires images from the PACS in real-time (meta-extraction) and on-demand (cold-extraction), then extracts DICOM metadata into a Mongo database or a CSV file, and performs computations on the metadata to compute utilization metrics for the scanners. We did the computations for the MR scanners, although it can be used for any modality. However, our computations were largely limited to the study level - how frequently a scanner idled between studies and how long it took for a scanner to perform a given study. Computing those metrics in a finger granularity, at the series level, is more challenging since the start time and end time of a series is harder to find with just public DICOM headers.
 
@@ -132,19 +132,19 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **Proposed Methodology:** Private tags, used in conjunction with the public tags. Currently, png-extraction module that extracts the DICOM metadata from the DICOM files do not consider private tags. That must be extended to support certain private tags. Approach (a) above is recommended as it does not require an existing PACS, rather just a set of DICOM images.
 
-**Benefits:** 
+**Benefits:** Scanner utilization will be more accurate and can be visualized better.
 
-**Deliverables:** 
+**Deliverables:** A more complete scanner utilization (suvpar) module. If this is proposed as a full-time (large-size) project, a front-end should be developed as well, extending the existing Eaglescope-based dashboard.
 
 **Required Skills:** Python or Java, Javascript (optionally, for front-end), and prior experience with DICOM would be a plus.
 
-**Code Challenge:** A demonstration of potential integration of Niffler with such existing frameworks. The proposed frameworks are samples only. The students may choose their own.
+**Code Challenge:** A bug fix from Niffler can be a possible impact.
 
 **Source Code:** https://github.com/Emory-HITI/Niffler/
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
-**Effort:** Full-time
+**Effort:** Full-time or Half-time
 
 ***
 
