@@ -200,7 +200,7 @@ Please also indicate the work hours (including the timezone), that you hope to w
 
 **10) Planned absence/vacation days and other commitments during the GSoC period (including the community bonding period)**
 
-Please indicate if you have any lectures/classes, examinations, or other personal commitments. 
+Please indicate if you have any lectures/classes, examinations, or other personal commitments. GSoC 2022 also allows flexibility of an additional two months - to complete the project at a later time frame (a shift of up to 2 additional months). Please indicate if you expect to do that as we can plan accordingly.
 
 **11) Skill Set**
 
