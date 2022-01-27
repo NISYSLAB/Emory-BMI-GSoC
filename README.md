@@ -146,7 +146,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
-**Effort:** Full-time or Half-time
+**Effort:** Full-time/Half-time
 
 ***
 
