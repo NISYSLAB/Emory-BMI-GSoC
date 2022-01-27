@@ -1,4 +1,4 @@
-# Emory BMI GSoC 2022
+# Emory BMI Google Summer of Code (GSoC) 2022
 
 We are currently actively working on the project ideas. Please make sure to come back to check the complete list of the project ideas next week.
 
