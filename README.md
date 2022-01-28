@@ -60,7 +60,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Babak Mahmoudi (b.mahmoudi at emory.edu).
 
-**Overview:** Concore is a framework for closed-Loop peripheral neuromodulation control systems https://github.com/ControlCore-Project/concore. DHG Workflow is a browser-based directed hypergraph editor. Concore uses DHG Workflow as a front-end workflow editor. However, DHG Workflow is a stand-alone graph editor. A seamless integration with DHG Workflow with user-defined validation will make the concore framework more user-friendly.
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. [DHG Workflow](https://github.com/controlcore-project/DHGWorkflow) is a browser-based directed hypergraph editor. Concore uses DHG Workflow as a front-end workflow editor. However, DHG Workflow was developed as a stand-alone lightweight graph editor. A seamless integration with DHG Workflow with user-defined validation will make the concore framework more user-friendly.
 
 **Current Status:** Concore scripts can run DHG Workflow to compose a concore workflow. However, many enhancements such as custom user-defined validations, composing workflows with awareness of existing concore programs, a seamless integration with concore are proposed.
 
@@ -68,7 +68,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Code Challenge:** 
 
-**Source Code:** https://github.com/controlcore-project/DHGWorkflow
+**Source Code:**  https://github.com/ControlCore-Project/concore and https://github.com/controlcore-project/DHGWorkflow
 
 **Slack room:** gsoc-emory-bmi.slack.com concore
 
