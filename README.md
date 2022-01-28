@@ -7,6 +7,8 @@ We are currently actively working on the project ideas. Please make sure to come
 
 Emory BMI has been a successful mentoring orgnaization for Google Summer of Code 2021, 2019, 2016, and all the previous years from 2012! We had 6 great contributors in 2021. We are excited and looking forward to working with another batch of contributors for GSoC 2022. Emory BMI takes pride in having the past successes and GSoC contributors turning into long-term collaborators and mentors themselves.
 
+# Large projects (full-time) vs. Medium-size (half-time) projects
+
 This year, contributors are given the option to contribute to a project full-time (35 hours a week and 350 hours in total, a large project) or half-time (about 18 hours a week and 175 hours in total, a medium-size project). We have indicated how we see a project's size/scope is, as Full-time, Half-time, and Full-time/Half-time. Whenever we have indicated Full-time/Half-time, it illustrates that the project has some flexibility to change the scope and complexity as the contributor sees fit. In any case, these are given as suggestions and contributors have the freedom to propose their own estimate of full-time or half-time in their project proposal.
 
 # Communicating with the mentors
