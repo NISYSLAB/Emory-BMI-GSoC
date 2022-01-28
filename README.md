@@ -22,6 +22,39 @@ Discuss the project on Slack, and once you are ready to submit your application,
 
 ***
 
+**[1] Niffler-1.0: A workflow framework for DICOM**
+
+**Mentors:** Ananth Reddy (ananth.reddy -at- emory.edu) and Hari Trivedi (hari.trivedi at emory.edu).
+
+**Overview:** Niffler was developed as an open-source DICOM framework to help with retrieving DICOM images in real-time and performing processing pipelines and machine learning workflows on the images. Currently, we have implemented several workflow modules to chain multiple Niffler processes (sometimes containerized). For example - the Niffler [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows) module provides a prototype implementation of hard-coded workflows from retrieving images, extracting metadata, and performing queries.
+
+For example, running the below in a sequence:
+1) [cold-extraction](https://github.com/Emory-HITI/Niffler/tree/dev/modules/cold-extraction), CFIND-ONLY mode (to get the metadata).
+2) Filtering of the metadata.
+3) cold-extraction again (to retrieve the subset of the images).
+4) [dicom-anonymization](https://github.com/Emory-HITI/Niffler/tree/dev/modules/dicom-anonymization) to remove PHI.
+5) Additional processing such as containerized workflows on the images.
+
+Workflows such as the above currently need to be composed with manual hard-coding or repeated scripting efforts through bash scripts or python classes.
+
+Through either a simple Python-based class that allows the execution of Niffler modules and containers, or through a workflow framework such as Wokflow Description Language (WDL) or Common Workflow Language (CWL), this process should be automated. That will elevate Niffler-1.0 as a generic workflow framework tailored for DICOM.
+
+**Current Status:** This approach is currently arbitrary and researchers are left to implement their workflows manually from each Niffler module and their own containers and often hard-coding how a workflow must execute from each individual module.
+
+The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows) module can be a good start, but Niffler has a long way to go.
+
+**Required Skills:** Python and optionally workflow frameworks such as CWL or WDL.
+
+**Code Challenge:** A [bug fix](https://github.com/Emory-HITI/Niffler/issues) from Niffler can be a positive indication of understanding the code base.
+
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Slack room:** gsoc-emory-bmi.slack.com niffler
+
+**Effort:** Full-time/Half-time
+
+***
+
 **[1] Adopt DHGWorkflow for Concore with a seamless integration**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Babak Mahmoudi (b.mahmoudi at emory.edu).
@@ -140,7 +173,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **Required Skills:** Python or Java, Javascript (optionally, for front-end), and prior experience with DICOM would be a plus.
 
-**Code Challenge:** A bug fix from Niffler can be a possible impact.
+**Code Challenge:** A [bug fix](https://github.com/Emory-HITI/Niffler/issues) from Niffler can be a positive indication of understanding the code base.
 
 **Source Code:** https://github.com/Emory-HITI/Niffler/
 
