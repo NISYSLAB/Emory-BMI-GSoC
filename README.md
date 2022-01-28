@@ -69,7 +69,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 **Code Challenge:** [DHGWorkflow](https://controlcore-project.github.io/DHGWorkflow/) comes with a Node Validator and Edge Validator. Currently, they merely check and confirm that there is no nodes or edges created with a duplicate name.
 
 In this code challenge, we ask the students to write a Javascript that could validate that 
-i) the nodes adhere to the naming style, <Nodename>:<program>. For example, this can be, "CZ:controller.py" where CZ is the node name and controller.py is the program name. A Nodename such as "AB" will fail since there is no ":" in the name of the node whereas "AB:ab" will succeed.
+i) the nodes adhere to the naming style, Nodename:program. For example, this can be, "CZ:controller.py" where CZ is the node name and controller.py is the program name. A Nodename such as "AB" will fail since there is no ":" in the name of the node whereas "AB:ab" will succeed.
 ii) no two nodes can be created with the same Nodename. That means, two nodes cannot be named as "CZ:controller.py" and "CZ:optimizer.py" since CZ is there a duplicate.
  
 **Source Code:**  https://github.com/ControlCore-Project/concore and https://github.com/controlcore-project/DHGWorkflow
