@@ -55,7 +55,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 ***
 
-**[1] Adopt DHGWorkflow for Concore with a seamless integration**
+**[2] Adopt DHGWorkflow for Concore with a seamless integration**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Babak Mahmoudi (b.mahmoudi at emory.edu).
 
@@ -75,7 +75,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 ***
 
-**[2] Interactive Multidimensional Visualizations for Eaglescope**
+**[3] Interactive Multidimensional Visualizations for Eaglescope**
 
 **Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Nan Li (nan.li -at- emory.edu)
 
@@ -99,7 +99,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 ***
 
-**[3] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
+**[4] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Rishi Kamaleswaran (rkgsoc -at- gmail.com)
 
@@ -121,7 +121,7 @@ The tool will both display information from real-time sources, and also integrat
 ***
 
 
-**[4] Creating shareable "albums" from Niffler data sets**
+**[5] Creating shareable "albums" from Niffler data sets**
 
 **Mentors:** Judy Gichoya (judywawira -at- emory.edu)
 
@@ -150,7 +150,7 @@ The tool will both display information from real-time sources, and also integrat
 
 
 
-**[5] Better representations of scanner utilization from DICOM metadata**
+**[6] Better representations of scanner utilization from DICOM metadata**
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu), Nan Li (nan.li -at- emory.edu), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
