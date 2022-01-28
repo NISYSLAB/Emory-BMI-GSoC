@@ -25,7 +25,7 @@ Discuss the project on Slack, and once you are ready to submit your application,
 
 **[1] Niffler-1.0: A workflow framework for DICOM**
 
-**Mentors:** Ananth Reddy (ananth.reddy -at- emory.edu) and Hari Trivedi (hari.trivedi at emory.edu).
+**Mentors:** Ananth Reddy (ananth.reddy -at- emory.edu) and Hari Trivedi (hari.trivedi -at- emory.edu).
 
 **Overview:** Niffler was developed as an open-source DICOM framework to help with retrieving DICOM images in real-time and performing processing pipelines and machine learning workflows on the images. Currently, we have implemented several workflow modules to chain multiple Niffler processes (sometimes containerized). For example - the Niffler [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows) module provides a prototype implementation of hard-coded workflows from retrieving images, extracting metadata, and performing queries.
 
@@ -58,7 +58,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **[2] Adopt DHGWorkflow for Concore with a seamless integration**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Babak Mahmoudi (b.mahmoudi at emory.edu).
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Babak Mahmoudi (b.mahmoudi -at- emory.edu).
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. [DHG Workflow](https://github.com/controlcore-project/DHGWorkflow) is a browser-based directed hypergraph editor. Concore uses DHG Workflow as a front-end workflow editor. However, DHG Workflow was developed as a stand-alone lightweight graph editor. A seamless integration with DHG Workflow with user-defined validation will make the concore framework more user-friendly.
 
@@ -83,7 +83,7 @@ In this code challenge, we ask the students to write a Javascript that could val
 
 **[3] A server environment for the concore framework**
 
-**Mentors:** Babak Mahmoudi (b.mahmoudi at emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu).
+**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu).
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. Currently, it supports local, containerized, and distributed executions. Although it supports a Mediator-based architecture with a cloud deployment, most of the executions currently have been running locally, through a browser-based light-weight workflow composer, known as [DHG Workflow](https://github.com/controlcore-project/DHGWorkflow).
 
