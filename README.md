@@ -1,6 +1,5 @@
 # Emory BMI Google Summer of Code (GSoC) 2022
 
-We are currently actively working on the project ideas. Please make sure to come back to check the complete list of the project ideas next week.
 
 <img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Department of Biomedical Informatics, Emory University (Emory BMI) is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from the GitHub repositories of the research labs of Emory University School of Medicine: https://github.com/Emory-HITI, https://github.com/sharmalab, https://github.com/NISYSLAB, and https://github.com/controlcore-project/
 
@@ -210,7 +209,9 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 ***
 
+**We are still actively working on the project ideas. We keep adding more project ideas with time. Please check again to find more project ideas in the couple of weeks.**
 
+***
 
 # Application Template
 
