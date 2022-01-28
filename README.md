@@ -80,7 +80,30 @@ In this code challenge, we ask the students to write a Javascript that could val
 
 ***
 
-**[3] Interactive Multidimensional Visualizations for Eaglescope**
+
+**[3] A server environment for the concore framework**
+
+**Mentors:** Babak Mahmoudi (b.mahmoudi at emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu).
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. Currently, it supports local, containerized, and distributed executions. Although it supports a Mediator-based architecture with a cloud deployment, most of the executions currently have been running locally, through a browser-based light-weight workflow composer, known as [DHG Workflow](https://github.com/controlcore-project/DHGWorkflow).
+
+However, a server-based deployment will require additional considerations, such as saving workflow files to the server in a secure manner. It should also allow composing the workflows, aware of the existing programs in the server. Optionally (if the "full-time" option is chosen for this project), the contributors can also incorporate features to allow the upload of the user programs, so that workflows can be composed with those, in addition to existing programs in the server.
+
+**Current Status:** We have had made early attempts at developing DHGWorkflow as a server-based prototype deployment for concore. [This tag](https://github.com/ControlCore-Project/DHGWorkflow/tree/server-deployment) is an attempt at storing the workflows created by DHGWorkflow in a server, enable sharing the links between collaborators, and synchronize the changes seamlessly.
+
+**Required Skills:** Javascript and probably Python or an alternative for the backend development
+
+**Code Challenge:** A locally hosted version of the DHGWorkflow, perhaps [the server](https://github.com/ControlCore-Project/DHGWorkflow/tree/server-deployment) version, and making some changes to highlight the contributor has understood the project idea.
+ 
+**Source Code:**  https://github.com/ControlCore-Project/concore and https://github.com/controlcore-project/DHGWorkflow
+
+**Slack room:** gsoc-emory-bmi.slack.com concore
+
+**Effort:** Full-time/Half-time
+
+***
+
+**[4] Interactive Multidimensional Visualizations for Eaglescope**
 
 **Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Nan Li (nan.li -at- emory.edu)
 
@@ -104,9 +127,9 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 ***
 
-**[4] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
+**[5] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
 
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Rishi Kamaleswaran (rkgsoc -at- gmail.com)
+**Mentors:** Rishi Kamaleswaran (rkgsoc -at- gmail.com)
 
 **Overview:** The proliferation of infrastructures for biomedical informatics machine learning applications, including backend frameworks and visualization frameworks have posed an interesting challenge of integration. While the backend applications stand alone, they often lack of a proper frontend to visualize the data from the backend. On the other hand, frontend interfaces can be utilized to view the images and models stored by these backend frameworks better. However, such a seamless integration does not exist, and integrations are often custom-built scripts. An extensible seamless middleware that consumes the APIs of the frontend and backend could avoid this repeated manual effort of custom configurations. The middleware could enable federation of data sources that are viewable through potential frontends.
 
@@ -126,9 +149,9 @@ The tool will both display information from real-time sources, and also integrat
 ***
 
 
-**[5] Creating shareable "albums" from Niffler data sets**
+**[6] Creating shareable "albums" from Niffler data sets**
 
-**Mentors:** Judy Gichoya (judywawira -at- emory.edu)
+**Mentors:** Judy Gichoya (judywawira -at- emory.edu) and Ananth Reddy (ananth.reddy -at- emory.edu)
 
 **Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Images can be retrieved from a PACS via Niffler in real-time (via Niffler meta-extraction module) or on-demand (via Niffler cold-extraction module). However, these downloaded data sets remain in the local environments such as a research server or a cluster where Niffler is run from. To use this data, researchers must identify certain subsets of data. This can be achieved by querying the retrieved data. For instance, Niffler stores the metadata of the data retrieved in real-time in a Mongo database. By querying the metadata, subsets of images can be identified. However, currently Niffler does not possess the ability to create such "albums" from a set of DICOM images retrieved by Niffler, and share with other users.
 
@@ -154,8 +177,7 @@ The tool will both display information from real-time sources, and also integrat
 
 
 
-
-**[6] Better representations of scanner utilization from DICOM metadata**
+**[7] Better representations of scanner utilization from DICOM metadata**
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu), Nan Li (nan.li -at- emory.edu), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
