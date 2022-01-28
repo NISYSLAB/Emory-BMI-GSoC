@@ -64,7 +64,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Current Status:** Concore scripts can run DHG Workflow to compose a concore workflow. However, many enhancements such as custom user-defined validations, composing workflows with awareness of existing concore programs, a seamless integration with concore are proposed.
 
-**Required Skills:** Javascript, Python (recommended)
+**Required Skills:** Javascript, Python, and Bash (recommended)
 
 **Code Challenge:** 
 
