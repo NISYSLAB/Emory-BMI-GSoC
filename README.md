@@ -209,7 +209,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 ***
 
-**We are still actively working on the project ideas. We keep adding more project ideas with time. Please check again to find more project ideas in the couple of weeks.**
+**We are still actively working on the project ideas. We keep adding more project ideas with time. Please check again to find more project ideas within the couple of weeks.**
 
 ***
 
