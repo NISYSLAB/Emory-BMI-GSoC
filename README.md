@@ -2,11 +2,10 @@
 
 We are currently actively working on the project ideas. Please make sure to come back to check the complete list of the project ideas next week.
 
-<img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Emory BMI is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from https://github.com/Emory-HITI, https://github.com/sharmalab, and https://github.com/NISYSLAB
+<img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Department of Biomedical Informatics, Emory University (Emory BMI) is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from the GitHub repositories of the research labs of Emory University School of Medicine: https://github.com/Emory-HITI, https://github.com/sharmalab, and https://github.com/NISYSLAB
 
 
-Emory BMI has been a successful mentoring orgnaization for Google Summer of Code 2021, 2019, 2016, and all the previous years from 2012! We had 6 great contributors in 2021. We are excited and looking forward to working with another batch of contributors for GSoC 2022.
-
+Emory BMI has been a successful mentoring orgnaization for Google Summer of Code 2021, 2019, 2016, and all the previous years from 2012! We had 6 great contributors in 2021. We are excited and looking forward to working with another batch of contributors for GSoC 2022. Emory BMI takes pride in having the past successes and GSoC contributors turning into long-term collaborators and mentors themselves.
 
 
 
