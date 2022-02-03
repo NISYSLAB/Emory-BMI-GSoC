@@ -214,7 +214,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 ***
 
-**[8] Develop a drag-and-drop frontend for WDL and CWL workflows **
+**[8] Develop a drag-and-drop frontend for WDL and CWL workflows**
 
 **Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu) and Parisa Sarikhani (psarikh -at- emory.edu)
 
