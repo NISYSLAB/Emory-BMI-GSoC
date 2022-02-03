@@ -214,6 +214,27 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 ***
 
+**[8] Develop a drag-and-drop frontend for WDL and CWL workflows **
+
+**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu) and Parisa Sarikhani (psarikh -at- emory.edu)
+
+**Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. Furthermore, APIs (such as RESTful interfaces) should be provided to internally pass the workflow definitions to the backend, to avoid having a backend application having to read and parse the workflow files (WDL and CWL) again, rather than having them directly use the workflow definitions by the other programs.
+
+**Current Status:** Our previous GSoC project DHGWorkflow enabled us to visually create Directed Hypergraphs (DHGs) and export them as GraphML files through its browser-based lightweight environment. This project could use a similar approach to generate WDL and CWL files from a browser-based application. Forking and adopting DHGWorkflow is an option. There are also stand-alone CWL and WDL drag-and-drop projects such as Rabix that can be adopted for this project. 
+
+**Required Skills:** Languages of choice for front-end and the APIs.
+
+**Code Challenge:** A demo to highlight the potential of developing this task, such as a prototype or a mock up.
+ 
+**Source Code:**  New Project
+
+**Slack room:** gsoc-emory-bmi.slack.com wdl
+
+**Effort:** Full-time
+
+***
+
+
 **We are still actively working on the project ideas. We keep adding more project ideas with time. Please check again to find more project ideas within the couple of weeks.**
 
 ***
