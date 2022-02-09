@@ -8,6 +8,8 @@ Emory BMI has been a successful mentoring orgnaization for Google Summer of Code
 
 **We are using Slack as the primary medium of communication. Find and join the Emory BMI slack workspace using the link - http://bit.ly/emory-bmi.**
 
+Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDANCE.md) for more details on how to apply and a standard template for the application. The ideas list is given below.
+
 # List of Ideas
 Discuss the project on Slack, and once you are ready to submit your application, use the template below. You must submit your application directly using the GSoC Program Site. If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your own idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
 
@@ -220,63 +222,3 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 **Effort:** Full-time
 
 ***
-
-
-**We are still actively working on the project ideas. We keep adding more project ideas with time. Please check again to find more project ideas within the couple of weeks.**
-
-***
-
-# Application Template
-
-The contributors are encouraged to follow this template. However, they are not expected to strictly follow this template. They are rather advised to clearly include all the requested information in their application.
-
-**1) Project Title:**
-
-**2) Abstract / Project Summary**:
-
-Summarize the project in your own words.
-
-**3) Contributor Name:**
-
-**4) Contributor Email and Slack username:**
-
-**5) Potential Mentor(s):**
-
-**6) Personal Background (Brief CV)**
-
-**7) Project Goals / Major Contributions**
-
-(Enter as bullets)
-
-..
-     
-..
-     
-..
-
-**8) Project Schedule**
-
-Break the timeline into periods of up to 7 days
-
-**8.1) Community Bonding Period**
-
-**8.2) Development Phase**
-
-**8.3) Project Completion, testing, and documentation**
-
-**9) Planned GSoC work hours**
-
-This year, the full-time projects are expected a 35 hours a week contribution (large project) and half-time projects are expected a 18 hours a week contribution (medium size project). Please indicate your choice of the project length. All project ideas have an indication how we see a project to be (full-time, half-time, or a potential/flexibility to be either based on the contributor's proposal).
-
-Please also indicate the work hours (including the timezone), that you hope to work on your project. 
-
-**10) Planned absence/vacation days and other commitments during the GSoC period (including the community bonding period)**
-
-Please indicate if you have any lectures/classes, examinations, or other personal commitments. GSoC 2022 also allows flexibility of an additional two months - to complete the project at a later time frame (a shift of up to 2 additional months). Please indicate if you expect to do that as we can plan accordingly.
-
-**11) Skill Set**
-
-Your relevant skill set to complete this project. Include pointers to bug fixes, demos, and previous work.
-
-Also include pointers to the completed Code Challenge (if applicable).
-
