@@ -205,7 +205,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **[8] Develop a drag-and-drop frontend for WDL and CWL workflows**
 
-**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu) and Parisa Sarikhani (psarikh -at- emory.edu)
+**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Ozgur Kara (ozgurrkara99 -at- gmail.com), and Parisa Sarikhani (psarikh -at- emory.edu)
 
 **Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. Furthermore, APIs (such as RESTful interfaces) should be provided to internally pass the workflow definitions to the backend, to avoid having a backend application having to read and parse the workflow files (WDL and CWL) again, rather than having them directly use the workflow definitions by the other programs.
 
