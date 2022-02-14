@@ -49,32 +49,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 ***
 
-**[2] Adopt DHGWorkflow for Concore with a seamless integration**
-
-**Mentors:** Shubham Awasthi (aw.shubh -at- gmail.com), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
-
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. [DHGWorkflow](https://github.com/controlcore-project/DHGWorkflow) is a browser-based directed hypergraph editor. Concore uses DHGWorkflow as a front-end workflow editor. However, DHGWorkflow was developed as a stand-alone lightweight graph editor. A seamless integration with DHGWorkflow with user-defined validation will make the concore framework more user-friendly.
-
-**Current Status:** Concore scripts can run DHGWorkflow to compose a concore workflow. However, many enhancements such as custom user-defined validations, composing workflows with awareness of existing concore programs, a seamless integration with concore are proposed.
-
-**Required Skills:** Javascript, Python, and Bash (recommended)
-
-**Code Challenge:** [DHGWorkflow](https://controlcore-project.github.io/DHGWorkflow/) comes with a Node Validator and Edge Validator that can be interactively modified via the Settings Menu. Currently, they merely check and confirm that there is no nodes or edges created with a duplicate string.
-
-In this code challenge, we ask the students to write a Javascript that could validate that 
-1) the nodes adhere to the naming style, Nodename:program. For example, this can be, "CZ:controller.py" where CZ is the node name and controller.py is the program name. A Nodename such as "AB" will fail since there is no ":" in the name of the node whereas "AB:ab" will succeed.
-2) no two nodes can be created with the same Nodename. That means, two nodes cannot be named as "CZ:controller.py" and "CZ:optimizer.py" since CZ is there a duplicate.
- 
-**Source Code:**  https://github.com/ControlCore-Project/concore and https://github.com/controlcore-project/DHGWorkflow
-
-**Slack room:** gsoc-emory-bmi.slack.com concore
-
-**Effort:** Full-time
-
-***
-
-
-**[3] A server environment for the concore framework**
+**[2] A server environment for the concore framework**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Shubham Awasthi (aw.shubh -at- gmail.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
@@ -96,7 +71,7 @@ However, a server-based deployment will require additional considerations, such 
 
 ***
 
-**[4] Interactive Multidimensional Visualizations for Eaglescope**
+**[3] Interactive Multidimensional Visualizations for Eaglescope**
 
 **Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Nan Li (nan.li -at- emory.edu)
 
@@ -120,7 +95,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 ***
 
-**[5] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
+**[4] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
 
 **Mentors:** Rishi Kamaleswaran (rkgsoc -at- gmail.com)
 
@@ -142,7 +117,7 @@ The tool will both display information from real-time sources, and also integrat
 ***
 
 
-**[6] Creating shareable "albums" from Niffler data sets**
+**[5] Creating shareable "albums" from Niffler data sets**
 
 **Mentors:** Judy Gichoya (judywawira -at- emory.edu) and Ananth Reddy (ananth.reddy -at- emory.edu)
 
@@ -170,7 +145,7 @@ The tool will both display information from real-time sources, and also integrat
 
 
 
-**[7] Better representations of scanner utilization from DICOM metadata**
+**[6] Better representations of scanner utilization from DICOM metadata**
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu), Nan Li (nan.li -at- emory.edu), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
@@ -203,7 +178,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 ***
 
-**[8] Develop a drag-and-drop frontend for WDL and CWL workflows**
+**[7] Develop a drag-and-drop frontend for WDL and CWL workflows**
 
 **Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Ozgur Kara (ozgurrkara99 -at- gmail.com), and Parisa Sarikhani (psarikh -at- emory.edu)
 
@@ -222,6 +197,31 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 **Effort:** Full-time
 
 ***
+
+**[8] Adopt DHGWorkflow for Concore with a seamless integration**
+
+**Mentors:** Shubham Awasthi (aw.shubh -at- gmail.com), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. [DHGWorkflow](https://github.com/controlcore-project/DHGWorkflow) is a browser-based directed hypergraph editor. Concore uses DHGWorkflow as a front-end workflow editor. However, DHGWorkflow was developed as a stand-alone lightweight graph editor. A seamless integration with DHGWorkflow with user-defined validation will make the concore framework more user-friendly.
+
+**Current Status:** Concore scripts can run DHGWorkflow to compose a concore workflow. However, many enhancements such as custom user-defined validations, composing workflows with awareness of existing concore programs, a seamless integration with concore are proposed.
+
+**Required Skills:** Javascript, Python, and Bash (recommended)
+
+**Code Challenge:** [DHGWorkflow](https://controlcore-project.github.io/DHGWorkflow/) comes with a Node Validator and Edge Validator that can be interactively modified via the Settings Menu. Currently, they merely check and confirm that there is no nodes or edges created with a duplicate string.
+
+In this code challenge, we ask the students to write a Javascript that could validate that 
+1) the nodes adhere to the naming style, Nodename:program. For example, this can be, "CZ:controller.py" where CZ is the node name and controller.py is the program name. A Nodename such as "AB" will fail since there is no ":" in the name of the node whereas "AB:ab" will succeed.
+2) no two nodes can be created with the same Nodename. That means, two nodes cannot be named as "CZ:controller.py" and "CZ:optimizer.py" since CZ is there a duplicate.
+ 
+**Source Code:**  https://github.com/ControlCore-Project/concore and https://github.com/controlcore-project/DHGWorkflow
+
+**Slack room:** gsoc-emory-bmi.slack.com concore
+
+**Effort:** Full-time
+
+***
+
 
 **[9] MRIQC: Automated analysis of weekly MRI Quality Control Images for ACR Accreditation**
 
