@@ -222,3 +222,23 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 **Effort:** Full-time
 
 ***
+
+**[9] MRIQC: Automated analysis of weekly MRI Quality Control Images for ACR Accreditation**
+
+**Mentors:** Marijn Brummer (Marijn.brummer -at- gmail.com) and Puneet Sharma (puneet.sharma -at- emory.edu)
+
+**Overview:** Continued ACR accreditation of clinical MRI equipment requires weekly quality control reports to be submitted to ACR. These reports are based on measurements of elementary phantom image features which reflect the accuracy and stability of the scanner. Compliance with manual analysis and reporting options is problematic. A costly outsourcing option was deemed of questionable quality, and is no longer available. MRIQC is an in-house developed, fully automated, workflow for analysis and certification of these data. 
+
+Continued ACR accreditation of clinical MRI equipment requires weekly quality control reports to be submitted to ACR. These reports are based on measurements of elementary phantom image features which reflect the accuracy and stability of the scanner. Compliance with manual analysis and reporting options is problematic. A costly outsourcing option was deemed of questionable quality, and is no longer available. MRIQC aims to be a fully automated, workflow for analysis and certification of these data. 
+
+The goal of the project is to develop a tool to automatically analyze and process key metrics/measurements from a series MRI phantom images. The measurements to be analyzed are well-defined and usually performed manually by an MRI technologist. So they just need to be automated. 
+
+**Current Status:** This is a new project, although a research prototype is currently implemented.
+
+**Required Skills:** Python
+
+**Source Code:**  New Project
+
+**Slack room:** gsoc-emory-bmi.slack.com wdl
+
+**Effort:** Full-time/Half-time
