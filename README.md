@@ -211,7 +211,7 @@ The goal of the project is to develop a tool to automatically analyze and proces
 
 **Source Code:**  New Project
 
-**Slack room:** gsoc-emory-bmi.slack.com wdl
+**Slack room:** gsoc-emory-bmi.slack.com mriqc
 
 **Effort:** Full-time/Half-time
 
