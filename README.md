@@ -92,7 +92,7 @@ However, a server-based deployment will require additional considerations, such 
 
 ***
 
-**[3] Interactive Multidimensional Visualizations for Eaglescope**
+**[4] Interactive Multidimensional Visualizations for Eaglescope**
 
 **Mentors:**  Ryan Birmingham (rainventions -at- gmail.com) and Nan Li (nan.li -at- emory.edu)
 
@@ -116,7 +116,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 ***
 
-**[4] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
+**[5] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
 
 **Mentors:** Rishi Kamaleswaran (rkgsoc -at- gmail.com)
 
@@ -138,7 +138,7 @@ The tool will both display information from real-time sources, and also integrat
 ***
 
 
-**[5] Better representations of scanner utilization from DICOM metadata**
+**[6] Better representations of scanner utilization from DICOM metadata**
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu), Nan Li (nan.li -at- emory.edu), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
@@ -171,7 +171,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 ***
 
-**[6] Develop a drag-and-drop frontend for WDL and CWL workflows**
+**[7] Develop a drag-and-drop frontend for WDL and CWL workflows**
 
 **Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Ozgur Kara (ozgurrkara99 -at- gmail.com), and Parisa Sarikhani (psarikh -at- emory.edu)
 
@@ -191,7 +191,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 ***
 
-**[7] Adopt DHGWorkflow for Concore with a seamless integration**
+**[8] Adopt DHGWorkflow for Concore with a seamless integration**
 
 **Mentors:** Shubham Awasthi (aw.shubh -at- gmail.com), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
@@ -216,7 +216,7 @@ In this code challenge, we ask the students to write a Javascript that could val
 ***
 
 
-**[8] MRIQC: Automated analysis of weekly MRI Quality Control Images for ACR Accreditation**
+**[9] MRIQC: Automated analysis of weekly MRI Quality Control Images for ACR Accreditation**
 
 **Mentors:** Marijn Brummer (Marijn.brummer -at- gmail.com) and Puneet Sharma (puneet.sharma -at- emory.edu)
 
@@ -238,7 +238,7 @@ The goal of the project is to develop a tool to automatically analyze and proces
 
 ***
 
-**[9] Creating shareable "albums" from Niffler data sets**
+**[10] Creating shareable "albums" from Niffler data sets**
 
 **Mentors:** Judy Gichoya (judywawira -at- emory.edu) and Ananth Reddy (ananth.reddy -at- emory.edu)
 
