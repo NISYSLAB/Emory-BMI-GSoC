@@ -49,7 +49,28 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 ***
 
-**[2] A server environment for the concore framework**
+**[2] Java Reference Implementation for concore Library.**
+
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library.
+
+**Current Status:** We developed the concore library initially in Python, and then implemented support for other languages. The contributor will work towards a reference implementation in Java in this project. The successful completion of this project will expand the user base of concore to include Java developers.
+
+**Required Skills:** Java and Python
+
+**Code Challenge:** Demonstration of previous expertise in Java and Python can be beneficial.
+ 
+**Source Code:**  https://github.com/ControlCore-Project/concore
+
+**Slack room:** gsoc-emory-bmi.slack.com concore
+
+**Effort:** Half-time
+
+***
+
+
+**[3] A server environment for the concore framework**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Shubham Awasthi (aw.shubh -at- gmail.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
