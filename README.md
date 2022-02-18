@@ -262,4 +262,27 @@ The goal of the project is to develop a tool to automatically analyze and proces
 
 **Effort:** Half-time
 
+
+***
+
+**[11] Refactoring the Niffler PNG Extractor**
+
+**Mentors:** Ananth Reddy (ananth.reddy -at- emory.edu) and Hari Trivedi (hari.trivedi -at- emory.edu).
+
+**Overview:** Niffler was developed as an open-source DICOM framework to help with retrieving DICOM images in real-time and performing processing pipelines and machine learning workflows on the images. The [png-extraction](https://github.com/Emory-HITI/Niffler/tree/dev/modules/png-extraction) module has been tested to run effectively on various DICOM image modalities, such as CT, MR, and CT, to convert the  DICOM images to PNG images. However, a few modalities have been challenging and produce several failed images when attempting to convert. The png extractor module can use the multiple processes in the computer mode to make the conversion more effective. However, such executions also occssionally encounter random bugs and failures on large set of images.
+
+Some of the bugs, enhancements, and related issues on this module are [already reported](https://github.com/Emory-HITI/Niffler/labels/png-extraction). Others are more arbitrary and issues that appear with scale.
+
+**Current Status:** The [png-extraction](https://github.com/Emory-HITI/Niffler/tree/dev/modules/png-extraction) module is currently running stable, but with a few bugs that appear randomly during multi-processing with several images.
+
+**Required Skills:** Python.
+
+**Code Challenge:** A [bug fix](https://github.com/Emory-HITI/Niffler/issues) from Niffler can be a positive indication of understanding the code base.
+
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Slack room:** gsoc-emory-bmi.slack.com niffler
+
+**Effort:** Half-time
+
 ***
