@@ -287,15 +287,15 @@ Some of the bugs, enhancements, and related issues on this module are [already r
 
 ***
 
-**[12] Extending thee Graphical User Interface for OpenAI Gym**
+**[12] Extending the Graphical User Interface for OpenAI Gym**
 
 **Mentors:** Ozgur Kara (ozgurrkara99 -at- gmail.com) and Parisa Sarikhani (psarikh -at- emory.edu)
 
-**Overview:** This project aims to extend [VisualRLComposer]( https://github.com/NISYSLAB/VisualRLComposer) that currently involves an interface allowing users to design reinforcement learning experimentations with predefined modules that are compatible with [OpenAI Gym](https://github.com/openai/gym) library by a visual drag & drop system. 
+**Overview:** This project aims to extend [VisualRLComposer]( https://github.com/NISYSLAB/VisualRLComposer), which currently involves an interface allowing users to design reinforcement learning experimentations with predefined modules that are compatible with the [OpenAI Gym](https://github.com/openai/gym) library by a visual drag & drop system. 
 
 However, the following need to be further developed:
 
-* The contributor should add an additional tab that users become able to design the Convolutional Neural Network / Artificial Neural Networks visually for algorithms utilizing deep learning structures. 
+* The contributor should add an additional tab so that users can design the Convolutional Neural Network / Artificial Neural Networks visually for algorithms utilizing deep learning structures. 
 
 * Integrating the developed GUI with an open-source platform towards designing translatable intelligent closed-loop neuromodulation systems called Neuroweaver.
 
