@@ -173,7 +173,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **[7] Develop a drag-and-drop frontend for WDL and CWL workflows**
 
-**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Ozgur Kara (ozgurrkara99 -at- gmail.com), and Parisa Sarikhani (psarikh -at- emory.edu)
+**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu) and Ozgur Kara (ozgurrkara99 -at- gmail.com)
 
 **Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. Furthermore, APIs (such as RESTful interfaces) should be provided to internally pass the workflow definitions to the backend, to avoid having a backend application having to read and parse the workflow files (WDL and CWL) again, rather than having them directly use the workflow definitions by the other programs.
 
@@ -284,5 +284,36 @@ Some of the bugs, enhancements, and related issues on this module are [already r
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
 **Effort:** Half-time
+
+***
+
+**[12] Extending thee Graphical User Interface for OpenAI Gym**
+
+**Mentors:** Ozgur Kara (ozgurrkara99 -at- gmail.com) and Parisa Sarikhani (psarikh -at- emory.edu)
+
+**Overview:** This project aims to extend [VisualRLComposer]( https://github.com/NISYSLAB/VisualRLComposer) that currently involves an interface allowing users to design reinforcement learning experimentations with predefined modules that are compatible with [OpenAI Gym](https://github.com/openai/gym) library by a visual drag & drop system. 
+
+However, the following need to be further developed:
+
+* The contributor should add an additional tab that users become able to design the Convolutional Neural Network / Artificial Neural Networks visually for algorithms utilizing deep learning structures. 
+
+* Integrating the developed GUI with an open-source platform towards designing translatable intelligent closed-loop neuromodulation systems called Neuroweaver.
+
+* The platform should also support multi-environment experimentation that must work in parallel.
+
+* Finally, the contributor should extend the training part of the platform by allowing users to keep track of the training step by step. For example, [Tensorboard]( https://github.com/tensorflow/tensorboard) may be used there.
+
+
+**Current Status:** The GUI works stable with a few bugs.
+
+**Required Skills:** Python.
+
+**Code Challenge:** 
+
+**Source Code:**  https://github.com/NISYSLAB/VisualRLComposer
+
+**Slack room:** gsoc-emory-bmi.slack.com openai
+
+**Effort:** Full-time/Half-time
 
 ***
