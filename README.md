@@ -308,8 +308,6 @@ However, the following need to be further developed:
 
 **Required Skills:** Python.
 
-**Code Challenge:** 
-
 **Source Code:**  https://github.com/NISYSLAB/VisualRLComposer
 
 **Slack room:** gsoc-emory-bmi.slack.com openai
