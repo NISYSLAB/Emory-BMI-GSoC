@@ -303,10 +303,11 @@ However, the following need to be further developed:
 
 * Finally, the contributor should extend the training part of the platform by allowing users to keep track of the training step by step. For example, [Tensorboard]( https://github.com/tensorflow/tensorboard) may be used there.
 
-
 **Current Status:** The GUI works stable with a few bugs.
 
-**Required Skills:** Python.
+**Required Skills:** Python, PyQt5.
+
+**Code challenge:** Demonstration of a previous work with PyQt will be a positive indication, also installing the program and detecting bugs will highlight that the contributor understands the program.
 
 **Source Code:**  https://github.com/NISYSLAB/VisualRLComposer
 
