@@ -99,7 +99,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Effort:** 350 Hours / 175 Hours
 
-**Difficulty Level:** Medium
+**Difficulty Level:** Hard
 
 ***
 
