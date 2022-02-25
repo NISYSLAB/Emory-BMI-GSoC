@@ -31,11 +31,11 @@ For example, running the below in a sequence:
 
 Workflows such as the above currently need to be composed with manual hard-coding or repeated scripting efforts through bash scripts or python classes.
 
-Through either a simple Python-based class that allows the execution of Niffler modules and containers, or through a workflow framework such as Wokflow Description Language (WDL) or Common Workflow Language (CWL), this process should be automated. That will elevate Niffler-1.0 as a generic workflow framework tailored for DICOM.
-
 **Current Status:** This approach is currently arbitrary and researchers are left to implement their workflows manually from each Niffler module and their own containers and often hard-coding how a workflow must execute from each individual module.
 
 The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows) module can be a good start, but Niffler has a long way to go.
+
+**Expected Outcomes:** Through either a simple Python-based class that allows the execution of Niffler modules and containers, or through a workflow framework such as Wokflow Description Language (WDL) or Common Workflow Language (CWL), the workflow specification and execution process should be automated. That will elevate Niffler-1.0 as a generic workflow framework tailored for DICOM.
 
 **Required Skills:** Python and optionally workflow frameworks such as CWL or WDL.
 
@@ -60,6 +60,8 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Current Status:** We developed the concore library initially in Python, and then implemented support for other languages. The contributor will work towards a reference implementation in Java in this project. The successful completion of this project will expand the user base of concore to include Java developers.
 
+**Expected Outcomes:** A complete reference implementation of the concore Library in Java.
+
 **Required Skills:** Java and Python
 
 **Code Challenge:** Demonstration of previous expertise in Java and Python can be beneficial.
@@ -81,9 +83,9 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. Currently, it supports local, containerized, and distributed executions. Although it supports a Mediator-based architecture with a cloud deployment, most of the executions currently have been running locally, through a browser-based light-weight workflow composer, known as [DHGWorkflow](https://github.com/controlcore-project/DHGWorkflow).
 
-However, a server-based deployment will require additional considerations, such as saving workflow files to the server in a secure manner. It should also allow composing the workflows, aware of the existing programs in the server. Optionally (if the "full-time" option is chosen for this project), the contributors can also incorporate features to allow the upload of the user programs, so that workflows can be composed with those, in addition to existing programs in the server.
-
 **Current Status:** We have had made early attempts at developing DHGWorkflow as a server-based prototype deployment for concore. [This tag](https://github.com/ControlCore-Project/DHGWorkflow/tree/server-deployment) is an attempt at storing the workflows created by DHGWorkflow in a server, enable sharing the links between collaborators, and synchronize the changes seamlessly.
+
+**Expected Outcomes:** The server-based deployment will require additional considerations, such as saving workflow files to the server in a secure manner. It should also allow composing the workflows, aware of the existing programs in the server. Optionally (if the "full-time" option is chosen for this project), the contributors can also incorporate features to allow the upload of the user programs, so that workflows can be composed with those, in addition to existing programs in the server.
 
 **Required Skills:** Javascript and probably Python or an alternative for the backend development
 
@@ -107,9 +109,9 @@ However, a server-based deployment will require additional considerations, such 
 
 This project would involve creating or adapting interactive visualizations that would assist with cohort creation, manual dimensionality reduction, and dataset exploration. There could be several approaches the contributor could consider. For example, we could provide users the ability to declaratively specify what visualizations they’d want to see in Eaglescope using an existing tool such as [Vega](https://vega.github.io/). All of Eaglescope's visualizations are interactive, so the challenge would be to ensure that whichever visalizations chosen are smoothly integrated with interactivity.
 
-Adding multidimensional interactive visualizations would allow users to explore the relationship between two or more variables, and to create cohorts based upon combinations of interest.
-
 **Current Status:** Currently, EagleScope has interactive visualizations, but only of a single variable each, and has some multidimensional visualizations, but they are noninteractive.
+
+**Expected Outcomes:** Adding multidimensional interactive visualizations would allow users to explore the relationship between two or more variables, and to create cohorts based upon combinations of interest.
 
 **Required Skills:** Javascript, D3 (recommended)
 
@@ -133,7 +135,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Current Status:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
 
-**Expected results:** An integration middleware that facilitates the dynamic integration of frontend interfaces with the backends, such as servers and local file systems. Contributors can start with certain file types and frameworks. For example, DICOM images. Images retrieved to a server with Niffler could be configured to view through DICOM viewers such as the OHIF Viewer. The project is intentionally left broad for the contributors to select the best potential frameworks and applications.
+**Expected Outcomes:** An integration middleware that facilitates the dynamic integration of frontend interfaces with the backends, such as servers and local file systems. Contributors can start with certain file types and frameworks. For example, DICOM images. Images retrieved to a server with Niffler could be configured to view through DICOM viewers such as the OHIF Viewer. The project is intentionally left broad for the contributors to select the best potential frameworks and applications.
 
 We envision a visual analytic pipeline that connects with real-time data from a variety of sources, along with asynchronous data to display on a visual frontend.
 The tool will both display information from real-time sources, and also integrate machine learning predictions, forecasts, among other derivations. 
@@ -164,11 +166,9 @@ a) cold-extraction (retrieve images on-demand from the PACS to the research clus
 or
 b) meta-extraction (retrieve images in real-time from scanners to the research cluster and store the metadata in a mongo database) -> app-layer (compute scanner utilization from the mongo database, and store in an output csv file, developed in java).
 
-**Proposed Methodology:** Private tags, used in conjunction with the public tags. Currently, png-extraction module that extracts the DICOM metadata from the DICOM files do not consider private tags. That must be extended to support certain private tags. Approach (a) above is recommended as it does not require an existing PACS, rather just a set of DICOM images.
+**Expected Outcomes:** Private tags, used in conjunction with the public tags. Currently, png-extraction module that extracts the DICOM metadata from the DICOM files do not consider private tags. That must be extended to support certain private tags. Approach (a) above is recommended as it does not require an existing PACS, rather just a set of DICOM images. Scanner utilization will be more accurate and can be visualized better.
 
-**Benefits:** Scanner utilization will be more accurate and can be visualized better.
-
-**Deliverables:** A more complete scanner utilization (suvpar) module. If this is proposed as a full-time (large-size) project, a front-end should be developed as well, extending the existing Eaglescope-based dashboard.
+As a deliverable, a more complete scanner utilization (suvpar) module by end of this project timeline. If this is proposed as a full-time (large-size) project, a front-end should be developed as well, extending the existing Eaglescope-based dashboard.
 
 **Required Skills:** Python or Java, Javascript (optionally, for front-end), and prior experience with DICOM would be a plus.
 
@@ -188,9 +188,11 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Ozgur Kara (ozgurrkara99 -at- gmail.com), and Annie Gu (ping.gu -at- emory.edu)
 
-**Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. Furthermore, APIs (such as RESTful interfaces) should be provided to internally pass the workflow definitions to the backend, to avoid having a backend application having to read and parse the workflow files (WDL and CWL) again, rather than having them directly use the workflow definitions by the other programs.
+**Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. 
 
 **Current Status:** Our previous GSoC project DHGWorkflow enabled us to visually create Directed Hypergraphs (DHGs) and export them as GraphML files through its browser-based lightweight environment. This project could use a similar approach to generate WDL and CWL files from a browser-based application. Forking and adopting DHGWorkflow is an option. There are also stand-alone CWL and WDL drag-and-drop projects such as Rabix that can be adopted for this project. 
+
+**Expected Outcomes:** APIs (such as RESTful interfaces) should be provided to internally pass the workflow definitions to the backend, to avoid having a backend application having to read and parse the workflow files (WDL and CWL) again, rather than having them directly use the workflow definitions by the other programs.
 
 **Required Skills:** Languages of choice for front-end and the APIs.
 
@@ -210,9 +212,11 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **Mentors:** Shubham Awasthi (aw.shubh -at- gmail.com), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. [DHGWorkflow](https://github.com/controlcore-project/DHGWorkflow) is a browser-based directed hypergraph editor. Concore uses DHGWorkflow as a front-end workflow editor. However, DHGWorkflow was developed as a stand-alone lightweight graph editor. A seamless integration with DHGWorkflow with user-defined validation will make the concore framework more user-friendly.
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a framework for closed-Loop peripheral neuromodulation control systems. [DHGWorkflow](https://github.com/controlcore-project/DHGWorkflow) is a browser-based directed hypergraph editor. Concore uses DHGWorkflow as a front-end workflow editor. However, DHGWorkflow was developed as a stand-alone lightweight graph editor.
 
 **Current Status:** Concore scripts can run DHGWorkflow to compose a concore workflow. However, many enhancements such as custom user-defined validations, composing workflows with awareness of existing concore programs, a seamless integration with concore are proposed.
+
+**Expected Outcomes:** A seamless integration with DHGWorkflow with user-defined validation to make the concore framework more user-friendly.
 
 **Required Skills:** Javascript, Python, and Bash (recommended)
 
@@ -241,9 +245,9 @@ In this code challenge, we ask the students to write a Javascript that could val
 
 Continued ACR accreditation of clinical MRI equipment requires weekly quality control reports to be submitted to ACR. These reports are based on measurements of elementary phantom image features which reflect the accuracy and stability of the scanner. Compliance with manual analysis and reporting options is problematic. A costly outsourcing option was deemed of questionable quality, and is no longer available. MRIQC aims to be a fully automated, workflow for analysis and certification of these data. 
 
-The goal of the project is to develop a tool to automatically analyze and process key metrics/measurements from a series MRI phantom images. The measurements to be analyzed are well-defined and usually performed manually by an MRI technologist. So they just need to be automated. 
-
 **Current Status:** This is a new project, although a research prototype is currently implemented.
+
+**Expected Outcomes:** The goal of the project is to develop a tool to automatically analyze and process key metrics/measurements from a series MRI phantom images. The measurements to be analyzed are well-defined and usually performed manually by an MRI technologist. So they just need to be automated. 
 
 **Required Skills:** Python
 
@@ -265,11 +269,11 @@ The goal of the project is to develop a tool to automatically analyze and proces
 
 **Current Status:** Currently, Niffler does not have the ability to select subsets of images or create albums. We are sharing images through other orthogonal approaches (via rclone, for example).
 
-**Proposed Methodology:** There are several approaches to implement such albums feature. One approach is to using [Kheops](https://docs.kheops.online/) to provide an interface to create and view the albums. [MEDIator](https://github.com/sharmalab/MEDIator) can be extended and incorporated to Niffler to create subsets and share the images via a unique URL as well.
+**Expected Outcomes:** There are several approaches to implement such albums feature. One approach is to using [Kheops](https://docs.kheops.online/) to provide an interface to create and view the albums. [MEDIator](https://github.com/sharmalab/MEDIator) can be extended and incorporated to Niffler to create subsets and share the images via a unique URL as well.
 
-**Benefits:** The proposed feature will make the images retrieved by Niffler accessible by more researchers for their experiments, by replacing the current manual efforts of data sharing. Moreover, Kheops natively integrate with OHIF Viewer. As such, images retrived by Niffler can be viewed through OHIF Viewer, by creating albums with Kheops.
+The proposed feature will make the images retrieved by Niffler accessible by more researchers for their experiments, by replacing the current manual efforts of data sharing. Moreover, Kheops natively integrate with OHIF Viewer. As such, images retrived by Niffler can be viewed through OHIF Viewer, by creating albums with Kheops.
 
-**Deliverables:** An approach to creating shareable datasets from the DICOM images retrieved by Niffler. It could be adopting existing frameworks such as MEDIator and Kheops and scripts and integration code with those frameworks or an entirely new module to Niffler for this feature. However, contributors are encouraged to use Kheops or alternatives, rather than reinventing the wheel (unless there is a convincing reason).
+An approach to creating shareable datasets from the DICOM images retrieved by Niffler. It could be adopting existing frameworks such as MEDIator and Kheops and scripts and integration code with those frameworks or an entirely new module to Niffler for this feature. However, contributors are encouraged to use Kheops or alternatives, rather than reinventing the wheel (unless there is a convincing reason).
  
 **Required Skills:** Python and Java.
 
@@ -295,7 +299,9 @@ Some of the bugs, enhancements, and related issues on this module are [already r
 
 **Current Status:** The [png-extraction](https://github.com/Emory-HITI/Niffler/tree/dev/modules/png-extraction) module is currently running stable, but with a few bugs that appear randomly during multi-processing with several images.
 
-**Required Skills:** Python.
+**Expected Outcomes:** An efficient and more flexible PNG Extractor, by refactoring the current module. Some of these enhancements are specific to the modalities. Therefore, familiary with DICOM is highly encouraged.
+
+**Required Skills:** Python and DICOM
 
 **Code Challenge:** A [bug fix](https://github.com/Emory-HITI/Niffler/issues) from Niffler can be a positive indication of understanding the code base.
 
@@ -315,7 +321,9 @@ Some of the bugs, enhancements, and related issues on this module are [already r
 
 **Overview:** This project aims to extend [VisualRLComposer]( https://github.com/NISYSLAB/VisualRLComposer), which currently involves an interface allowing users to design reinforcement learning experimentations with predefined modules that are compatible with the [OpenAI Gym](https://github.com/openai/gym) library by a visual drag & drop system. 
 
-However, the following need to be further developed:
+**Current Status:** The GUI works stable with a few bugs.
+
+**Expected Outcomes:** The following need to be further developed:
 
 * The contributor should add an additional tab so that users can design the Convolutional Neural Network / Artificial Neural Networks visually for algorithms utilizing deep learning structures. 
 
@@ -325,7 +333,6 @@ However, the following need to be further developed:
 
 * Finally, the contributor should extend the training part of the platform by allowing users to keep track of the training step by step. For example, [Tensorboard]( https://github.com/tensorflow/tensorboard) may be used there.
 
-**Current Status:** The GUI works stable with a few bugs.
 
 **Required Skills:** Python, PyQt5.
 
