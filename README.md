@@ -131,7 +131,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Overview:** The proliferation of infrastructures for biomedical informatics machine learning applications, including backend frameworks and visualization frameworks have posed an interesting challenge of integration. While the backend applications stand alone, they often lack of a proper frontend to visualize the data from the backend. On the other hand, frontend interfaces can be utilized to view the images and models stored by these backend frameworks better. However, such a seamless integration does not exist, and integrations are often custom-built scripts. An extensible seamless middleware that consumes the APIs of the frontend and backend could avoid this repeated manual effort of custom configurations. The middleware could enable federation of data sources that are viewable through potential frontends.
 
-**Present Status of the work:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
+**Current Status:** Integration middleware such as Enterprise Service Bus (ESB) have been quite common in the enterprise. However, in biomedical informatics research, often such integration is segmented. With proliferating number of backend and frontend architectures such an extensible framework will be novel and unique.
 
 **Expected results:** An integration middleware that facilitates the dynamic integration of frontend interfaces with the backends, such as servers and local file systems. Contributors can start with certain file types and frameworks. For example, DICOM images. Images retrieved to a server with Niffler could be configured to view through DICOM viewers such as the OHIF Viewer. The project is intentionally left broad for the contributors to select the best potential frameworks and applications.
 
@@ -157,7 +157,7 @@ The tool will both display information from real-time sources, and also integrat
 
 Furthermore, while we have a scanner utiliization computed in the backend, there is no integrated front-end to present the results elegantly. The created results are currently stored in CSV files and displayed through an Eaglescope (https://github.com/sharmalab/eaglescope) dashboard. The front-end can be improved with a better integration.
 
-**Present Status of the work:** DICOM tags are used to compute scanner utilization (https://github.com/Emory-HITI/Niffler/tree/dev/modules/suvpar and https://github.com/Emory-HITI/Niffler/tree/dev/modules/app-layer) in a prototype. But using private tags, the computations can be made more accurate at series level - although they will be specific to the vendors.
+**Current Status:** DICOM tags are used to compute scanner utilization (https://github.com/Emory-HITI/Niffler/tree/dev/modules/suvpar and https://github.com/Emory-HITI/Niffler/tree/dev/modules/app-layer) in a prototype. But using private tags, the computations can be made more accurate at series level - although they will be specific to the vendors.
 
 Computing scanner utilization from the DICOM images currently go as either:
 a) cold-extraction (retrieve images on-demand from the PACS to the research cluster) -> png-extraction (extract all the DICOM attributes from the images in a CSV file) -> suvpar (compute scanner utilization from the csv file and produce an output csv file, currently developed in python)
@@ -263,7 +263,7 @@ The goal of the project is to develop a tool to automatically analyze and proces
 
 **Overview:**  Niffler is a framework to retrieve DICOM images from PACS real-time as a DICOM stream as well as retrospectively. Images can be retrieved from a PACS via Niffler in real-time (via Niffler meta-extraction module) or on-demand (via Niffler cold-extraction module). However, these downloaded data sets remain in the local environments such as a research server or a cluster where Niffler is run from. To use this data, researchers must identify certain subsets of data. This can be achieved by querying the retrieved data. For instance, Niffler stores the metadata of the data retrieved in real-time in a Mongo database. By querying the metadata, subsets of images can be identified. However, currently Niffler does not possess the ability to create such "albums" from a set of DICOM images retrieved by Niffler, and share with other users.
 
-**Present Status of the work:** Currently, Niffler does not have the ability to select subsets of images or create albums. We are sharing images through other orthogonal approaches (via rclone, for example).
+**Current Status:** Currently, Niffler does not have the ability to select subsets of images or create albums. We are sharing images through other orthogonal approaches (via rclone, for example).
 
 **Proposed Methodology:** There are several approaches to implement such albums feature. One approach is to using [Kheops](https://docs.kheops.online/) to provide an interface to create and view the albums. [MEDIator](https://github.com/sharmalab/MEDIator) can be extended and incorporated to Niffler to create subsets and share the images via a unique URL as well.
 
