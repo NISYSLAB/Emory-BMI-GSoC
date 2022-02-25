@@ -47,6 +47,9 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Effort:** 350 Hours / 175 Hours
 
+**Difficulty Level:** Easy
+
+
 ***
 
 **[2] Java Reference Implementation for concore Library.**
@@ -66,6 +69,8 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 **Slack room:** gsoc-emory-bmi.slack.com concore
 
 **Effort:** 175 Hours
+
+**Difficulty Level:** Medium
 
 ***
 
@@ -89,6 +94,8 @@ However, a server-based deployment will require additional considerations, such 
 **Slack room:** gsoc-emory-bmi.slack.com concore
 
 **Effort:** 350 Hours / 175 Hours
+
+**Difficulty Level:** Medium
 
 ***
 
@@ -114,6 +121,8 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Effort:** 350 Hours / 175 Hours
 
+**Difficulty Level:** Medium
+
 ***
 
 **[5] A Middleware framework to integrate the backend frameworks with frontend visualization frameworks**
@@ -134,6 +143,8 @@ The tool will both display information from real-time sources, and also integrat
 **Slack room:** gsoc-emory-bmi.slack.com middleware
 
 **Effort:** 350 Hours / 175 Hours
+
+**Difficulty Level:** Hard
 
 ***
 
@@ -169,6 +180,8 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **Effort:** 350 Hours / 175 Hours
 
+**Difficulty Level:** Hard
+
 ***
 
 **[7] Develop a drag-and-drop frontend for WDL and CWL workflows**
@@ -188,6 +201,8 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 **Slack room:** gsoc-emory-bmi.slack.com wdl
 
 **Effort:** 350 Hours
+
+**Difficulty Level:** Medium
 
 ***
 
@@ -213,6 +228,8 @@ In this code challenge, we ask the students to write a Javascript that could val
 
 **Effort:** 350 Hours
 
+**Difficulty Level:** Medium
+
 ***
 
 
@@ -235,6 +252,8 @@ The goal of the project is to develop a tool to automatically analyze and proces
 **Slack room:** gsoc-emory-bmi.slack.com mriqc
 
 **Effort:** 350 Hours / 175 Hours
+
+**Difficulty Level:** Medium
 
 ***
 
@@ -262,6 +281,7 @@ The goal of the project is to develop a tool to automatically analyze and proces
 
 **Effort:** 175 Hours
 
+**Difficulty Level:** Easy
 
 ***
 
@@ -284,6 +304,8 @@ Some of the bugs, enhancements, and related issues on this module are [already r
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
 **Effort:** 175 Hours
+
+**Difficulty Level:** Hard
 
 ***
 
@@ -314,5 +336,7 @@ However, the following need to be further developed:
 **Slack room:** gsoc-emory-bmi.slack.com openai
 
 **Effort:** 350 Hours / 175 Hours
+
+**Difficulty Level:** Medium
 
 ***
