@@ -45,7 +45,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
-**Effort:** Full-time/Half-time
+**Effort:** 350 Hours / 175 Hours
 
 ***
 
@@ -65,7 +65,7 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Slack room:** gsoc-emory-bmi.slack.com concore
 
-**Effort:** Half-time
+**Effort:** 175 Hours
 
 ***
 
@@ -88,7 +88,7 @@ However, a server-based deployment will require additional considerations, such 
 
 **Slack room:** gsoc-emory-bmi.slack.com concore
 
-**Effort:** Full-time/Half-time
+**Effort:** 350 Hours / 175 Hours
 
 ***
 
@@ -112,7 +112,7 @@ Adding multidimensional interactive visualizations would allow users to explore 
 
 **Slack room:** gsoc-emory-bmi.slack.com eaglescope
 
-**Effort:** Full-time/Half-time
+**Effort:** 350 Hours / 175 Hours
 
 ***
 
@@ -133,7 +133,7 @@ The tool will both display information from real-time sources, and also integrat
 
 **Slack room:** gsoc-emory-bmi.slack.com middleware
 
-**Effort:** Full-time/Half-time
+**Effort:** 350 Hours / 175 Hours
 
 ***
 
@@ -167,7 +167,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
-**Effort:** Full-time/Half-time
+**Effort:** 350 Hours / 175 Hours
 
 ***
 
@@ -187,7 +187,7 @@ b) meta-extraction (retrieve images in real-time from scanners to the research c
 
 **Slack room:** gsoc-emory-bmi.slack.com wdl
 
-**Effort:** Full-time
+**Effort:** 350 Hours
 
 ***
 
@@ -211,7 +211,7 @@ In this code challenge, we ask the students to write a Javascript that could val
 
 **Slack room:** gsoc-emory-bmi.slack.com concore
 
-**Effort:** Full-time
+**Effort:** 350 Hours
 
 ***
 
@@ -234,7 +234,7 @@ The goal of the project is to develop a tool to automatically analyze and proces
 
 **Slack room:** gsoc-emory-bmi.slack.com mriqc
 
-**Effort:** Full-time/Half-time
+**Effort:** 350 Hours / 175 Hours
 
 ***
 
@@ -260,7 +260,7 @@ The goal of the project is to develop a tool to automatically analyze and proces
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
-**Effort:** Half-time
+**Effort:** 175 Hours
 
 
 ***
@@ -283,7 +283,7 @@ Some of the bugs, enhancements, and related issues on this module are [already r
 
 **Slack room:** gsoc-emory-bmi.slack.com niffler
 
-**Effort:** Half-time
+**Effort:** 175 Hours
 
 ***
 
@@ -313,6 +313,6 @@ However, the following need to be further developed:
 
 **Slack room:** gsoc-emory-bmi.slack.com openai
 
-**Effort:** Full-time/Half-time
+**Effort:** 350 Hours / 175 Hours
 
 ***
