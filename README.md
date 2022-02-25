@@ -241,13 +241,13 @@ In this code challenge, we ask the students to write a Javascript that could val
 
 **Mentors:** Marijn Brummer (Marijn.brummer -at- gmail.com) and Puneet Sharma (puneet.sharma -at- emory.edu)
 
-**Overview:** Continued ACR accreditation of clinical MRI equipment requires weekly quality control reports to be submitted to ACR. These reports are based on measurements of elementary phantom image features which reflect the accuracy and stability of the scanner. Compliance with manual analysis and reporting options is problematic. A costly outsourcing option was deemed of questionable quality, and is no longer available. MRIQC is an in-house developed, fully automated, workflow for analysis and certification of these data. 
-
-Continued ACR accreditation of clinical MRI equipment requires weekly quality control reports to be submitted to ACR. These reports are based on measurements of elementary phantom image features which reflect the accuracy and stability of the scanner. Compliance with manual analysis and reporting options is problematic. A costly outsourcing option was deemed of questionable quality, and is no longer available. MRIQC aims to be a fully automated, workflow for analysis and certification of these data. 
+**Overview:** Continued ACR accreditation of clinical MRI equipment requires weekly quality control reports to be submitted to ACR. These reports are based on measurements of elementary phantom image features which reflect the accuracy and stability of the scanner. Compliance with manual analysis and reporting options is problematic and time-consuming. A costly outsourcing option was deemed of questionable quality, and is no longer available. MRIQC is a fully automated workflow for analysis and certification of these data. The project aims to find features of the images automatically, to makes measurements on them - specifically using techniques such as low- and high-contrast detectabilities.
 
 **Current Status:** This is a new project, although a research prototype is currently implemented.
 
 **Expected Outcomes:** The goal of the project is to develop a tool to automatically analyze and process key metrics/measurements from a series MRI phantom images. The measurements to be analyzed are well-defined and usually performed manually by an MRI technologist. So they just need to be automated. 
+
+By the end of this project, we expect that the developments from the contributor to be integrated into the existing workflows of the research prototype. When implemented as a full-time project, the contributor may consider machine learning approaches.
 
 **Required Skills:** Python
 
@@ -257,7 +257,7 @@ Continued ACR accreditation of clinical MRI equipment requires weekly quality co
 
 **Effort:** 350 Hours / 175 Hours
 
-**Difficulty Level:** Medium
+**Difficulty Level:** Hard
 
 ***
 
