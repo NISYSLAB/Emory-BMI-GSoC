@@ -210,7 +210,7 @@ As a deliverable, a more complete scanner utilization (suvpar) module by end of 
 
 ***
 
-**[8] Adopt DHGWorkflow for Concore with a seamless integration**
+**[8] Adopt DHGWorkflow for concore with a seamless integration**
 
 **Mentors:** Shubham Awasthi (aw.shubh -at- gmail.com), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
