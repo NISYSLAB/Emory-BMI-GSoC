@@ -319,7 +319,7 @@ Some of the bugs, enhancements, and related issues on this module are [already r
 
 **[12] Extending the Graphical User Interface for OpenAI Gym**
 
-**Mentors:** Ozgur Kara (ozgurrkara99 -at- gmail.com), Parisa Sarikhani (psarikh -at- emory.edu), and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
+**Mentors:** Özgür Kara (ozgurrkara99 -at- gmail.com), Parisa Sarikhani (psarikh -at- emory.edu), and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
 **Overview:** This project aims to extend [VisualRLComposer]( https://github.com/NISYSLAB/VisualRLComposer), which currently involves an interface allowing users to design reinforcement learning experimentations with predefined modules that are compatible with the [OpenAI Gym](https://github.com/openai/gym) library by a visual drag & drop system. 
 
