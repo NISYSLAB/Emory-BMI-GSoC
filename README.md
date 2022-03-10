@@ -350,15 +350,15 @@ Some of the bugs, enhancements, and related issues on this module are [already r
 
 ***
 
-**[13] A Python based tool for viewing and basic analysis of files with neurophysiological data formats**
+**[13] A Python based tool for viewing and basic analysis of files with Numpy format**
 
 **Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
-**Overview:** Neuroshare (www.neuroshare.org) is an organization that created data file format specifications for neurophysiology. There are commercial viewers for this file format. We aim to create an open-source Python package to read, view and perform basic analysis of neurophysiological files and neuroimaging data. Memory efficiency and speed will be two key aspects of this package.
+**Overview:** There exist different file formats that are developed to store measured biosignals and associated metadata. We aim to create an open-source Python package to view and perform basic analysis of some electrophysiological recordings. These recording are already stored on disk as files with Numpy format. Each file is basically a 2D Numpy array that rows are data points and columns are different channels/sensors.  To have an idea that how a signal viewer should look like please refer to (https://www.teuniz.net/edfbrowser/) Please note that this open-source viewer (EDFbrowser) offers lots of features that we are not aiming for at this project. Our main focus is visualization of our data and memory efficiency and speed are two key aspects of this project.
 
-**Current Status:** This is a new project. We are working on the early stages of a research prototype. However, we do not have anything implemented yet.
+**Current Status:** New project.
 
-**Expected Outcomes:** The goal of the project is to develop a Python based package that can read the data file formats for neurophysiologys and display the contents efficiently. Users should be able to install and use this package by “pip install” command. By the end of this project, we expect that the developments from the contributor to be integrated into the existing workflows of the research prototype. When implemented as a full-time project, the contributor may consider adding more advanced signal processing tools to the package.
+**Expected Outcomes:** The goal of the project is to develop a Python based package that can read the 2D Numpy formatted files and visualize the contents efficiently. Users should be able to install and use this package by “pip install” command. By the end of this project, we expect that the developments from the contributor to be integrated into the existing workflows. When implemented as a full-time project, the contributor may consider adding more advanced signal processing tools to the package.
 
 **Required Skills:** Python
 
