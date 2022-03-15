@@ -188,7 +188,7 @@ As a deliverable, a more complete scanner utilization (suvpar) module by end of 
 
 **[7] Develop a drag-and-drop frontend for WDL and CWL workflows**
 
-**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Ozgur Kara (ozgurrkara99 -at- gmail.com), and Annie Gu (ping.gu -at- emory.edu)
+**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Özgür Kara (ozgurrkara99 -at- gmail.com), and Annie Gu (ping.gu -at- emory.edu)
 
 **Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. 
 
