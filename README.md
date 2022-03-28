@@ -39,6 +39,10 @@ The [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows
 
 **Expected Outcomes:** Through either a simple Python-based class that allows the execution of Niffler modules and containers, or through a workflow framework such as Wokflow Description Language (WDL) or Common Workflow Language (CWL), the workflow specification and execution process should be automated. That will elevate Niffler-1.0 as a generic workflow framework tailored for DICOM.
 
+1. Fixing the issue with Cold Extraction in Workflow Module.
+2. Refactor the code to be flexible to use. As of now, all the paths are hard-coded.
+3. Implementing multiprocessing to run the modules paralelly.
+
 **Required Skills:** Python and optionally workflow frameworks such as CWL or WDL.
 
 **Code Challenge:** A [bug fix](https://github.com/Emory-HITI/Niffler/issues) from Niffler can be a positive indication of understanding the code base.
