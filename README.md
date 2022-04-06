@@ -20,7 +20,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 **[1] Niffler-1.0: A workflow framework for DICOM**
 
-**Mentors:** Ananth Reddy (ananth.reddy -at- emory.edu) and Hari Trivedi (hari.trivedi -at- emory.edu).
+**Mentors:** Ananth Reddy (ananth.reddy -at- emory.edu), Hari Trivedi (hari.trivedi -at- emory.edu), and Nishchal Singi (nishchalsingi -at- gmail.com)
 
 **Overview:** Niffler was developed as an open-source DICOM framework to help with retrieving DICOM images in real-time and performing processing pipelines and machine learning workflows on the images. Currently, we have implemented several workflow modules to chain multiple Niffler processes (sometimes containerized). For example - the Niffler [workflows](https://github.com/Emory-HITI/Niffler/tree/dev/modules/workflows) module provides a prototype implementation of hard-coded workflows from retrieving images, extracting metadata, and performing queries.
 
@@ -295,7 +295,7 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
 
 **[11] Refactoring the Niffler PNG Extractor**
 
-**Mentors:** Ananth Reddy (ananth.reddy -at- emory.edu) and Hari Trivedi (hari.trivedi -at- emory.edu).
+**Mentors:** Ananth Reddy (ananth.reddy -at- emory.edu), Hari Trivedi (hari.trivedi -at- emory.edu), and Nishchal Singi (nishchalsingi -at- gmail.com)
 
 **Overview:** Niffler was developed as an open-source DICOM framework to help with retrieving DICOM images in real-time and performing processing pipelines and machine learning workflows on the images. The [png-extraction](https://github.com/Emory-HITI/Niffler/tree/dev/modules/png-extraction) module has been tested to run effectively on various DICOM image modalities, such as CT, MR, and CT, to convert the  DICOM images to PNG images. However, a few modalities have been challenging and produce several failed images when attempting to convert. The png extractor module can use the multiple processes in the computer mode to make the conversion more effective. However, such executions also occssionally encounter random bugs and failures on large set of images.
 
