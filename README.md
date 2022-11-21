@@ -35,6 +35,8 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
  
 **Source Code:**  https://github.com/ControlCore-Project/concore
 
+**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
+
 **Effort:** 175 Hours
 
 **Difficulty Level:** Medium
@@ -56,6 +58,8 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 **Code Challenge:** A demo to highlight the potential of developing this task, such as a prototype or a mock up.
  
 **Source Code:**  New Project
+
+**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
 
 **Effort:** 350 Hours
 
@@ -83,6 +87,8 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
 **Code Challenge:** A demonstration of potential integration of Niffler with such existing frameworks. The proposed frameworks are samples only. The contributors may choose their own.
 
 **Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Discussion Forum**: https://github.com/Emory-HITI/Niffler/discussions
 
 **Effort:** 175 Hours
 
