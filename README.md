@@ -51,19 +51,19 @@ A complete integrated front-end for concore, with a seamless user experience thr
 ***
 
 
-**[2] Java Reference Implementation for concore Library.**
+**[2] A Reference Implementation for concore Library in Java or Julia.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Babak Mahmoudi (b.mahmoudi -at- bmi.emory.edu)
 
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library.
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Java or Julia.
 
-**Current Status:** We developed the concore library initially in Python, and then implemented support for other languages. The contributor will work towards a reference implementation in Java in this project. The successful completion of this project will expand the user base of concore to include Java developers.
+**Current Status:** We developed the concore library initially in Python, and then implemented support for other languages. The contributor will work towards a reference implementation in Java or Julia in this project. The successful completion of this project will expand the user base of concore to include Java/Julia developers.
 
-**Expected Outcomes:** A complete reference implementation of the concore Library in Java.
+**Expected Outcomes:** A complete reference implementation of the concore Library in Java or Julia.
 
-**Required Skills:** Java and Python
+**Required Skills:** i) Java or Julia and ii) Python
 
-**Code Challenge:** Demonstration of previous expertise in Java and Python can be beneficial.
+**Code Challenge:** Demonstration of previous expertise in Java/Julia and Python can be beneficial.
  
 **Source Code:**  https://github.com/ControlCore-Project/concore
 
