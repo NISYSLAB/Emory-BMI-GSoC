@@ -16,12 +16,38 @@ Discuss the project on Slack, and once you are ready to submit your application,
 The ideas are marked easy, medium, and hard in difficulty level. They are also tagged 175 hours, 350 hours, or 350 hours / 175 hours. These three values represent the medium-sized projects, large projects, and the projects that have the flexibility to be adopted as a medium-size project or extended as a large project.
 
 
+***
+
+**[1] An Integrated CONTROL-CORE experience.**
+
+**Mentors:** Nan Li (nan.li -at- emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. [concore-editor](https://github.com/ControlCore-Project/concore-editor) is a React-based front-end environment for concore. concore-editor is a fork of [DHGWorkflow](https://github.com/NISYSLAB/DHGWorkflow). DHWorkflow was developed as a visual directed hypergraph editor for workflows with loops in GSoC 2021. A GSoC 2022 project forked this repository to adapt it as a front-end for concore. concore has a server back-end developed with Python Flask, which should be consumed by concore-editor as the front-end, as illustrated in https://github.com/ControlCore-Project/concore-editor/issues/59. 
+
+concore and concore-editor are part of the CONTROL-CORE project. This GSoC aims to bring a unified experience for CONTROL-CORE users, accessing the environment through concore-editor, to create and run the studies visually.
+
+**Current Status:** 
+
+**Expected Outcomes:** A complete integrated front-end for concore, with a seamless user experience through the visual concore-editor.
+
+**Required Skills:** Javascript and Python. This is a front-end development project, and the contributors are expected to demonstrate their previous experience and potential to implement a front-end system.
+
+**Code Challenge:** Pull requests to fix concore-editor bug reports are encouraged. Demonstration of local installation of concore editor through screenshots in the proposal is expected.
+ 
+**Source Code:**  https://github.com/ControlCore-Project/concore-editor and https://github.com/ControlCore-Project/concore
+
+**Discussion Forum**: https://github.com/ControlCore-Project/concore-editor/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
 
 ***
 
-**[1] Java Reference Implementation for concore Library.**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**[2] Java Reference Implementation for concore Library.**
+
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), and Babak Mahmoudi (b.mahmoudi -at- bmi.emory.edu)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library.
 
@@ -43,7 +69,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 ***
 
-**[2] Develop a drag-and-drop frontend for WDL and CWL workflows**
+**[3] Develop a drag-and-drop frontend for WDL and CWL workflows**
 
 **Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu), Özgür Kara (ozgurrkara99 -at- gmail.com), and Annie Gu (ping.gu -at- emory.edu)
 
@@ -68,7 +94,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 ***
 
 
-**[3] Creating shareable "albums" from Niffler data sets**
+**[4] Creating shareable "albums" from Niffler data sets**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), Judy Gichoya (judywawira -at- emory.edu) and Ananth Reddy (ananth.reddy -at- emory.edu)
 
