@@ -22,15 +22,17 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 **Mentors:** Nan Li (nan.li -at- emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. [concore-editor](https://github.com/ControlCore-Project/concore-editor) is a React-based front-end environment for concore. concore-editor is a fork of [DHGWorkflow](https://github.com/NISYSLAB/DHGWorkflow). DHWorkflow was developed as a visual directed hypergraph editor for workflows with loops in GSoC 2021. A GSoC 2022 project forked this repository to adapt it as a front-end for concore. concore has a server back-end developed with Python Flask, which should be consumed by concore-editor as the front-end, as illustrated in https://github.com/ControlCore-Project/concore-editor/issues/59. 
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. [concore-editor](https://github.com/ControlCore-Project/concore-editor) is a React-based front-end environment for concore. concore-editor is a fork of [DHGWorkflow](https://github.com/NISYSLAB/DHGWorkflow). DHWorkflow was developed as a visual directed hypergraph editor for workflows with loops in GSoC 2021. A GSoC 2022 project forked this repository to adapt it as a front-end for concore. concore has a server back-end developed with Python Flask, which should be invoked by concore-editor as the front-end, using an approach such as the one in [#59](https://github.com/ControlCore-Project/concore-editor/issues/59) as the first step.
 
-concore and concore-editor are part of the CONTROL-CORE project. This GSoC aims to bring a unified experience for CONTROL-CORE users, accessing the environment through concore-editor, to create and run the studies visually.
+concore and concore-editor are part of the CONTROL-CORE project.  This project should not be limited to [#59](https://github.com/ControlCore-Project/concore-editor/issues/59). Rather this project should provide a unified experience for control systems developers with the CONTROL-CORE project.
+
+This GSoC aims to bring a unified experience for CONTROL-CORE users, accessing the environment through concore-editor, to create and run the studies visually.
 
 **Current Status:** 
 
 **Expected Outcomes:** A complete integrated front-end for concore, with a seamless user experience through the visual concore-editor.
 
-**Required Skills:** Javascript and Python. This is a front-end development project, and the contributors are expected to demonstrate their previous experience and potential to implement a front-end system.
+**Required Skills:** Javascript (including React) and Python. This is a front-end development project, and the contributors are expected to demonstrate their previous experience and potential to implement a front-end system with Javascript frameworks such as React.
 
 **Code Challenge:** Pull requests to fix concore-editor bug reports are encouraged. Demonstration of local installation of concore editor through screenshots in the proposal is expected.
  
