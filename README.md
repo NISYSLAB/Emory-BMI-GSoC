@@ -34,8 +34,7 @@ Currently, there is an option "Server" that introduces several buttons (Build, D
 
 **Expected Outcomes:**  We propose a similar integration (to that of the "Save" button in concore-editor) for all the concore methods (such as Build, Debug, Run, Clear, Stop, and Destroy). That will eliminate the need to use the commandline to invoke these methods, thus providing a browser-based integrated experience through concore-editor.
 
-A complete integrated front-end for concore, with a seamless user experience through the visual concore-editor.
-
+A complete integrated front-end for concore, with a seamless user experience through the visual concore-editor. By the end of the GSoC, we also expect the currently identified [issues](https://github.com/ControlCore-Project/concore-editor/issues) to be resolved, along with any bugs that will be uncovered along the duration of the project.
 
 **Required Skills:** Javascript (including React) and Python. This is a front-end development project, and the contributors are expected to demonstrate their previous experience and potential to implement a front-end system with Javascript frameworks such as React.
 
