@@ -6,7 +6,7 @@
 
 Emory BMI has been a successful mentoring orgnaization for Google Summer of Code 2012 - 2016, 2019, 2021, and 2022! In the recent years, we had 8 great contributors in 2022 and 6 in 2021. We are excited and looking forward to working with another batch of contributors for the upcoming GSoC. Emory BMI takes pride in having the past successes and GSoC contributors turning into long-term collaborators and mentors themselves.
 
-**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free versison, we are moving away from Slack and asking the contributors to communicate via the discussion forums of each project and this central repository instead.**.
+**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free versison, we are moving away from Slack and asking the contributors to communicate via the discussion forums of each project and this central repository instead.**
 
 Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDANCE.md) for more details on how to apply and a standard template for the application. The ideas list is given below.
 
@@ -28,9 +28,14 @@ concore and concore-editor are part of the CONTROL-CORE project.  This project s
 
 This GSoC aims to bring a unified experience for CONTROL-CORE users, accessing the environment through concore-editor, to create and run the studies visually.
 
-**Current Status:** 
+**Current Status:** Although we currently have the concore-editor implementation which aims to be the front-end for concore, it has not been integrated with concore. Currently, the "Save" button allows saving a currently opened concore study back to its original location in the local filesystem where concore resides, when we use Chrome or Edge as the browser.
 
-**Expected Outcomes:** A complete integrated front-end for concore, with a seamless user experience through the visual concore-editor.
+Currently, there is an option "Server" that introduces several buttons (Build, Debug, Run, Clear, Stop, and Destroy). But these buttons don't do anything when clicked.
+
+**Expected Outcomes:**  We propose a similar integration (to that of the "Save" button in concore-editor) for all the concore methods (such as Build, Debug, Run, Clear, Stop, and Destroy). That will eliminate the need to use the commandline to invoke these methods, thus providing a browser-based integrated experience through concore-editor.
+
+A complete integrated front-end for concore, with a seamless user experience through the visual concore-editor.
+
 
 **Required Skills:** Javascript (including React) and Python. This is a front-end development project, and the contributors are expected to demonstrate their previous experience and potential to implement a front-end system with Javascript frameworks such as React.
 
