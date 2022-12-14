@@ -64,7 +64,9 @@ One of the challenges with real-time executions is that the software needs to ru
 
 **Required Skills:** Python and C (or another high-performance language for concore real-time implementation).
 
-**Code Challenge:** Prior experience in Python and your proposed implementation language (such as Python) must be demonstrated.
+**Code Challenge:** Prior experience in Python and your proposed implementation language (such as Python) must be demonstrated. 
+
+A patched real-time Linux is advantageous for concore since we support Linux already. Although we have not run concore on Raspberry Pi, this could be a small test for someone who has access to a Rapberry Pi.
 
 **Source Code:**  https://github.com/ControlCore-Project/concore
 
