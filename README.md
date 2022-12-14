@@ -50,7 +50,7 @@ A complete integrated front-end for concore, with a seamless user experience thr
 
 ***
 
-**[2] A real-time computing support for concore..**
+**[2] A real-time computing support for concore.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
