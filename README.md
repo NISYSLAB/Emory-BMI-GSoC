@@ -62,11 +62,9 @@ A complete integrated front-end for concore, with a seamless user experience thr
 
 A cheap option to overcome the hardware platform problem, which could be available to many potential contributors, is the Raspberry Pi. Although not ideal for real-time executions, it appears some have used it successfully \[[1](https://www.socallinuxexpo.org/sites/default/files/presentations/Steven_Doran_SCALE_13x.pdf), [2](https://all3dp.com/2/rtos-raspberry-pi-real-time-os/), [3](https://www.get-edi.io/Real-Time-Linux-on-the-Raspberry-Pi/)\]. The contributors are encouraged to elaborate on their choice of implementation and evaluation in their proposal.
 
-**Required Skills:** Python and C++.
+**Required Skills:** C++, Linux/POSIX for real-time computations, Raspberry Pi, and Python
 
-**Code Challenge:** Prior experience in Python and C++ must be demonstrated. 
-
-A patched real-time Linux is advantageous for concore since we support Linux already. Although we have not run concore on Raspberry Pi, this could be a small test for someone who has access to a Rapberry Pi.
+**Code Challenge:** Prior experience in Python and C++ must be demonstrated. Also, a patched real-time Linux platform, which has concore running on it, must be demonstrated. Running concore on Raspberry Pi could be a small test for someone who has access to a Rapberry Pi, although we have not run that yet.
 
 **Source Code:**  https://github.com/ControlCore-Project/concore
 
