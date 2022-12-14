@@ -60,6 +60,8 @@ A complete integrated front-end for concore, with a seamless user experience thr
 
 **Expected Outcomes:**  We propose a language intended for such real-time executions, perhaps running the deployment on a real-time operating system. This implementation should provide a significant performance enhancement compared to the current Python-based implementation.
 
+One of the challenges with real-time executions is that the software needs to run on some kind of hardware platform that supports real-time computations.  A cheap option that should be available to many potential contributors is the Raspberry Pi.  Although not ideal for real-time executions, it appears some have used it successfully \[[1](https://www.socallinuxexpo.org/sites/default/files/presentations/Steven_Doran_SCALE_13x.pdf), [2](https://all3dp.com/2/rtos-raspberry-pi-real-time-os/), [3](https://www.get-edi.io/Real-Time-Linux-on-the-Raspberry-Pi/)\]. The contributors are encouraged to elaorate on their choice of implementation and evaluation in their proposal.
+
 **Required Skills:** Python and C (or another high-performance language for concore real-time implementation).
 
 **Code Challenge:** Prior experience in Python and your proposed implementation language (such as Python) must be demonstrated.
