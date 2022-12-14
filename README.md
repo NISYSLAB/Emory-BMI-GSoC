@@ -50,8 +50,31 @@ A complete integrated front-end for concore, with a seamless user experience thr
 
 ***
 
+**[2] A real-time computing support for concore..**
 
-**[2] A Reference Implementation for concore Library in Java or Julia.**
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore is mainly developed in Python. However, it supports composing control systems studies from programs implemented in Python, Matlab, Verilog, and C++.
+
+**Current Status:** Although we currently have multi-language support, concore still relies on Python. The current implementation of concore works well for the neuromodulation control systems simulations. However, Python performance is not optimized for real-time execution of time-sensitive executions such as animal models and real-time executions of live experiments with organ systems, as the latency must be much lower with higher performance requirements.
+
+**Expected Outcomes:**  We propose a language intended for such real-time executions, perhaps running the deployment on a real-time operating system. This implementation should provide a significant performance enhancement compared to the current Python-based implementation.
+
+**Required Skills:** Python and C (or another high-performance language for concore real-time implementation).
+
+**Code Challenge:** Prior experience in Python and your proposed implementation language (such as Python) must be demonstrated.
+
+**Source Code:**  https://github.com/ControlCore-Project/concore
+
+**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
+
+**[3] A Reference Implementation for concore Library in Java or Julia.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
@@ -74,31 +97,6 @@ A complete integrated front-end for concore, with a seamless user experience thr
 **Difficulty Level:** Medium
 
 ***
-
-**[3] Develop a drag-and-drop frontend for WDL and CWL workflows**
-
-**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu) and Özgür Kara (ozgurrkara99 -at- gmail.com).
-
-**Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. 
-
-**Current Status:** Our previous GSoC project DHGWorkflow enabled us to visually create Directed Hypergraphs (DHGs) and export them as GraphML files through its browser-based lightweight environment. This project could use a similar approach to generate WDL and CWL files from a browser-based application. Forking and adopting DHGWorkflow is an option. There are also stand-alone CWL and WDL drag-and-drop projects such as Rabix that can be adopted for this project. 
-
-**Expected Outcomes:** APIs (such as RESTful interfaces) should be provided to internally pass the workflow definitions to the backend, to avoid having a backend application having to read and parse the workflow files (WDL and CWL) again, rather than having them directly use the workflow definitions by the other programs.
-
-**Required Skills:** Languages of choice for front-end and the APIs.
-
-**Code Challenge:** A demo to highlight the potential of developing this task, such as a prototype or a mock up.
- 
-**Source Code:**  New Project
-
-**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
-
-**Effort:** 350 Hours
-
-**Difficulty Level:** Medium
-
-***
-
 
 **[4] Creating shareable "albums" from Niffler data sets**
 
@@ -127,4 +125,30 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
 **Difficulty Level:** Easy
 
 ***
+
+**[5] Develop a drag-and-drop frontend for WDL and CWL workflows**
+
+**Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu) and Özgür Kara (ozgurrkara99 -at- gmail.com).
+
+**Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. 
+
+**Current Status:** Our previous GSoC project DHGWorkflow enabled us to visually create Directed Hypergraphs (DHGs) and export them as GraphML files through its browser-based lightweight environment. This project could use a similar approach to generate WDL and CWL files from a browser-based application. Forking and adopting DHGWorkflow is an option. There are also stand-alone CWL and WDL drag-and-drop projects such as Rabix that can be adopted for this project. 
+
+**Expected Outcomes:** APIs (such as RESTful interfaces) should be provided to internally pass the workflow definitions to the backend, to avoid having a backend application having to read and parse the workflow files (WDL and CWL) again, rather than having them directly use the workflow definitions by the other programs.
+
+**Required Skills:** Languages of choice for front-end and the APIs.
+
+**Code Challenge:** A demo to highlight the potential of developing this task, such as a prototype or a mock up.
+ 
+**Source Code:**  New Project
+
+**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
+
 
