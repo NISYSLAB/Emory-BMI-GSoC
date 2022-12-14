@@ -54,17 +54,17 @@ A complete integrated front-end for concore, with a seamless user experience thr
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore is mainly developed in Python. However, it supports composing control systems studies from programs implemented in Python, Matlab, Verilog, and C++.
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore supports composing control systems studies from programs implemented in Python, Matlab, Verilog, and C++.
 
-**Current Status:** Although we currently have multi-language support, concore still relies on Python. The current implementation of concore works well for the neuromodulation control systems simulations. However, Python performance is not optimized for real-time execution of time-sensitive executions such as animal models and real-time executions of live experiments with organ systems, as the latency must be much lower with higher performance requirements.
+**Current Status:** The current implementation of concore works well for the neuromodulation control systems simulations. However, the current implementation is not optimized for real-time execution of time-sensitive executions such as real-time live experiments with organ systems, as the latency must be much lower with higher performance requirements. There are three obstacles to a full real-time implementation: i) the language chosen must support real-time computations. There is a preliminary C++ implementation [here](https://github.com/ControlCore-Project/concore/blob/main/concore.hpp). ii) currently concore uses file sharing to communicate between processes, which may impact the real-time guarantees. iii) the software needs to run on some kind of hardware platform that supports real-time computations.  
 
-**Expected Outcomes:**  We propose a language intended for such real-time executions, perhaps running the deployment on a real-time operating system. This implementation should provide a significant performance enhancement compared to the current Python-based implementation.
+**Expected Outcomes:**  We propose an implementation intended for such real-time executions, deployed on a real-time operating system. This implementation should provide a significant performance enhancement compared to the current implementations.
 
-One of the challenges with real-time executions is that the software needs to run on some kind of hardware platform that supports real-time computations.  A cheap option that should be available to many potential contributors is the Raspberry Pi.  Although not ideal for real-time executions, it appears some have used it successfully \[[1](https://www.socallinuxexpo.org/sites/default/files/presentations/Steven_Doran_SCALE_13x.pdf), [2](https://all3dp.com/2/rtos-raspberry-pi-real-time-os/), [3](https://www.get-edi.io/Real-Time-Linux-on-the-Raspberry-Pi/)\]. The contributors are encouraged to elaorate on their choice of implementation and evaluation in their proposal.
+A cheap option to overcome the hardware platform problem, which could be available to many potential contributors, is the Raspberry Pi. Although not ideal for real-time executions, it appears some have used it successfully \[[1](https://www.socallinuxexpo.org/sites/default/files/presentations/Steven_Doran_SCALE_13x.pdf), [2](https://all3dp.com/2/rtos-raspberry-pi-real-time-os/), [3](https://www.get-edi.io/Real-Time-Linux-on-the-Raspberry-Pi/)\]. The contributors are encouraged to elaborate on their choice of implementation and evaluation in their proposal.
 
-**Required Skills:** Python and C (or another high-performance language for concore real-time implementation).
+**Required Skills:** Python and C++.
 
-**Code Challenge:** Prior experience in Python and your proposed implementation language (such as Python) must be demonstrated. 
+**Code Challenge:** Prior experience in Python and C++ must be demonstrated. 
 
 A patched real-time Linux is advantageous for concore since we support Linux already. Although we have not run concore on Raspberry Pi, this could be a small test for someone who has access to a Rapberry Pi.
 
