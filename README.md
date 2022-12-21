@@ -64,7 +64,7 @@ A cheap option to overcome the hardware platform problem, which could be availab
 
 **Required Skills:** C++, Linux/POSIX for real-time computations, Raspberry Pi, and Python
 
-**Code Challenge:** Prior experience in Python and C++ must be demonstrated. Also, a patched real-time Linux platform, which has concore running on it, must be demonstrated. Running concore on Raspberry Pi could be a small test for someone who has access to a Rapberry Pi, although we have not run that yet.
+**Code Challenge:** Prior experience in Python and C++ must be demonstrated. Also, a patched real-time Linux platform, which has concore running on it, must be demonstrated. Running concore on Raspberry Pi could be a small test for someone who has access to a Rapberry Pi.
 
 **Source Code:**  https://github.com/ControlCore-Project/concore
 
