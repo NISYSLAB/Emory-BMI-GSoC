@@ -76,7 +76,32 @@ A cheap option to overcome the hardware platform problem, which could be availab
 
 ***
 
-**[3] A Reference Implementation for concore Library in Java or Julia.**
+
+**[3] Making ZeroMQ a first-class feature of concore.**
+
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore consists of its own file-sharing based _concore_ protocol to communicate between the programs in a study. We have introduced an [osparc-control](https://pypi.org/project/osparc-control/0.0.2/) based communication as an alternative to this default file-sharing based concore protocol. osparc-control is an extension of [ZeroMQ](https://zeromq.org/). osparc-control based implementation replaces the file-sharing mechanism restricted to one local machine with message queues that can be transmitted between locally networked machine. This osparc-control based communication should be promoted as a first-class approach to implement the edges of concore.
+
+**Current Status:** Currently, a [simple osparc-control based implementation](https://github.com/ControlCore-Project/concore/tree/main/0mq) exists in concore. However, these ZeroMQ edges are not visible in concore editor, the browser-based visual editor for concore. Consequently, studies with ZeroMQ edges are represented as forests instead of directed hypergraphs, due to the "invisible" ZeroMQ edges. This also means, to run a concore study with ZeroMQ-based edges, we have to run each hypergraph in the forest separately.
+
+**Expected Outcomes:** We need to promote a unified experience in concore, whether the edges are actually implemented via the default file-sharing approach, or through this experimental osparc-control/ZeroMQ message-based approach. To illustrate the ZeroMQ-based edges, the contributor can choose to introduce a new assumption that all the ZeroMQ-edges must start with "0" in their labels. Usually, we label the edges with alphabetical characters. Therefore, this is a safe assumption. Once such a graph with ZeroMQ-edges are made (a single directed hypergraph, rather than a forest with disjoint two or more directed hypergraphs), we should be able to seamlessly build and run the study regardless of the underlying communication mechanism. Thus, we aim to demonstrate the possibility for a seamless local vs. distributed execution in a cluster through ZeroMQ.
+
+**Required Skills:** Python
+
+**Code Challenge:** Prior experience in Python must be demonstrated. Prior experience with message-oriented middleware frameworks such as ZeroMQ can be a plus, although not mandatory.
+
+**Source Code:**  https://github.com/ControlCore-Project/concore
+
+**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
+**[4] A Reference Implementation for concore Library in Java or Julia.**
 
 **Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
 
@@ -100,7 +125,7 @@ A cheap option to overcome the hardware platform problem, which could be availab
 
 ***
 
-**[4] Creating shareable "albums" from Niffler data sets**
+**[5] Creating shareable "albums" from Niffler data sets**
 
 **Mentors:** Ananth Reddy (bananthreddy30 -at- gmail.com) and Judy Gichoya (judywawira -at- emory.edu)
 
@@ -128,7 +153,7 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
 
 ***
 
-**[5] Develop a drag-and-drop frontend for WDL and CWL workflows**
+**[6] Develop a drag-and-drop frontend for WDL and CWL workflows**
 
 **Mentors:** Babak Mahmoudi (b.mahmoudi -at- emory.edu) and Özgür Kara (ozgurrkara99 -at- gmail.com).
 
