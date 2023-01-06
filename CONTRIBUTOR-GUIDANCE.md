@@ -1,7 +1,7 @@
 
 # Communicating with the mentors
 
-**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free versison, we are moving away from Slack and asking the contributors to communicate via the discussion forums of each project or this [discussion forum](https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions) instead.**
+**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free versison, we are moving away from Slack and asking the contributors to communicate via the discussion forums of each project's GitHub repository or this [discussion forum](https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions) instead.**
 
 Each idea on this page has at least one mentor assigned. Each existing project also has a relevant discussion forum in their GitHub source repository, listed below under each project idea. Specific discussions on each project idea happens in those discussion forums.
 
