@@ -1,13 +1,11 @@
 
 # Communicating with the mentors
 
-**We are using Slack as the primary medium of communication. Find and join the Emory BMI slack workspace using the link - http://bit.ly/emory-bmi.**
+**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free versison, we are moving away from Slack and asking the contributors to communicate via the discussion forums of each project or this [discussion forum](https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions) instead.**
 
-Emory BMI has a strong commitment to open-source, as both users and developers. Our Slack has more than 1,000 enthusiastic contributors, making us an enthusiastic open-source community.
+Each idea on this page has at least one mentor assigned. Each existing project also has a relevant discussion forum in their GitHub source repository, listed below under each project idea. Specific discussions on each project idea happens in those discussion forums.
 
-Each idea on this page has at least one mentor assigned. Each project idea also has a relevant channel in the Slack workspace, listed below under each project idea. Make sure to join the rooms that are relevant for the projects that you are interested in. Specific discussions on each project idea happens in those channels.
-
-Please feel free to introduce yourself in the relevant Slack channel. But please do not send individual messages to the mentors in DMs as that does not support the community environment we strive to make with the GSoC and open source in general.
+Please feel free to introduce yourself in the [discussion forum](https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions). But please avoid individual messages to the mentors as that does not support the community environment we strive to make with the GSoC and open source in general.
 
 ## Large projects (full-time) vs. Medium-size (half-time) projects
 
@@ -27,7 +25,7 @@ Summarize the project in your own words.
 
 **3) Contributor Name:**
 
-**4) Contributor Email and Slack username:**
+**4) Contributor Email and GitHub ID:**
 
 **5) Potential Mentor(s):**
 
