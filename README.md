@@ -181,7 +181,7 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
 ***
 
 
-[7] A Framework for Unsupervised Deep Clustering
+**[7] A Framework for Unsupervised Deep Clustering**
 
 **Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
