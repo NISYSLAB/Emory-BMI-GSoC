@@ -221,4 +221,34 @@ Applications: Explore the potential applications of the developed framework on v
 
 ***
 
+**[8] Visualizing MRI scanner utilization on-demand from DICOM metadata**
+
+**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu), Nan Li (nan.li -at- emory.edu), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+
+**Overview:**  Niffler enables computing scanner utilization using DICOM metadata, from DICOM images received on-demand or in real-time. DICOM tags are used to compute scanner utilization on-demand by the [SUVPaR](https://github.com/Emory-HITI/Niffler/tree/dev/modules/suvpar) module.
+
+The typical execution workflow for the on-demand execution is:
+[cold-extraction](https://github.com/Emory-HITI/Niffler/tree/master/modules/cold-extraction) (retrieve images on-demand from the PACS to the research cluster) -> [png-extraction](https://github.com/Emory-HITI/Niffler/tree/master/modules/png-extraction) (extract all the DICOM attributes from the images in a CSV file) -> SUVPaR (compute scanner utilization from the csv file and produce an output csv file).
+
+**Current Status:** While we have a scanner utiliization computed in the backend, there is no integrated front-end to present the results elegantly. The created results are currently stored in CSV files and displayed through an [Eaglescope](https://github.com/sharmalab/eaglescope) dashboard. 
+
+**Expected Outcomes:** The series-level scanner usage computations can be resource-heavy, as it requires both DICOM metadata processing of a lot of images (more than computing at just the study-leve) and then processing the metadata to compute scanner usage. This project should optimize the executions of png-extraction and suvpar as needed towards this goal.
+
+The front-end should be improved with a better integration to visualize the scanner usage at series level. The existing Eaglescope-based dashboard can be used as a starting point for this.
+
+Finally, scanner usage metrics at series level should be seamlessly presented via an integrated dashboard by end of this GSoC.
+
+**Required Skills:** Python and Javascript. Prior experience with DICOM would be a plus.
+
+**Code Challenge:** A [bug fix](https://github.com/Emory-HITI/Niffler/issues) from Niffler can be a positive indication of understanding the code base.
+
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Discussion Forum**: https://github.com/Emory-HITI/Niffler/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
 
