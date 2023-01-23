@@ -216,7 +216,7 @@ Applications: Explore the potential applications of the developed framework on v
 
 **Effort:** 350 Hours
 
-**Difficulty Level:** Medium
+**Difficulty Level:** Hard
 
 
 ***
