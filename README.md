@@ -232,7 +232,9 @@ The typical execution workflow for the on-demand execution is:
 
 **Current Status:** While we have a scanner utiliization computed in the backend, there is no integrated front-end to present the results elegantly. The created results are currently stored in CSV files and displayed through an [Eaglescope](https://github.com/sharmalab/eaglescope) dashboard. 
 
-**Expected Outcomes:** The series-level scanner usage computations can be resource-heavy, as it requires both DICOM metadata processing of a lot of images (more than computing at just the study-leve) and then processing the metadata to compute scanner usage. This project should optimize the executions of png-extraction and suvpar as needed towards this goal.
+There is a Slurm-based experimental implementation for the png-extraction in [ImageExtractorSlurm.py](https://github.com/Emory-HITI/Niffler/blob/master/modules/png-extraction/ImageExtractorSlurm.py). However, this implementation is outdated as it did not get updated with the latest developments that happened on [png-extraction](https://github.com/Emory-HITI/Niffler/blob/master/modules/png-extraction/ImageExtractor.py).
+
+**Expected Outcomes:** The series-level scanner usage computations can be resource-heavy, as it requires both DICOM metadata processing of a lot of images (more than computing at just the study-leve) and then processing the metadata to compute scanner usage. This project should optimize the executions of png-extraction and suvpar as needed towards this goal. Potential to use a cluster, instead of a single server instance for the metadata extraction can be considered. The slurm-based png-extraction may be useful in a distributed execution of png-extraction, and similar approaches should be considered for speedup of the execution.
 
 The front-end should be improved with a better integration to visualize the scanner usage at series level. The existing Eaglescope-based dashboard can be used as a starting point for this. The output CSV file from SUVPaR should be adopted to be consumed by the Eaglescope-based dashboards for the visualization.
 
