@@ -20,7 +20,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 **[1] An Integrated CONTROL-CORE experience.**
 
-**Mentors:** Nan Li (nan.li -at- emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**Mentors:** Nan Li (nan.li -at- emory.edu) and Mark Arnold (markgarnold -at- yahoo.com)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. [concore-editor](https://github.com/ControlCore-Project/concore-editor) is a React-based front-end environment for concore. concore-editor is a fork of [DHGWorkflow](https://github.com/NISYSLAB/DHGWorkflow). DHWorkflow was developed as a visual directed hypergraph editor for workflows with loops in GSoC 2021. A GSoC 2022 project forked this repository to adapt it as a front-end for concore. concore has a server back-end developed with Python Flask, which should be invoked by concore-editor as the front-end, using an approach such as the one in [#59](https://github.com/ControlCore-Project/concore-editor/issues/59) as the first step.
 
