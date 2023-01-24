@@ -256,3 +256,27 @@ Finally, scanner usage metrics at series level should be seamlessly presented vi
 
 ***
 
+**[9] Auto-detect coverage bounding boxes for brain MRI images**
+
+**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
+
+**Overview:** In this project, the contributor will develop a methodology to auto-detect coverage bounding boxes for the brain and other body parts using image processing. For example, detect the top of the head to the lowest extent (~C2/3) and left-to-right extents. This module will then be used to assess coverage compliance on MRI modalities.
+
+**Current Status:** This is a new module to run on DICOM images, specifically brain MRI images in DICOM format. This module can execute on DICOM images acquired in real-time or on-demand by Niffler. For testing purposes, brain images obtained from public data sources such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/) can be used.
+
+**Expected Outcomes:** This project builds an image processing methodology to autodetect coverage bounding boxes on brain MRI images. The algorithm will be trained on the brain (or other body parts) data and tested on more data of the same body parts for validation for accuracy.
+
+**Required Skills:** Python. Prior experience with DICOM would be a plus.
+
+**Code Challenge:** Experience working with machine learning libraries and similar problems is expected. Candidates are encouraged to include links/pointers to code samples or similar projects to highlight their experience in their proposal.
+
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Discussion Forum**: https://github.com/Emory-HITI/Niffler/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
+
