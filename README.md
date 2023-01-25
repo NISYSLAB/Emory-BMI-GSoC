@@ -280,3 +280,30 @@ Finally, scanner usage metrics at series level should be seamlessly presented vi
 
 ***
 
+**[10] A "Contribute" action to concore studies.**
+
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Mark Arnold (markgarnold -at- yahoo.com)
+
+**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore supports composing control systems studies from programs implemented in Python, Matlab, Verilog, and C++. concore also consists of a set of programs and studies that are already developed by the contributors (can be seen from the demo, testsou, ratc, and humanc folders in the concore repository). We envision more community-contributed studies and programs in the future.
+
+
+**Current Status:** Currently, to contribute a study or a program to concore, a user must fork the concore repository and send a pull request through Git. This contribute approach does not help with users that are not familiar with Git or GitHub. The concore-editor has a "Contribute" button, which does nothing at this point. 
+
+**Expected Outcomes:** Once we have this project successfully completed, concore will have a script named "contribute" with necessary GitHub actions (or a similar alternative approach). With this Contribute option, the contributors merely invoke the contribute script and a pull request is generated or updated on their behalf. This project also has a research component, and the contributors are encouraged to propose their alternative approach (if any) in their proposal.
+
+Then, the currently idling "Contribute" button in the concore-editor can be configured to invoke the local contribute script that is implemented as part of this GSoC. By end of the GSoC, the contributor can work on that integration. It should be similar to the other methods (run, debug, build, ... ) of concore-editor, which are currently not integrated as well.
+
+**Required Skills:** Python
+
+**Code Challenge:** Prior experience in Python with code contributions to highlight, with attempts at bug fixes / pull requests to concore repository.
+
+**Source Code:**  https://github.com/ControlCore-Project/concore
+
+**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Medium
+
+***
+
