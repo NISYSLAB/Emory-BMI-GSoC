@@ -262,7 +262,7 @@ Finally, scanner usage metrics at series level should be seamlessly presented vi
 
 **Overview:** In this project, the contributor will develop a methodology to auto-detect coverage bounding boxes for the brain and other body parts using image processing. For example, detect the top of the head to the lowest extent (~C2/3) and left-to-right extents. This module will then be used to assess coverage compliance on MRI modalities.
 
-**Current Status:** This is a new module to run on DICOM images, specifically brain MRI images in DICOM format. This module can execute on DICOM images acquired in real-time or on-demand by Niffler. For testing purposes, brain images obtained from public data sources such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/) can be used.
+**Current Status:** This is a new module to run on DICOM images, specifically brain MRI images in DICOM format. This module will execute on DICOM images acquired in real-time or on-demand by Niffler. For testing purposes during the application period and early stages of development, brain MRI images obtained from public data sources such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/) can be used.
 
 **Expected Outcomes:** This project builds an image processing methodology to autodetect coverage bounding boxes on brain MRI images. The algorithm will be trained on the brain (or other body parts) data and tested on more data of the same body parts for validation for accuracy.
 
@@ -306,3 +306,26 @@ Then, the currently idling "Contribute" button in the concore-editor can be conf
 
 ***
 
+**[11] A methodology to categorize exam series.**
+
+**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
+
+**Overview:** This project aims to develop methodology to categorize exam series from a variety of vendors/systems to a standardized protocol template. This is an important step to begin assessing protocol compliance of DICOM image series. The project focuses on radiographic images of MRI modality.
+
+**Current Status:** This is a new module to run on DICOM images of MRI modality. This module will execute on DICOM images acquired in real-time or on-demand by Niffler. For testing purposes during the application period and early stages of development, MRI images obtained from public data sources such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/) can be used.
+
+**Expected Outcomes:** There would be no evaluation of images or quality. The task would be to identify whether the series belonged to a defined protocol, and if so whether its DICOM parameters meet certain threshold values.
+
+**Required Skills:** Python. Prior experience with DICOM would be a plus.
+
+**Code Challenge:** Candidates are encouraged to include links/pointers to code samples or similar projects to highlight their experience in their proposal.
+
+**Source Code:** https://github.com/Emory-HITI/Niffler/
+
+**Discussion Forum**: https://github.com/Emory-HITI/Niffler/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
