@@ -290,7 +290,7 @@ Finally, scanner usage metrics at series level should be seamlessly presented vi
 
 **Expected Outcomes:** Once we have this project successfully completed, concore will have a script named "contribute" with necessary GitHub actions (or a similar alternative approach). With this Contribute option, the contributors merely invoke the contribute script and a pull request is generated or updated on their behalf. This project also has a research component, and the contributors are encouraged to propose their alternative approach (if any) in their proposal.
 
-Then, the currently idling "Contribute" button in the concore-editor can be configured to invoke the local contribute script that will be implemented as part of this GSoC. By end of the GSoC, the contributor can work on that integration between the "Contribute" button in concore-editor and the "contribute" script implemented for concore. The integration of these two should be similar to the other methods (run, debug, build, ... ) of concore-editor, which are currently not integrated into the concore backend as well.
+Then, the currently stub "Contribute" button in the concore-editor can be configured to invoke the local contribute script that will be implemented as part of this GSoC. By end of the GSoC, the contributor can work on that integration between the "Contribute" button in concore-editor and the "contribute" script implemented for concore. The integration of these two should be similar to the other methods (run, debug, build, ... ) of concore-editor, which are currently not integrated into the concore backend as well.
 
 **Required Skills:** Python
 
