@@ -52,7 +52,7 @@ A complete integrated front-end for concore, with a seamless user experience thr
 
 **[2] A real-time computing support for concore.**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Parisa Sarikhani (psarikh -at- emory.edu)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore supports composing control systems studies from programs implemented in Python, Matlab, Verilog, and C++.
 
