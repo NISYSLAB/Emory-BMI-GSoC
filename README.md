@@ -223,7 +223,7 @@ Applications: Explore the potential applications of the developed framework on v
 
 **[8] Visualizing MRI scanner utilization on-demand from DICOM metadata**
 
-**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu), Nan Li (nan.li -at- emory.edu), and Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu)
+**Mentors:** Nan Li (nan.li -at- emory.edu), Puneet Sharma (puneet.sharma -at- emory.edu), and Ryan Birmingham (rbirmin -at- emory.edu)
 
 **Overview:**  Niffler enables computing scanner utilization using DICOM metadata, from DICOM images received on-demand or in real-time. DICOM tags are used to compute scanner utilization on-demand by the [SUVPaR](https://github.com/Emory-HITI/Niffler/tree/dev/modules/suvpar) module.
 
@@ -308,7 +308,7 @@ Then, the currently stub "Contribute" button in the concore-editor can be config
 
 **[11] A methodology to categorize exam series.**
 
-**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
+**Mentors:** Tony Pan (tony.pan -at- emory.edu) and Puneet Sharma (puneet.sharma -at- emory.edu)
 
 **Overview:** This project aims to develop methodology to categorize exam series from a variety of vendors/systems to a standardized protocol template. This is an important step to begin assessing protocol compliance of DICOM image series. The project focuses on radiographic images of MRI modality.
 
