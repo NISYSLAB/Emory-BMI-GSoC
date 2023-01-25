@@ -280,7 +280,7 @@ Finally, scanner usage metrics at series level should be seamlessly presented vi
 
 ***
 
-**[10] A "Contribute" action to concore studies.**
+**[10] A "contribute" action to concore studies.**
 
 **Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Mark Arnold (markgarnold -at- yahoo.com)
 
