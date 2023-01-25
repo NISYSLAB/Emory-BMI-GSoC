@@ -6,7 +6,7 @@
 
 Emory BMI has been a successful mentoring orgnaization for Google Summer of Code 2012 - 2016, 2019, 2021, and 2022! In the recent years, we had 8 great contributors in 2022 and 6 in 2021. We are excited and looking forward to working with another batch of contributors for the upcoming GSoC. Emory BMI takes pride in having the past successes and GSoC contributors turning into long-term collaborators and mentors themselves. Emory BMI also encourages the contributors to collaborate further towards research outcomes, alongside their coding, as most of our GSoC projects include a fair amount of research.
 
-**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free versison, we are moving away from Slack and asking the contributors to communicate via the discussion forums of each project and this central repository instead.**
+**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free versison, we are slowly moving away from Slack and asking the contributors to communicate via the discussion forums of each project and this central repository instead. These discussion forums also give the contributors the potential to reach a larger audience through their public discussions, therefore, providing more transparency to our open source development discussions.**
 
 Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDANCE.md) for more details on how to apply and a standard template for the application. The ideas list is given below.
 
