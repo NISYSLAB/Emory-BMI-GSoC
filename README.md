@@ -38,8 +38,8 @@ A complete integrated front-end for concore, with a seamless user experience thr
 
 **Required Skills:** Javascript (including React) and Python. This is a front-end development project, and the contributors are expected to demonstrate their previous experience and potential to implement a front-end system with Javascript frameworks such as React.
 
-**Code Challenge:** Pull requests to fix concore-editor bug reports are encouraged. Demonstration of local installation of concore editor through screenshots in the proposal is expected. Please host your own forked version of concore-editor, following the "Deploying concore-editor in GitHub" section in the [concore-editor README](https://github.com/ControlCore-Project/concore-editor). Please also make sure to keep your hosted concore-editor instance updated with your own changes. That would allow us to confirm that your changes are working even before merging your fixes to the concore-editor repository.
- 
+**Code Challenge:** Pull requests to fix concore-editor bug reports are encouraged. Demonstration of local installation of concore editor through screenshots in the proposal is expected. Please host your own forked version of concore-editor, following the "Deploying concore-editor in GitHub" section in the [concore-editor README](https://github.com/ControlCore-Project/concore-editor). Please also make sure to keep your hosted concore-editor instance updated with your own changes. That would allow us to confirm that your changes are working even before reviewing/testing your commits and merging your fixes to the concore-editor repository.
+
 **Source Code:**  https://github.com/ControlCore-Project/concore-editor and https://github.com/ControlCore-Project/concore
 
 **Discussion Forum**: https://github.com/ControlCore-Project/concore-editor/discussions
