@@ -20,7 +20,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 **[1] An Integrated CONTROL-CORE experience.**
 
-**Mentors:** Nan Li (nan.li -at- emory.edu) and Mark Arnold (markgarnold -at- yahoo.com)
+**Mentors:** Nan Li (nan.li -at- emory.edu), Mayuresh Kothare (mvk -at- lehigh.edu), and Mark Arnold (markgarnold -at- yahoo.com)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. [concore-editor](https://github.com/ControlCore-Project/concore-editor) is a React-based front-end environment for concore. concore-editor is a fork of [DHGWorkflow](https://github.com/NISYSLAB/DHGWorkflow). DHWorkflow was developed as a visual directed hypergraph editor for workflows with loops in GSoC 2021. A GSoC 2022 project forked this repository to adapt it as a front-end for concore. concore has a server back-end developed with Python Flask, which should be invoked by concore-editor as the front-end, using an approach such as the one in [#59](https://github.com/ControlCore-Project/concore-editor/issues/59) as the first step.
 
@@ -54,7 +54,7 @@ Please pay attention to testing and documentation in the proposal and include su
 
 **[2] A real-time computing support for concore.**
 
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com) and Parisa Sarikhani (psarikh -at- emory.edu)
+**Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Mayuresh Kothare (mvk -at- lehigh.edu), and Parisa Sarikhani (psarikh -at- emory.edu)
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore supports composing control systems studies from programs implemented in Python, Matlab, Verilog, and C++.
 
@@ -284,7 +284,7 @@ Finally, scanner usage metrics at series level should be seamlessly presented vi
 
 **[10] A "contribute" action to concore studies.**
 
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu) and Mark Arnold (markgarnold -at- yahoo.com)
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Babak Mahmoudi (b.mahmoudi -at- emory.edu).
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore supports composing control systems studies from programs implemented in Python, Matlab, Verilog, and C++. concore also consists of a set of programs and studies that are already developed by the contributors (can be seen from the demo, testsou, ratc, and humanc folders in the concore repository). We envision more community-contributed studies and programs in the future.
 
