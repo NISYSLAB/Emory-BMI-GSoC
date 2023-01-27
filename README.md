@@ -284,7 +284,7 @@ Finally, scanner usage metrics at series level should be seamlessly presented vi
 
 **[10] A "contribute" action to concore studies.**
 
-**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), Mark Arnold (markgarnold -at- yahoo.com), and Babak Mahmoudi (b.mahmoudi -at- emory.edu).
+**Mentors:** Pradeeban Kathiravelu (pradeeban.kathiravelu -at- emory.edu), Mark Arnold (markgarnold -at- yahoo.com), Tony Pan (tony.pan -at- emory.edu), and Babak Mahmoudi (b.mahmoudi -at- emory.edu).
 
 **Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. concore supports composing control systems studies from programs implemented in Python, Matlab, Verilog, and C++. concore also consists of a set of programs and studies that are already developed by the contributors (can be seen from the demo, testsou, ratc, and humanc folders in the concore repository). We envision more community-contributed studies and programs in the future.
 
