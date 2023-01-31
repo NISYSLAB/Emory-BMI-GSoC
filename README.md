@@ -225,7 +225,7 @@ Applications: Explore the potential applications of the developed framework on v
 
 **[8] Visualizing MRI scanner utilization on-demand from DICOM metadata**
 
-**Mentors:** Nan Li (nan.li -at- emory.edu), Puneet Sharma (puneet.sharma -at- emory.edu), and Ryan Birmingham (rbirmin -at- emory.edu)
+**Mentors:** Nan Li (nan.li -at- emory.edu) and Ryan Birmingham (rbirmin -at- emory.edu)
 
 **Overview:**  Niffler enables computing scanner utilization using DICOM metadata, from DICOM images received on-demand or in real-time. DICOM tags are used to compute scanner utilization on-demand by the [SUVPaR](https://github.com/Emory-HITI/Niffler/tree/dev/modules/suvpar) module.
 
