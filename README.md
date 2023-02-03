@@ -335,3 +335,35 @@ The major contribution of this project is the contribute functionality to be imp
 **Difficulty Level:** Hard
 
 ***
+
+**[12] Develop a drag-and-drop GUI for deep learning experimentation**
+
+**Mentors:** Özgür Kara (ozgurrkara99 -at- gmail.com) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
+
+**Overview:** The aim is to develop a desktop application (GUI) that allows users to run their Deep Learning experiments that is integrated with PyTorch library via drag&drop environment. The users should be able to construct a pipeline visually, without dealing with the code, and apply the selected/designed deep learning models to the data easily.
+
+**Current Status:** New Project
+
+**Expected Outcomes:** The key components the GUI should include are the followings:
+
+Predefined network architectures should be embedded as blocks
+
+Users should be able to run supervised and unsupervised deep learning experiments within the GUI
+
+Multiple experiments with multiple architectures should be run in a parallel manner simultaneously
+
+The flow can be designed in a drag & drop manner, there are namely ‘data’, ‘network’, ‘functions’ and some other blocks that can be selected to design a deep learning training pipeline.
+
+A documentation should be provided explaining how users can add their own models/data to the GUI.
+
+**Required Skills:** Python, PyQt5, Deep Learning, Pytorch
+
+**Source Code:**  New Project
+
+**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+***
