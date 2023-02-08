@@ -353,7 +353,7 @@ The major contribution of this project is the contribute functionality to be imp
 
 * A documentation should be provided explaining how users can add their own models/data to the GUI.
 
-* The framework should integrate with our [Neurowaiver](https://github.com/NISYSLAB/VisualRLComposer/tree/neuroweaver) [research framework](https://www.brainstimjrnl.com/article/S1935-861X(21)00478-2/fulltext) and provide studies and programs for the [CONTROL-CORE](https://github.com/ControlCore-Project/) project, thus fitting into our larger research ecosystem.
+* The framework should integrate with our [Neuroweaver](https://github.com/NISYSLAB/VisualRLComposer/tree/neuroweaver) [research framework](https://www.brainstimjrnl.com/article/S1935-861X(21)00478-2/fulltext) and provide studies and programs for the [CONTROL-CORE](https://github.com/ControlCore-Project/) project, thus fitting into our larger research ecosystem.
 
 **Required Skills:** Python, PyQt5, Deep Learning, Pytorch
 
