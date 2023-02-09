@@ -166,13 +166,15 @@ An approach to creating shareable datasets from the DICOM images retrieved by Ni
 
 **Overview:** Standard workflow languages such as Common Workflow Language (CWL) and Workflow Description Language (WDL) are traditionally written by hand and executed by workflow frameworks such as Cromwell and Toil. Drag-and-drop front-end frameworks exist, but are also limited limited by their usability across platforms. A seamless front-end to support workflow development can help the open source community tremendously. CWL and WDL limit their focus to workflows that can be represented by a directed acyclic graph (DAG). So, while a drag-and-drop interface may allow more diverse graph types such as directed graphs, when converting, the DAG format must be verified. 
 
-**Current Status:** Our previous GSoC project DHGWorkflow enabled us to visually create Directed Hypergraphs (DHGs) and export them as GraphML files through its browser-based lightweight environment. This project could use a similar approach to generate WDL and CWL files from a browser-based application. Forking and adopting DHGWorkflow is an option. There are also stand-alone CWL and WDL drag-and-drop projects such as Rabix that can be adopted for this project. 
+**Current Status:** Our previous GSoC project [DHGWorkflow](https://github.com/NISYSLAB/DHGWorkflow/) enabled us to visually create Directed Hypergraphs (DHGs) and export them as GraphML files through its browser-based lightweight environment. This project could use a similar approach to generate WDL and CWL files from a browser-based application. 
+
+There are three approaches to implementing this project. First: forking and adopting DHGWorkflow is an option. [concore-editor](https://github.com/ControlCore-Project/concore-editor) adopted DHGWorkflow for the CONTROL-CORE project with additional capabilities such as editing programs. Second, the potential contributor may also choose to fork and adopt concore-editor for this project instead. Third, there are also stand-alone CWL and WDL drag-and-drop projects such as Rabix that can be adopted for this project. 
 
 **Expected Outcomes:** APIs (such as RESTful interfaces) should be provided to internally pass the workflow definitions to the backend, to avoid having a backend application having to read and parse the workflow files (WDL and CWL) again, rather than having them directly use the workflow definitions by the other programs.
 
 **Required Skills:** Languages of choice for front-end and the APIs.
 
-**Code Challenge:** A demo to highlight the potential of developing this task, such as a prototype or a mock up.
+**Code Challenge:** A demo to highlight the potential of developing this task, such as a prototype or a mock up. If you are attempting to highlight changes to the concore-editor or DHGWorkflow, please host your own forked version of concore-editor, following the "Deploying concore-editor in GitHub" section in the [concore-editor README](https://github.com/ControlCore-Project/concore-editor). Please also make sure to keep your hosted concore-editor instance updated with your own changes. That would allow us to confirm that your changes are working even before reviewing/testing your commits and merging your fixes to the concore-editor repository. Please also include the link of your hosted concore-editor in your proposal. By default, it will take the form of https://YOUR-GIT-REPO.github.io/concore-editor/.
  
 **Source Code:**  New Project
 
