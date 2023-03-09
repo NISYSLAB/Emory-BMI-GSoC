@@ -337,7 +337,7 @@ The major contribution of this project is the contribute functionality to be imp
 
 **[12] Develop a drag-and-drop GUI for deep learning experimentation**
 
-**Mentors:** Özgür Kara (ozgurrkara99 -at- gmail.com), Shu-Ting Wang (shw328 -at- eng.ucsd.edu), and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
+**Mentors:** Özgür Kara (ozgurrkara99 -at- gmail.com) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
 **Overview:** The aim is to develop a desktop application (GUI) that allows users to run their Deep Learning experiments that is integrated with PyTorch library via drag&drop environment. The users should be able to construct a pipeline visually, without dealing with the code, and apply the selected/designed deep learning models to the data easily. 
 
