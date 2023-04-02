@@ -37,3 +37,9 @@ If this is an open bug that was open for a long time, feel free to attempt a fix
 **I have an interesting project idea that is not listed in the ideas list. Can I submit a proposal to this idea?**
 
 Yes, go ahead. But please note that one of our mentors should find your proposa interesting enough to accept your own project idea. Historically, that has never happened. (The own project ideas have always tend to be spammy.)
+
+**I like to contribute to the project idea-X. Can you please help me started?**
+This question is a difficult one to answer most of the time. Most project ideas are intentionally left brief for the contributors to provide their own interpretation. That helps use evaluate the contributors better during the application period. A generic question such as the above expect us to expand more on the project idea (with minimal effort from the contributor). To get a useful reply, please be specific in your questions.
+
+**Can you explain the coding challenge to project idea-X**
+Same as above. If your have specific question about a project idea, please ask those. If the project idea is entirely unclear, at least provide your own interpretation and confirm whether you understood that correctly. Asking for explanation on a paragraph without mentioning where you need help is merely expecting us to paraphrase what is already written there. Please note that the mentors are evaluating the applicants during the application period. Once the contributors are accepted, we will work more closely with the contributors, providing more assistance and help as needed. A mentor usually invests 2 hours/week on each project they mentor, during the community bonding and coding period.
