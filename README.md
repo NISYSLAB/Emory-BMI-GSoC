@@ -10,7 +10,7 @@ Emory BMI has been a successful mentoring orgnaization for Google Summer of Code
 
 Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDANCE.md) for more details on how to apply and a standard template for the application. The ideas list is given below.
 
-Please go through this [introductory presentation on GSoC](https://kkpradeeban.blogspot.com/2022/11/google-summer-of-code-gsoc-2023.html), especially if you are new to GSoC and would need some pointers/help on getting started.
+Please go through this [introductory presentation on GSoC](https://pradeeban.github.io/projects/), especially if you are new to GSoC and would need some pointers/help on getting started.
 
 # List of Ideas
 Discuss the project on the project's discussion forum (as listed below under each project idea), and once you are ready to submit your application, use the template below. You must submit your application directly using the GSoC Program Site. If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your own idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
