@@ -1,4 +1,4 @@
-**How can I contact the mentor?**
+**How can I contact the mentors?**
 
 This question is often asked in the GitHub discussion forums here. Since you are already getting the replies here, the answer is, you can contact the mentors in the GitHub discussion forums, as listed under each project idea.
 
@@ -6,7 +6,11 @@ This question is often asked in the GitHub discussion forums here. Since you are
 
 While we try to reply to all the questions, sometimes we ignore certain generic questions. "I like project idea #1. Can you please let me know how to get started?" is a question that can be written by anyone without even a bit of effort on their part. To ensure you get replies, make sure to ask specific questions. Also, go through the previous discussions and documentation first to make sure your question is already answered somewhere else.
 
-Also, please do not contact the mentors via emails and social media (LinkedIn, Facebook, ...) messages. We are unlikely to accept LinkedIn/Facebook friend requests and messages from potential contributors. While we appreciate the enthusiams, we cannot handle messages coming from all the various means/media. Therefore, please stick to the proposed communication channels.
+**Can I contact you in Telegram/Whatsapp/...?**
+
+Please do not contact the mentors via emails and social media (LinkedIn, Facebook, ...) messages. We are unlikely to accept LinkedIn/Facebook friend requests and messages from potential contributors. While we appreciate the enthusiams, we cannot handle messages coming from all the various means/media. Therefore, please stick to the proposed communication channels. 
+
+This is just for the application period. Once the contributors are accepted, you can work with your mentor to find a common communication app to have one-to-one meetings and discussions.
 
 **I have my proposal draft ready. How can I get the opinions of the mentors?**
 
@@ -43,3 +47,22 @@ This question is a difficult one to answer most of the time. Most project ideas 
 
 **Can you explain the coding challenge to project idea-X**
 Same as above. If your have specific question about a project idea, please ask those. If the project idea is entirely unclear, at least provide your own interpretation and confirm whether you understood that correctly. Asking for explanation on a paragraph without mentioning where you need help is merely expecting us to paraphrase what is already written there. Please note that the mentors are evaluating the applicants during the application period. Once the contributors are accepted, we will work more closely with the contributors, providing more assistance and help as needed. A mentor usually invests 2 hours/week on each project they mentor, during the community bonding and coding period.
+
+**Oops, I have missed the deadline to submit the project proposal. Please find the proposal in the email attachment.**
+Sorry, we cannot accept email attachments as proposals. Proposals must be submitted to the GSoC site on time before the deadline.
+
+**Yes, but the site was unresponsive for the last 10 minutes and I could not submit the proposal. Can you please talk to Google and get me an exception?**
+No. Google is very strict about these deadlines - whether application deadline or an evaluation deadline. As we have mentioned before in GitHub discussions, you should submit your proposal well in advance and continue to edit it based on mentor feedback. You should not wait until the last minute to submit your proposal.
+
+Also, the proposals submitted at last minute are usually of very bad quality (almost, spammy). The decent proposals are usually submitted at least a day or two in advance.
+
+**Will my contributions after GSoC deadline will improve my chances for getting accepted into GSoC?**
+Unless we specifically asked for clarifications/changes, your contributions after the GSoC deadline will have no impact. This is to ensure fairness. Proposal deadline functions as the deadline this way.
+
+**I participated in a previous GSoC with Emory BMI. Can I participate again as a contributor?**
+If this is your 2nd GSoC and if you meet other GSoC requirements, then absolutely. But you will be fairly judged against the other participants. For fairness sake, all your contributions **except for** the contributions you made as part of your previous GSoC will be considered as your volunteer contributions. Otherwise, it will be unfair to the new contributors. There was a time students were allowed to participate as contributors for an unlimited number of times in the GSoC. But now it is limited to two. Therefore, it may make more sense to use these limited chances to actually be a contributor in another mentoring organization.
+
+**I participated in a previous GSoC with Emory BMI. Can I participate again as a mentor?**
+Absolutely. We will love to have you as a mentor and a long-time collaboorator. Many of our contributors have become mentors and even organization administrators.
+
+We just ask that you have successfully completed your previous GSoC as an outstanding/excellent contributor and continued to be a collaborator with Emory BMI GSoC projects. If you completed a GSoC and disappeared, it is unlikely for you to have a great understanding of the source code and mentoring experience (helping the new contributors).
