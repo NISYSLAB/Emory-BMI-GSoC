@@ -70,7 +70,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 **Difficulty Level:** Medium
 
-
+***
 
 
 **[3] A Framework for Unsupervised Deep Clustering**
@@ -131,9 +131,6 @@ The objective of this project is to develop an open-source framework that utiliz
 **Effort:** 350 Hours
 
 **Difficulty Level:** Hard
-
-
-***
 
 
 ***
