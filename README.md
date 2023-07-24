@@ -20,60 +20,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 ***
 
-
-**[1] Making ZeroMQ a first-class feature of concore.**
-
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com)
-
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-loop peripheral neuromodulation control systems. concore consists of its own file-sharing based _concore_ protocol to communicate between the programs in a study. We have introduced an [osparc-control](https://pypi.org/project/osparc-control/0.0.2/) based communication as an alternative to this default file-sharing based concore protocol. 
-
-[osparc-control](https://github.com/ITISFoundation/osparc-control) is an extension of [ZeroMQ](https://zeromq.org/). osparc-control based implementation replaces the file-sharing mechanism restricted to one local machine with message queues that can be transmitted between locally networked machine. This osparc-control based communication should be promoted as a first-class approach to implement the edges of concore.
-
-![The study with 0MQ](figures/0mq.png)
-**Current Status:** Currently, a [simple osparc-control based implementation](https://github.com/ControlCore-Project/concore/tree/main/0mq) exists in concore. However, these ZeroMQ edges are not visible in concore editor, the browser-based visual editor for concore. Consequently, studies with ZeroMQ edges are represented as forests instead of directed hypergraphs, due to the "invisible" ZeroMQ edges. This also means, to run a concore study with ZeroMQ-based edges, we have to run each hypergraph in the forest separately.
-
-**Expected Outcomes:** We need to promote a unified experience in concore, whether the edges are actually implemented via the default file-sharing approach, or through this experimental osparc-control/ZeroMQ message-based approach. To illustrate the ZeroMQ-based edges, the contributor can choose to introduce a new assumption that all the ZeroMQ-edges must start with "0" in their labels. Usually, we label the edges with alphabetical characters. Therefore, this is a safe assumption. Once such a graph with ZeroMQ-edges is made (a single directed hypergraph, rather than a forest with disjoint two or more directed hypergraphs), we should be able to seamlessly build and run the study regardless of the underlying communication mechanism. Thus, we aim to demonstrate the possibility of a seamless local vs. distributed execution in a cluster through ZeroMQ.
-
-**Required Skills:** Python
-
-**Code Challenge:** Prior experience in Python must be demonstrated. Prior experience with message-oriented middleware frameworks such as ZeroMQ can be a plus, although not mandatory.
-
-**Source Code:**  https://github.com/ControlCore-Project/concore
-
-**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
-
-**Effort:** 350 Hours
-
-**Difficulty Level:** Medium
-
-***
-
-**[2] A Reference Implementation for concore Library in Java or Julia.**
-
-**Mentors:** Mark Arnold (markgarnold -at- yahoo.com), Gautam Kumar (gautam.kumar -at- sjsu.edu)
-
-**Overview:** [concore](https://github.com/ControlCore-Project/concore) is a lightweight framework for closed-Loop peripheral neuromodulation control systems. Currently, it supports implementations of programs in Python, C++, Matlab, Octave, and Verilog. In this project, the contributor will develop a reference implementation of the concore library in Java or Julia.
-
-**Current Status:** We developed the concore library initially in Python, and then implemented support for other languages. The contributor will work towards a reference implementation in Java or Julia in this project. The successful completion of this project will expand the user base of concore to include Java/Julia developers.
-
-**Expected Outcomes:** A complete reference implementation of the concore Library in Java or Julia.
-
-**Required Skills:** i) Java or Julia and ii) Python
-
-**Code Challenge:** Demonstration of previous expertise in Java/Julia and Python can be beneficial.
- 
-**Source Code:**  https://github.com/ControlCore-Project/concore
-
-**Discussion Forum**: https://github.com/ControlCore-Project/concore/discussions
-
-**Effort:** 175 Hours
-
-**Difficulty Level:** Medium
-
-***
-
-
-**[3] A Framework for Unsupervised Deep Clustering**
+**[1] A Framework for Unsupervised Deep Clustering**
 
 **Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
 
@@ -110,7 +57,7 @@ The objective of this project is to develop an open-source framework that utiliz
 
 ***
 
-**[4] Auto-detect coverage bounding boxes for brain MRI images**
+**[2] Auto-detect coverage bounding boxes for brain MRI images**
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
 
