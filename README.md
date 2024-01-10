@@ -61,19 +61,19 @@ The objective of this project is to develop an open-source framework that utiliz
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
 
-**Overview:** In this project, we intend to assess whether or not a series of MR images encompass the anatomy of interest, specifically for brain regions. The contributor will develop a methodology to auto-detect and measure the extent of anatomical coverage on brain MR images, and determine whether it is compliant with expected "bounding boxes" set forth by pre-defined protocol constraints.  For example, a protocol may require specific anatomical coverage (e.g. top of the head to ~C2/3 vertebral bodies, with left ear-to-right ear extent), which must be met by acquired MR image data . This module will be part of a larger pipeline to assess overall quality and compliance on MRI modalities.
+**Overview:** In this project, we intend to assess whether or not a series of MR images encompass the anatomy of interest, specifically for brain regions. The contributor will develop a methodology to auto-detect and measure the extent of anatomical coverage on brain MR images and determine whether it complies with expected "bounding boxes" set forth by pre-defined protocol constraints.  For example, a protocol may require specific anatomical coverage (e.g., top of the head to ~C2/3 vertebral bodies, with left ear-to-right ear extent), which must be met by acquired MR image data. This module will be part of a larger pipeline to assess overall quality and compliance on MRI modalities.
 
-**Current Status:** This is a new module to run on DICOM images, specifically brain MRI images in DICOM format. This module will execute on DICOM images acquired in real-time or on-demand by Niffler. For testing purposes during the application period and early stages of development, brain MRI images obtained from public data sources such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/) can be used.
+**Current Status:** This is a new module to run on DICOM images, specifically brain MRI images in DICOM format. This module will execute on DICOM images acquired in real-time or on-demand from a [PACS](https://healthimaging.com/topics/health-it/enterprise-imaging/pacs). For testing purposes during the application period and early stages of development, brain MRI images obtained from public data sources such as [the Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/) can be used.
 
-**Expected Outcomes:** We expect a versatile image processing methodology to autodetect coverage bounding boxes on brain MR images based on stated anatomic landmarks. The algorithm should output a binary compliance score based on the comparison between the expected "bounding box" and the actual MR image series. The algorithm will be trained on the brain (or other body parts) data and tested on more data of the same body parts for validation for accuracy.
+**Expected Outcomes:** We expect a versatile image processing methodology to autodetect coverage bounding boxes on brain MR images based on stated anatomic landmarks. The algorithm should output a binary compliance score based on comparing the expected "bounding box" and the actual MR image series. The algorithm will be trained on the brain (or other body parts) data and tested on more data of the same body parts for validation and accuracy.
 
-**Required Skills:** Python. Prior experience with DICOM, along with basic human anatomy, would be a plus.
+**Required Skills:** Python. Prior experience with DICOM and basic human anatomy would be a plus.
 
 **Code Challenge:** Experience working with machine learning libraries and similar problems is expected. Candidates are encouraged to include links/pointers to code samples or similar projects to highlight their experience in their proposal.
 
-**Source Code:** https://github.com/Emory-HITI/Niffler/
+**Source Code:**  New Project
 
-**Discussion Forum**: https://github.com/Emory-HITI/Niffler/discussions
+**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
 
 **Effort:** 350 Hours
 
