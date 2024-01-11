@@ -23,11 +23,12 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 **Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
 
-**Overview:** A foundation model refers to a large-scale model that is pre-trained on extensive, often unlabeled data, capturing a broad understanding of that data. Recent studies have indicated that foundation models could potentially offer enhanced robustness and versatility in the analysis of complex patterns within Electroencephalography (EEG) data. This is particularly relevant in scenarios where EEG data for specific downstream tasks is limited in quantity.This project aims to create an open-source foundation model for EEG data analysis. It will involve developing algorithms for EEG signal processing, automatic feature extraction, and implementing deep learning-based algorithm for pre-training a foundation model on publicly available EEG datasets.
+**Overview:** A foundation model refers to a large-scale model that is pre-trained on extensive, often unlabeled data, capturing a broad understanding of that data. Recent studies have indicated that foundation models could potentially offer enhanced robustness and versatility in the analysis of complex patterns within Electroencephalography (EEG) data. This is particularly relevant in scenarios where EEG data for specific downstream tasks is limited in quantity. This project aims to create an open-source foundation model for EEG data analysis. It will involve developing algorithms for EEG signal processing, automatic feature extraction, and implementing deep learning-based algorithms for pre-training a foundation model on publicly available EEG datasets.
 
 
 
 **Current Status:** New project.
+
 
 **Expected Outcomes:** 
 * Literature Review: Research and review existing open-source foundation models for medical data, specifically EEG data. Identify the current limitations and challenges in this field.
@@ -35,14 +36,6 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 * Documentation and examples demonstrating the model's usage.
 * A report detailing the methodologies used and the performance of the model.
 * The model weights and code will be made publicly available on a platform such as GitHub.
-
-
-
-* Evaluation: Evaluate the performance of the developed framework using a variety of metrics and benchmarks. Compare the results to existing unsupervised deep clustering methods for medical data. The framework will be evaluated on publicly available electroencephalography (EEG) data. The performance of the proposed framework will be evaluated using metrics such as normalized mutual information. The framework will also be compared to existing state-of-the-art methods for unsupervised deep clustering.
-
-* Deployment: Create an open-source implementation of the developed framework and make it available for the community to use.
-
-* Applications: Explore the potential applications of the developed framework on various medical data, specifically EEG data. This includes but is not limited to, epilepsy diagnosis, brain-computer interface, and sleep stage classification.
 
 **Required Skills:**
 * Strong programming skills, preferably in Python.
