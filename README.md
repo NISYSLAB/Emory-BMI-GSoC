@@ -19,14 +19,57 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 
 ***
+**[1] Development of an Open-Source EEG Foundation Model**
 
-**[1] A Framework for Unsupervised Deep Clustering**
+**Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
 
-**Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi (b.mahmoudi -at- emory.edu)
+**Overview:** A foundation model refers to a large-scale model that is pre-trained on extensive, often unlabeled data, capturing a broad understanding of that data. Recent studies have indicated that foundation models could potentially offer enhanced robustness and versatility in the analysis of complex patterns within Electroencephalography (EEG) data. This is particularly relevant in scenarios where EEG data for specific downstream tasks is limited in quantity.This project aims to create an open-source foundation model for EEG data analysis. It will involve developing algorithms for EEG signal processing, automatic feature extraction, and implementing deep learning-based algorithm for pre-training a foundation model on publicly available EEG datasets.
+
+
+
+**Current Status:** New project.
+
+**Expected Outcomes:** 
+* Literature Review: Research and review existing open-source foundation models for medical data, specifically EEG data. Identify the current limitations and challenges in this field.
+* A robust, open-source EEG foundation model.
+* Documentation and examples demonstrating the model's usage.
+* A report detailing the methodologies used and the performance of the model.
+* The model weights and code will be made publicly available on a platform such as GitHub.
+
+
+
+* Evaluation: Evaluate the performance of the developed framework using a variety of metrics and benchmarks. Compare the results to existing unsupervised deep clustering methods for medical data. The framework will be evaluated on publicly available electroencephalography (EEG) data. The performance of the proposed framework will be evaluated using metrics such as normalized mutual information. The framework will also be compared to existing state-of-the-art methods for unsupervised deep clustering.
+
+* Deployment: Create an open-source implementation of the developed framework and make it available for the community to use.
+
+* Applications: Explore the potential applications of the developed framework on various medical data, specifically EEG data. This includes but is not limited to, epilepsy diagnosis, brain-computer interface, and sleep stage classification.
+
+**Required Skills:**
+* Strong programming skills, preferably in Python.
+* Experience with deep learning frameworks, preferably PyTorch.
+* Knowledge of self-supervised learning and large language models
+* Knowledge in signal processing, neuroscience, or related fields.
+
+
+**Source Code:**  New Project
+
+**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+
+***
+
+
+**[2] A Framework for Unsupervised Deep Clustering**
+
+**Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
 
 **Overview:** Clustering is a fundamental task in machine learning and data mining, with a wide range of applications such as image and speech recognition, anomaly detection, and natural language processing. Traditional clustering methods, such as k-means and hierarchical clustering, are based on shallow models and rely on hand-engineered features. In recent years, deep learning techniques have been applied to clustering, resulting in improved performance and the ability to automatically learn features from the data. However, existing methods are mostly supervised and require labeled data, which is not always available. Additionally, they are often not designed to handle low-resource scenarios.
 
-The objective of this project is to develop an open-source framework that utilizes unsupervised deep learning techniques for data clustering. The framework should be capable of handling low-resource scenarios and be able to scale to large datasets.
+The objective of this project is to develop an open-source framework that utilizes unsupervised deep-learning techniques for data clustering. The framework should be capable of handling low-resource scenarios and be able to scale to large datasets.
 
 **Current Status:** New project.
 
@@ -57,7 +100,7 @@ The objective of this project is to develop an open-source framework that utiliz
 
 ***
 
-**[2] Auto-detect coverage bounding boxes for brain MRI images**
+**[3] Auto-detect coverage bounding boxes for brain MRI images**
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
 
