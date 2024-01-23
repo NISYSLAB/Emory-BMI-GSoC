@@ -92,21 +92,22 @@ The objective of this project is to develop an open-source framework that utiliz
 
 
 ***
-***
 
 ** [3] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
 ** Mentors **: Ozgur Kara
 **Overview**
-Foundational Model Concept: A foundational model represents a new paradigm in machine learning, characterized by its large-scale and versatile nature. These models are trained on extensive datasets that cover a broad spectrum of topics and data formats, making them robust and adaptable. The term "foundational" reflects their ability to serve as a base framework, adaptable for a myriad of applications across different domains. This adaptability is a key feature, that distinguishes foundational models from traditional models that are often designed for specific, singular tasks.
+* Foundational Model Concept: A foundational model represents a new paradigm in machine learning, characterized by its large-scale and versatile nature. These models are trained on extensive datasets that cover a broad spectrum of topics and data formats, making them robust and adaptable. The term "foundational" reflects their ability to serve as a base framework, adaptable for a myriad of applications across different domains. This adaptability is a key feature, that distinguishes foundational models from traditional models that are often designed for specific, singular tasks.
 Graphical User Interface (GUI): The core objective of this project is to develop an open-source Graphical User Interface (GUI) that seamlessly integrates with existing foundational models, specifically tailored for image segmentation tasks. This GUI aims to democratize access to advanced machine learning techniques, enabling users with varying levels of expertise to leverage these powerful models for complex image analysis tasks.
 **Key Features**
-GUI:
+
+*GUI:
 Integration of Foundational Models: The GUI will be designed to incorporate several foundational models, providing users with a range of options to choose from based on their specific requirements.
 Dataset Compatibility: It will support various datasets, including those commonly used in image segmentation tasks. The ability to handle different data formats and sizes is a crucial aspect of the GUI.
 Scalability to MRI Datasets: A significant feature of this project is the GUI's capability to scale and perform efficiently with MRI datasets. This involves handling high-resolution images and complex data structures typical in medical imaging.
 User-Centric Design: Emphasis will be placed on creating an intuitive and accessible interface. This involves clear navigation, real-time feedback mechanisms, and visualization tools that allow users to interact with the models and data effectively.
 Extensibility and Customization: The GUI will be designed with extensibility in mind, allowing for the future incorporation of additional models, features, and dataset types. Customization options will enable users to tailor the tool to their specific needs.
-Literature Review:
+
+*Literature Review:
 Comprehensive analysis of existing foundational models suitable for image segmentation.
 Well-Written Documentation
 Detailed installation and setup guide for the GUI.
@@ -116,7 +117,8 @@ Technical documentation for developers covering code structure, API usage, and e
 Open Source Codes and Demo
 Regularly updated code repository on GitHub with source code, dependencies, and installation scripts.
 Demo version of the GUI showcasing its key features and capabilities.
-Required Skills:
+
+** Required Skills **:
 Core Technical Skills
 Advanced Python Programming: Proficiency in Python, with a strong understanding of software development best practices, including version control (Git), debugging, and code organization.
 Deep Learning Frameworks: Extensive experience with deep learning frameworks, preferably PyTorch.
