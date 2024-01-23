@@ -1,12 +1,12 @@
 # Emory BMI Google Summer of Code (GSoC) 2024
 
 
-<img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Department of Biomedical Informatics, Emory University (often stylized "Emory BMI" for GSoC communications) is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from the GitHub repositories of the research labs of Emory University School of Medicine: https://github.com/NISYSLAB
+<img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Department of Biomedical Informatics, Emory University (often stylized "Emory BMI" for GSoC communications) is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open-source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from the GitHub repositories of the research labs of Emory University School of Medicine: https://github.com/NISYSLAB
 
 
 Emory BMI has been a successful mentoring organization for Google Summer of Code 2012 - 2016, 2019, 2021, 2022, and 2023! In recent years, we had 6 accepted contributors in 2023, 8 in 2022, and 6 in 2021. We are excited and looking forward to working with another batch of contributors for the upcoming GSoC. Emory BMI takes pride in having past successes and GSoC contributors turn into long-term collaborators and mentors themselves. Emory BMI also encourages the contributors to collaborate further towards research outcomes, alongside their coding, as most of our GSoC projects include a fair amount of research.
 
-**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free version, we are slowly moving away from Slack and asking the contributors to communicate via the discussion forums of each project and this central repository instead. These discussion forums also give the contributors the potential to reach a larger audience through their public discussions, providing more transparency to our open source development discussions.**
+**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free version, we are slowly moving away from Slack and asking the contributors to communicate via the discussion forums of each project and this central repository instead. These discussion forums also give the contributors the potential to reach a larger audience through their public discussions, providing more transparency to our open-source development discussions.**
 
 Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDANCE.md) for more details on how to apply and a standard template for the application. The ideas list is given below.
 
@@ -92,7 +92,6 @@ The objective of this project is to develop an open-source framework that utiliz
 
 
 ***
-
 **[3] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
 **Mentors:** Ozgur Kara
 
@@ -144,12 +143,14 @@ Contributions to Open Source: Previous contributions to open-source projects, es
 Research Experience: Experience in research, particularly in areas related to machine learning, image segmentation, or medical imaging.
 
 **Source Code:** New Project
-* Discussion Forum: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
+**Discussion Forum:** https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
 **Effort:** 350 Hours
+
 **Difficulty Level:** Hard
 
 ***
-
 **[4] Auto-detect coverage bounding boxes for brain MRI images**
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
