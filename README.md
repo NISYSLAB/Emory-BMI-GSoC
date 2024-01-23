@@ -93,7 +93,7 @@ The objective of this project is to develop an open-source framework that utiliz
 
 ***
 **[3] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
-**Mentors:** Ozgur Kara
+**Mentors:** Ozgur Kara and Babak Mahmoudi, PhD
 
 **Overview**
 
