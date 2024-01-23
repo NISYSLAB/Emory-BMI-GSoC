@@ -55,7 +55,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 ***
 
-
+***
 **[2] A Framework for Unsupervised Deep Clustering**
 
 **Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
@@ -92,13 +92,14 @@ The objective of this project is to develop an open-source framework that utiliz
 
 
 ***
+***
 
 ** [3] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
-Mentor: Ozgur Kara
-Overview
+** Mentors **: Ozgur Kara
+**Overview**
 Foundational Model Concept: A foundational model represents a new paradigm in machine learning, characterized by its large-scale and versatile nature. These models are trained on extensive datasets that cover a broad spectrum of topics and data formats, making them robust and adaptable. The term "foundational" reflects their ability to serve as a base framework, adaptable for a myriad of applications across different domains. This adaptability is a key feature, that distinguishes foundational models from traditional models that are often designed for specific, singular tasks.
 Graphical User Interface (GUI): The core objective of this project is to develop an open-source Graphical User Interface (GUI) that seamlessly integrates with existing foundational models, specifically tailored for image segmentation tasks. This GUI aims to democratize access to advanced machine learning techniques, enabling users with varying levels of expertise to leverage these powerful models for complex image analysis tasks.
-Key Features
+**Key Features**
 GUI:
 Integration of Foundational Models: The GUI will be designed to incorporate several foundational models, providing users with a range of options to choose from based on their specific requirements.
 Dataset Compatibility: It will support various datasets, including those commonly used in image segmentation tasks. The ability to handle different data formats and sizes is a crucial aspect of the GUI.
@@ -136,6 +137,8 @@ Source Code: New Project
 Discussion Forum: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
 Effort: 350 Hours
 Difficulty Level: Hard
+
+***
 
 **[4] Auto-detect coverage bounding boxes for brain MRI images**
 
