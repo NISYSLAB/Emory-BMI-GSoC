@@ -21,14 +21,12 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 ***
 **[1] Development of an Open-Source EEG Foundation Model**
 
-**Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
+**Mentor(s):** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
 
-**Overview:** A foundation model refers to a large-scale model that is pre-trained on extensive, often unlabeled data, capturing a broad understanding of that data. Recent studies have indicated that foundation models could potentially offer enhanced robustness and versatility in the analysis of complex patterns within Electroencephalography (EEG) data. This is particularly relevant in scenarios where EEG data for specific downstream tasks is limited in quantity. This project aims to create an open-source foundation model for EEG data analysis. It will involve developing algorithms for EEG signal processing, automatic feature extraction, and implementing deep learning-based algorithms for pre-training a foundation model on publicly available EEG datasets.
-
-
+**Overview:** 
+* A foundation model refers to a large-scale model that is pre-trained on extensive, often unlabeled data, capturing a broad understanding of that data. Recent studies have indicated that foundation models could potentially offer enhanced robustness and versatility in the analysis of complex patterns within Electroencephalography (EEG) data. This is particularly relevant in scenarios where EEG data for specific downstream tasks is limited in quantity. This project aims to create an open-source foundation model for EEG data analysis. It will involve developing algorithms for EEG signal processing, automatic feature extraction, and implementing deep learning-based algorithms for pre-training a foundation model on publicly available EEG datasets.
 
 **Current Status:** New project.
-
 
 **Expected Outcomes:** 
 * Literature Review: Research and review existing open-source foundation models for medical data, specifically EEG data. Identify the current limitations and challenges in this field.
@@ -43,7 +41,6 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 * Knowledge of self-supervised learning and large language models
 * Knowledge in signal processing, neuroscience, or related fields.
 
-
 **Source Code:**  New Project
 
 **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
@@ -52,23 +49,20 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 **Difficulty Level:** Hard
 
-
-***
 ***
 **[2] Python Expansion of the Open Source Electrophysiological Toolbox**
 
-**Mentor:** Reza Sameni, PhD (rsameni -at- dbmi.emory.edu)
+**Mentor(s):** Reza Sameni, PhD (rsameni -at- dbmi.emory.edu)
 
-**Overview:** Standardized, open-source codes are indispensable in advancing biomedical engineering and biomedical informatics. The Open-Source Electrophysiological Toolbox (OSET) [https://github.com/alphanumericslab/OSET] was conceived in 2006 with this perspective, aiming to offer researchers an open-source codebase for biomedical signal processing. The toolbox has incrementally evolved and expanded over the years. Many researchers have utilized this toolbox for their research. Notably, some modules of OSET have been translated to C/C++ and Python and integrated into medical devices and cloud-based automatic diagnostic systems for large data. It operates under a permissive open license, encouraging community-driven development.
+**Overview:**
+* Standardized, open-source codes are indispensable in advancing biomedical engineering and biomedical informatics. The Open-Source Electrophysiological Toolbox (OSET) [https://github.com/alphanumericslab/OSET] was conceived in 2006 with this perspective, aiming to offer researchers an open-source codebase for biomedical signal processing. The toolbox has incrementally evolved and expanded over the years. Many researchers have utilized this toolbox for their research. Notably, some modules of OSET have been translated to C/C++ and Python and integrated into medical devices and cloud-based automatic diagnostic systems for large data. It operates under a permissive open license, encouraging community-driven development.
 The project aims to continue the Python expansion of OSET to convert it into a standard Python package, broadening access and maintaining consistency across platforms. The planned upgrades include comprehensive cross-language unit tests (between MATLAB and Python), documentation, example codes, installation, and maintenance mechanisms, with a modern software-engineered architecture and objective microbenchmarks. Through this expansion, we aim to extend OSET's benefits to a broader community of AI researchers, also contributing to the training of the next generation of biomedical engineers in the AI era.
 OSET will be maintained under the 3-Clause BSD License, a permissive open-source license that allows the redistribution and use of software in any form with adequate disclaimer clauses, offering flexibility for both open-source and commercial use, while minimizing legal complexities.
-
 
 **Current Status:** Ongoing project.
 
 **Expected Outcomes:**
 * A Python package for OSET, with standard unit tests, installation guidelines and documentation. The codebase should operate exactly identical to the current MATLAB implementation.
-
 
 **Key features:** 
 * Open-source code development for biomedical engineering and biomedical informatics.
@@ -80,7 +74,6 @@ OSET will be maintained under the 3-Clause BSD License, a permissive open-source
 * A background in signal processing
 * Experience in biomedical signal processing
 
-
 **Source Code:**  https://github.com/alphanumericslab/OSET
 
 **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
@@ -89,14 +82,14 @@ OSET will be maintained under the 3-Clause BSD License, a permissive open-source
 
 **Difficulty Level:** Hard
 
-
 ***
 
 **[3] A Framework for Unsupervised Deep Clustering**
 
-**Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
+**Mentor(s):** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
 
-**Overview:** Clustering is a fundamental task in machine learning and data mining, with a wide range of applications such as image and speech recognition, anomaly detection, and natural language processing. Traditional clustering methods, such as k-means and hierarchical clustering, are based on shallow models and rely on hand-engineered features. In recent years, deep learning techniques have been applied to clustering, resulting in improved performance and the ability to automatically learn features from the data. However, existing methods are mostly supervised and require labeled data, which is not always available. Additionally, they are often not designed to handle low-resource scenarios.
+**Overview:**
+* Clustering is a fundamental task in machine learning and data mining, with a wide range of applications such as image and speech recognition, anomaly detection, and natural language processing. Traditional clustering methods, such as k-means and hierarchical clustering, are based on shallow models and rely on hand-engineered features. In recent years, deep learning techniques have been applied to clustering, resulting in improved performance and the ability to automatically learn features from the data. However, existing methods are mostly supervised and require labeled data, which is not always available. Additionally, they are often not designed to handle low-resource scenarios.
 
 The objective of this project is to develop an open-source framework that utilizes unsupervised deep-learning techniques for data clustering. The framework should be capable of handling low-resource scenarios and be able to scale to large datasets.
 
@@ -129,7 +122,8 @@ The objective of this project is to develop an open-source framework that utiliz
 
 ***
 **[4] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
-**Mentors:** Ozgur Kara and Babak Mahmoudi, PhD
+
+**Mentor(s):** Ozgur Kara and Babak Mahmoudi, PhD
 
 **Overview**
 
@@ -187,9 +181,10 @@ Research Experience: Experience in research, particularly in areas related to ma
 **Difficulty Level:** Hard
 
 ***
+
 **[5] Auto-detect coverage bounding boxes for brain MRI images**
 
-**Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
+**Mentor(s):** Puneet Sharma and Tony Pan (tony.pan -at- emory.edu)
 
 **Overview:** In this project, we intend to assess whether or not a series of MR images encompass the anatomy of interest, specifically for brain regions. The contributor will develop a methodology to auto-detect and measure the extent of anatomical coverage on brain MR images and determine whether it complies with expected "bounding boxes" set forth by pre-defined protocol constraints.  For example, a protocol may require specific anatomical coverage (e.g., top of the head to ~C2/3 vertebral bodies, with left ear-to-right ear extent), which must be met by acquired MR image data. This module will be part of a larger pipeline to assess overall quality and compliance on MRI modalities.
 
@@ -214,7 +209,7 @@ Research Experience: Experience in research, particularly in areas related to ma
 ***
 **[6] Development of a Graphical User Interface for Time Series Toolbox Using Deep Learning**
 
-**Mentor:** Ozgur Kara and Babak Mahmoudi, PhD
+**Mentor(s):** Ozgur Kara and Babak Mahmoudi, PhD
 
 **Overview:**
 * This project aims to develop a sophisticated yet user-friendly Graphical User Interface (GUI) that enables users to perform automatic feature extraction from time series data utilizing deep learning techniques. The focus is on making complex data analysis (including missing data filling, feature extraction, clustering, and visualization) tasks accessible to a broader audience, ranging from students and novice data analysts to expert researchers in various fields. The GUI will serve as a bridge, simplifying the intricate process of identifying and extracting key features from time series data, which is critical in many domains such as finance, healthcare, environmental monitoring, and more. We want this project to scale to medical time series data such as EEG using existing datasets available publicly.
