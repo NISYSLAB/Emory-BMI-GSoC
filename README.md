@@ -75,9 +75,6 @@ OSET will be maintained under the 3-Clause BSD License, a permissive open-source
 * Identical cross-language performance
 * Standardized unit tests
 
-* A report detailing the methodologies used and the performance of the model.
-* The model weights and code will be made publicly available on a platform such as GitHub.
-
 **Required Skills:**
 * Proficiency in Python and MATLAB.
 * A background in signal processing
