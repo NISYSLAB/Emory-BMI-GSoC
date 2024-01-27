@@ -211,3 +211,47 @@ Research Experience: Experience in research, particularly in areas related to ma
 
 
 ***
+***
+**[6] Development of a Graphical User Interface for Time Series Toolbox Using Deep Learning**
+
+**Mentor:** Ozgur Kara and Babak Mahmoudi, PhD
+
+**Overview:**
+* This project aims to develop a sophisticated yet user-friendly Graphical User Interface (GUI) that enables users to perform automatic feature extraction from time series data utilizing deep learning techniques. The focus is on making complex data analysis (including missing data filling, feature extraction, clustering, and visualization) tasks accessible to a broader audience, ranging from students and novice data analysts to expert researchers in various fields. The GUI will serve as a bridge, simplifying the intricate process of identifying and extracting key features from time series data, which is critical in many domains such as finance, healthcare, environmental monitoring, and more. We want this project to scale to medical time series data such as EEG using existing datasets available publicly.
+
+
+**Current Status:** new project.
+
+**Expected Outcomes:**
+* Functional GUI: A fully operational GUI that simplifies uploading, processing, and analyzing time series data. Interactive elements to allow users to specify parameters for the deep learning model and feature extraction process.
+* Deep Learning Model Integration: Integration of neural network architectures suitable for time series analysis, such as CNNs and RNNs. Pre-trained models for immediate use, with options for advanced users to train or fine-tune models on their datasets.
+* Data Handling and Visualization: Support for various time series data formats. Robust data preprocessing tools for cleaning and normalizing data. Dynamic visualization tools that allow users to interactively explore their data and the extracted features.
+* Documentation and Tutorials: Comprehensive user manuals and guides detailing the functionality and operation of the GUI. Step-by-step tutorials for common tasks and workflows. Technical documentation for community developers interested in contributing to the project.
+
+
+**Key features:** 
+* User-Friendly Interface: A primary goal is to create an intuitive interface that abstracts the complexity of underlying deep learning operations.
+* Deep Learning Integration: Incorporation of advanced algorithms tailored for time series data.
+* Automatic Feature Extraction: Automated processes for detecting and extracting significant features from time series datasets.
+* Visualization Tools: Tools for visualizing both the raw time series data and the features extracted, aiding in analysis and interpretation.
+
+* A report detailing the methodologies used and the performance of the model.
+* The model weights and code will be made publicly available on a platform such as GitHub.
+
+**Required Skills:**
+* UI/UX Design: Expertise in developing intuitive and effective user interfaces, with a focus on user experience. Preferably gradio and pyqt5 knowledge is expected.
+* Deep Learning: Strong foundational knowledge in deep learning, particularly in techniques applicable to time series data. PyTorch knowledge is preferred.
+* Programming: Proficiency in programming languages such as Python, and familiarity with deep learning libraries like PyTorch.
+* Data Visualization: Experience in creating interactive data visualizations. Seaborn and matplotlib knowledge is preferred.
+
+
+**Source Code:**  new project.
+
+**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
+
+***
