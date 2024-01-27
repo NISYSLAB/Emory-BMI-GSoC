@@ -165,7 +165,6 @@ Medical Image Processing: Familiarity with medical imaging datasets, particularl
 Signal Processing: Knowledge of signal processing, particularly as it relates to image data.
 
 * Additional Skills
-  
 UI/UX Design: Skills in UI/UX design for developing an intuitive and user-friendly graphical interface.
 Documentation and Communication: Excellent documentation skills for creating clear and comprehensive user manuals and technical guides. Effective communication skills for collaborating with team members and interacting with the open-source community.
 Desirable Additional Qualifications
