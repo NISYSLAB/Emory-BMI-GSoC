@@ -54,9 +54,48 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 
 ***
+***
+**[2] Python Expansion of the Open Source Electrophysiological Toolbox**
+
+**Mentor:** Reza Sameni, PhD (rsameni -at- dbmi.emory.edu)
+
+**Overview:** Standardized, open-source codes are indispensable in advancing biomedical engineering and biomedical informatics. The Open-Source Electrophysiological Toolbox (OSET) [https://github.com/alphanumericslab/OSET] was conceived in 2006 with this perspective, aiming to offer researchers an open-source codebase for biomedical signal processing. The toolbox has incrementally evolved and expanded over the years. Many researchers have utilized this toolbox for their research. Notably, some modules of OSET have been translated to C/C++ and Python and integrated into medical devices and cloud-based automatic diagnostic systems for large data. It operates under a permissive open license, encouraging community-driven development.
+The project aims to continue the Python expansion of OSET to convert it into a standard Python package, broadening access and maintaining consistency across platforms. The planned upgrades include comprehensive cross-language unit tests (between MATLAB and Python), documentation, example codes, installation, and maintenance mechanisms, with a modern software-engineered architecture and objective microbenchmarks. Through this expansion, we aim to extend OSET's benefits to a broader community of AI researchers, also contributing to the training of the next generation of biomedical engineers in the AI era.
+OSET will be maintained under the 3-Clause BSD License, a permissive open-source license that allows the redistribution and use of software in any form with adequate disclaimer clauses, offering flexibility for both open-source and commercial use, while minimizing legal complexities.
+
+
+**Current Status:** Ongoing project.
+
+**Expected Outcomes:**
+* A Python package for OSET, with standard unit tests, installation guidelines and documentation. The codebase should operate exactly identical to the current MATLAB implementation.
+
+
+**Key features:** 
+* Open-source code development for biomedical engineering and biomedical informatics.
+* Identical cross-language performance
+* Standardized unit tests
+
+* A report detailing the methodologies used and the performance of the model.
+* The model weights and code will be made publicly available on a platform such as GitHub.
+
+**Required Skills:**
+* Proficiency in Python and MATLAB.
+* A background in signal processing
+* Experience in biomedical signal processing
+
+
+**Source Code:**  https://github.com/alphanumericslab/OSET
+
+**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
+**Effort:** 350 Hours
+
+**Difficulty Level:** Hard
+
 
 ***
-**[2] A Framework for Unsupervised Deep Clustering**
+
+**[3] A Framework for Unsupervised Deep Clustering**
 
 **Mentor:** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
 
@@ -92,7 +131,7 @@ The objective of this project is to develop an open-source framework that utiliz
 
 
 ***
-**[3] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
+**[4] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
 **Mentors:** Ozgur Kara and Babak Mahmoudi, PhD
 
 **Overview**
@@ -151,7 +190,7 @@ Research Experience: Experience in research, particularly in areas related to ma
 **Difficulty Level:** Hard
 
 ***
-**[4] Auto-detect coverage bounding boxes for brain MRI images**
+**[5] Auto-detect coverage bounding boxes for brain MRI images**
 
 **Mentors:** Puneet Sharma (puneet.sharma -at- emory.edu) and Tony Pan (tony.pan -at- emory.edu)
 
