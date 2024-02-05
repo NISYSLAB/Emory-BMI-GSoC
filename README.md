@@ -199,9 +199,9 @@ Research Experience: Experience in research, particularly in areas related to ma
 
 **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
 
-**Effort:** 350 Hours
+**Effort:** 90 Hours
 
-**Difficulty Level:** Hard
+**Difficulty Level:** Medium
 
 
 ***
