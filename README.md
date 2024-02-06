@@ -250,7 +250,7 @@ Research Experience: Experience in research, particularly in areas related to ma
 
 ***
 
-**[7] AI Health Ethics Atlas**
+**[7] Health-AI Ethics Atlas**
 
 **Mentor(s): Selen Bozkurt (with possible other collaborators from Emory and Stanford)**
 
