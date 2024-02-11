@@ -16,9 +16,9 @@ At Emory BMI, we ardently believe in the power of diversity to drive innovation.
 Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDANCE.md) for more details on how to apply and a standard template for the application. The ideas list is given below.
 
 # List of Ideas
-Discuss the project on the project's discussion forum (as listed below under each project idea), and once you are ready to submit your application, use the template below. You must submit your application directly using the GSoC Program Site. If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your own idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
+Discuss the project on the project's discussion forum (as listed below under each project idea), and once you are ready to submit your application, use the template below. **You must submit your application directly using the GSoC Program Site.** If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
 
-The ideas are marked easy, medium, and hard in difficulty level. They are also tagged 175 hours, 350 hours, or 350 hours / 175 hours. These three values represent medium-sized projects, large projects, and projects that have the flexibility to be adopted as medium-size projects or extended as large projects.
+The ideas are marked easy, medium, and hard in difficulty level. They are also tagged 90, 175, and 350 hours. These three values represent small-size, medium, and large projects.
 
 
 ***
@@ -53,7 +53,47 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 **Difficulty Level:** Hard
 
 ***
-**[2] Python Expansion of the Open Source Electrophysiological Toolbox**
+
+**[2] Health-AI Ethics Atlas**
+
+**Mentor(s): Selen Bozkurt (with possible other collaborators from Emory and Stanford)**
+
+**Overview:** 
+* This project aims to develop an interactive global map that visualizes the application and development of ethical principles in medical AI across different countries. It will highlight the diversity in ethical standards, regulatory approaches, and implementation practices in healthcare AI worldwide.
+
+**Key features:** 
+
+* Interactive world map displaying medical AI ethics initiatives.
+* Filters for different ethical principles and AI applications.
+* Country-specific data on AI healthcare policies and ethics.
+* Time-lapse feature to observe changes over time.
+* Case studies and detailed reports linked to map locations.
+* Dynamic interface allowing users to explore technological ethical dimensions.
+
+**Current Status: New project.**
+
+**Expected Outcomes:**
+
+* A comprehensive resource for understanding global trends in medical AI ethics.
+* Enhanced awareness of ethical diversity in medical AI applications.
+* Tool for researchers and policymakers to identify global best practices and gaps.
+
+**Required Skills:**
+
+* Proficiency in web development (e.g., HTML, CSS, JavaScript).
+* Experience with data visualization tools and libraries (e.g., D3.js, Leaflet).
+* Understanding of GIS and mapping software.
+* Knowledge in data analysis and handling large datasets.
+* Interest or background in AI ethics, particularly in healthcare.
+
+**Source Code: New Project.**
+
+**Effort: 350 Hours**
+
+**Difficulty Level: Medium**
+***
+
+**[3] Python Expansion of the Open Source Electrophysiological Toolbox**
 
 **Mentor(s):** Reza Sameni, PhD (rsameni -at- dbmi.emory.edu)
 
@@ -87,7 +127,7 @@ OSET will be maintained under the 3-Clause BSD License, a permissive open-source
 
 ***
 
-**[3] A Framework for Unsupervised Deep Clustering**
+**[4] A Framework for Unsupervised Deep Clustering**
 
 **Mentor(s):** Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
 
@@ -124,7 +164,7 @@ The objective of this project is to develop an open-source framework that utiliz
 
 
 ***
-**[4] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
+**[5] A graphical user interface of Foundational Model Toolbox for Image Segmentation**
 
 **Mentor(s):** Ozgur Kara and Babak Mahmoudi, PhD
 
@@ -184,7 +224,7 @@ Research Experience: Experience in research, particularly in areas related to ma
 
 ***
 
-**[5] Auto-detect coverage bounding boxes for brain MRI images**
+**[6] Auto-detect coverage bounding boxes for brain MRI images**
 
 **Mentor(s):** Puneet Sharma and Tony Pan (tony.pan -at- emory.edu)
 
@@ -209,7 +249,7 @@ Research Experience: Experience in research, particularly in areas related to ma
 
 ***
 ***
-**[6] Development of a Graphical User Interface for Time Series Toolbox Using Deep Learning**
+**[7] Development of a Graphical User Interface for Time Series Toolbox Using Deep Learning**
 
 **Mentor(s):** Ozgur Kara and Babak Mahmoudi, PhD
 
@@ -248,46 +288,4 @@ Research Experience: Experience in research, particularly in areas related to ma
 
 **Effort:** 350 Hours
 
-**Difficulty Level:** Hard
-
-
-***
-
-**[7] Health-AI Ethics Atlas**
-
-**Mentor(s): Selen Bozkurt (with possible other collaborators from Emory and Stanford)**
-
-**Overview:** 
-* This project aims to develop an interactive global map that visualizes the application and development of ethical principles in medical AI across different countries. It will highlight the diversity in ethical standards, regulatory approaches, and implementation practices in healthcare AI worldwide.
-
-**Key features:** 
-
-* Interactive world map displaying medical AI ethics initiatives.
-* Filters for different ethical principles and AI applications.
-* Country-specific data on AI healthcare policies and ethics.
-* Time-lapse feature to observe changes over time.
-* Case studies and detailed reports linked to map locations.
-* Dynamic interface allowing users to explore technological ethical dimensions.
-
-**Current Status: New project.**
-
-**Expected Outcomes:**
-
-* A comprehensive resource for understanding global trends in medical AI ethics.
-* Enhanced awareness of ethical diversity in medical AI applications.
-* Tool for researchers and policymakers to identify global best practices and gaps.
-
-**Required Skills:**
-
-* Proficiency in web development (e.g., HTML, CSS, JavaScript).
-* Experience with data visualization tools and libraries (e.g., D3.js, Leaflet).
-* Understanding of GIS and mapping software.
-* Knowledge in data analysis and handling large datasets.
-* Interest or background in AI ethics, particularly in healthcare.
-
-**Source Code: New Project.**
-
-**Effort: 350 Hours**
-
-**Difficulty Level: Medium**
-***
+**Difficulty Level:** Medium
