@@ -251,7 +251,7 @@ Research Experience: Experience in research, particularly in areas related to ma
 ***
 **[7] Development of a Graphical User Interface for Time Series Toolbox Using Deep Learning**
 
-**Mentor(s):** Ozgur Kara and Babak Mahmoudi, PhD
+**Mentor(s):** Ozgur Kara and Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu)
 
 **Overview:**
 * This project aims to develop a sophisticated yet user-friendly Graphical User Interface (GUI) that enables users to perform automatic feature extraction from time series data utilizing deep learning techniques. The focus is on making complex data analysis (including missing data filling, feature extraction, clustering, and visualization) tasks accessible to a broader audience, ranging from students and novice data analysts to expert researchers in various fields. The GUI will serve as a bridge, simplifying the intricate process of identifying and extracting key features from time series data, which is critical in many domains such as finance, healthcare, environmental monitoring, and more. We want this project to scale to medical time series data such as EEG using existing datasets available publicly.
