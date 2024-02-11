@@ -1,10 +1,10 @@
-# Emory BMI Google Summer of Code (GSoC) 2024
+# Emory BMI's Journey with Google Summer of Code (GSoC) 2024: Pioneering Open Source Biomedical Informatics
 
 
-<img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Department of Biomedical Informatics, Emory University (often stylized "Emory BMI" for GSoC communications) is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open-source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from the GitHub repositories of the research labs of Emory University School of Medicine: https://github.com/NISYSLAB
+<img src="https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/logo.jpg" width="150" height="150" align="left" /> Welcome to the Department of Biomedical Informatics at Emory University, a beacon of innovation in open-source development for biomedical informatics research. Department of Biomedical Informatics, Emory University (often stylized "Emory BMI" for GSoC communications) is committed to open source development of several biomedical informatics research projects. As a research organization, its source code lives across several open-source project repositories, released with open-source licenses including BSD 3-Clause License and MIT license. Most of them can be accessed from the GitHub repositories of the research labs of Emory University School of Medicine: https://github.com/NISYSLAB
 
 
-Emory BMI has been a successful mentoring organization for Google Summer of Code 2012 - 2016, 2019, 2021, 2022, and 2023! In recent years, we had 6 accepted contributors in 2023, 8 in 2022, and 6 in 2021. We are excited and looking forward to working with another batch of contributors for the upcoming GSoC. Emory BMI takes pride in having past successes and GSoC contributors turn into long-term collaborators and mentors themselves. Emory BMI also encourages the contributors to collaborate further towards research outcomes, alongside their coding, as most of our GSoC projects include a fair amount of research.
+Celebrating a Decade of Impact: From our first steps in GSoC 2012 through the milestones of 2023, Emory BMI has thrived, welcoming 6 contributors in 2023, 8 in 2022, and 6 in 2021. As we gear up for GSoC 2024, we're excited to mentor a new wave of innovators, guiding them from contributors to long-term collaborators. Emory BMI takes pride in having past successes and GSoC contributors turn into long-term collaborators and mentors themselves. Emory BMI also encourages the contributors to collaborate further towards research outcomes, alongside their coding, as most of our GSoC projects include a fair amount of research.
 
 **We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free version, we are slowly moving away from Slack and asking the contributors to communicate via the discussion forums of each project and this central repository instead. These discussion forums also give the contributors the potential to reach a larger audience through their public discussions, providing more transparency to our open-source development discussions.**
 
@@ -80,7 +80,7 @@ OSET will be maintained under the 3-Clause BSD License, a permissive open-source
 
 **Effort:** 350 Hours
 
-**Difficulty Level:** Hard
+**Difficulty Level:** Medium
 
 ***
 
