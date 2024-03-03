@@ -1,15 +1,11 @@
 
 # Communicating with the mentors
 
-**We have been using Slack as the primary medium of communication. Since Slack has limited the features of the Slack free versison, we are moving away from Slack and asking the contributors to communicate via the discussion forums of each project's GitHub repository or this [discussion forum](https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions) instead.**
+**We are asking the contributors to communicate via the discussion forums of each project's GitHub repository or this [discussion forum](https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions).**
 
-Each idea on this page has at least one mentor assigned. Each existing project also has a relevant discussion forum in their GitHub source repository, listed below under each project idea. Specific discussions on each project idea happens in those discussion forums.
+Each idea on this page has at least one mentor assigned. Each existing project also has a relevant discussion forum in their GitHub source repository, listed below under each project idea. Specific discussions on each project idea happen in those discussion forums.
 
-Please feel free to introduce yourself in the [discussion forum](https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions). But please avoid individual messages to the mentors as that does not support the community environment we strive to make with the GSoC and open source in general.
-
-## Large projects (full-time) vs. Medium-size (half-time) projects
-
-This year, contributors are given the option to contribute to a project full-time (35 hours a week and 350 hours in total, a large project) or half-time (about 18 hours a week and 175 hours in total, a medium-size project). We have indicated how we see a project's size/scope is, as Full-time, Half-time, and Full-time/Half-time. Whenever we have indicated Full-time/Half-time, it illustrates that the project has some flexibility to change the scope and complexity as the contributor sees fit. In any case, these are given as suggestions and contributors have the freedom to propose their own estimate of full-time or half-time in their project proposal.
+Please feel free to introduce yourself (include your email) in the [discussion forum](https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions). But please avoid individual messages to the mentors as that does not support the community environment we strive to make with the GSoC and open source in general.
 
 
 
