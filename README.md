@@ -88,6 +88,8 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 **Source Code: New Project.**
 
+**Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions/29
+
 **Effort: 350 Hours**
 
 **Difficulty Level: Medium**
