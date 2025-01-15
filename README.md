@@ -5,7 +5,7 @@
 
 
 **Celebrating a Decade of Impact:**
-From our first steps in GSoC 2012 through the milestones of 2023, Emory BMI has thrived, welcoming 6 contributors in 2023, 8 in 2022, and 6 in 2021. As we gear up for GSoC 2025, we're excited to mentor a new wave of innovators, guiding them from contributors to long-term collaborators. Emory BMI takes pride in having past successes and GSoC contributors turn into long-term collaborators and mentors themselves. Emory BMI also encourages the contributors to collaborate further towards research outcomes, alongside their coding, as most of our GSoC projects include a fair amount of research.
+Since our initial steps in GSoC 2012 to the remarkable milestones of 2024, Emory BMI has continued to thrive, welcoming numerous contributors year after year. As we gear up for GSoC 2025, we're excited to mentor a new wave of innovators, guiding them from contributors to long-term collaborators. Emory BMI takes pride in having past successes and GSoC contributors turn into long-term collaborators and mentors themselves. Emory BMI also encourages the contributors to collaborate further towards research outcomes, alongside their coding, as most of our GSoC projects include a fair amount of research.
 
 **Commitment to Diversity and Inclusion:**
 At Emory BMI, we ardently believe in the power of diversity to drive innovation. We are dedicated to creating an inclusive environment that encourages participation from all backgrounds, especially aiming to empower women and minorities in science and technology. Your unique perspectives are invaluable to us, and we invite you to join our diverse community of thinkers and creators.
