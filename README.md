@@ -22,5 +22,5 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 
 ***
-**[1] Exciting new projects are set to be announced in February 2025!**
+**[1] Exciting new projects are set to be announced soon!**
 
