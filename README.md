@@ -33,12 +33,12 @@ While the traditional POSIX permissions used by nearly all common Linux filesyst
 
 ## **Expected Outcomes:**
 A self-contained application (ie. the application should not require external APIs/javascript/etc. to be queried by the end-user's web browser at runtime & should have any relevant scripts packaged with it; the underlying back-end should only access local network resources & not need external Internet connectivity) that allows an end-user to view and manage the access permissions of a large research storage network at a fine-grained level via a web GUI. Both the back-end logic & front-end web interface are in scope of this project.
-> The application should support authentication via different modules, with a minimum of LDAP-based authentication.
-> The application should support deployment behind a reverse proxy running on Apache or Nginx
-> The application must be Linux distribution agnostic as much as possible, but at a minimum should support both running on both RedHat Enterprise Linux (or free derivatives like Rocky Linux) and Debian Linux (or other derivatives like Ubuntu Server) as a SystemD service.
-> The application must support running under a limited service account & not as the root user; if special permissions are required for the service account (ie. AmbientCapabilities defined in the SystemD service script) these should be stated in the application's documentation.
-> Documentation explaining a basic overview of application usage & installation steps for use by research network system administrators.
-> The code and documentation for the application will be made publicly available on a platform such as GitHub & licensed under an Open-Source license such as GPLv3.
+> - The application should support authentication via different modules, with a minimum of LDAP-based authentication.
+> - The application should support deployment behind a reverse proxy running on Apache or Nginx
+> - The application must be Linux distribution agnostic as much as possible, but at a minimum should support both running on both RedHat Enterprise Linux (or free derivatives like Rocky Linux) and Debian Linux (or other derivatives like Ubuntu Server) as a SystemD service.
+> - The application must support running under a limited service account & not as the root user; if special permissions are required for the service account (ie. AmbientCapabilities defined in the SystemD service script) these should be stated in the application's documentation.
+> - Documentation explaining a basic overview of application usage & installation steps for use by research network system administrators.
+> - The code and documentation for the application will be made publicly available on a platform such as GitHub & licensed under an Open-Source license such as GPLv3.
 
 ## **Required Skills:**
 Strong web application/frontend development skills using lightweight web frameworks (ie. this should *not* be a Java application that requires Tomcat/Glassfish/etc.).
