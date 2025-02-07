@@ -50,7 +50,7 @@ Familiarity with standard web servers like Apache or Nginx, especially with the 
 
 Source Code: New Project
 
-Effort: 500 Hours
+Effort: 350 Hours
 
 Difficulty Level: Hard
 ***********
