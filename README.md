@@ -22,7 +22,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 
 
 ***
-# **[1] Title: Development of an Open-Source Linux ACL Storage Management Web-based Graphical Interface**
+# **[1] Title: Securing Linux Storage with ACLs: An Open-Source Web Management Interface for Enhanced Data Protection**
 
 Mentor(s): Mahmoud Zeydabadinezhad, PhD (mzeydab -at- emory.edu); Robert Tweedy
 
