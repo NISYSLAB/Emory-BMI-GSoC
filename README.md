@@ -138,7 +138,7 @@ Mentor(s): Selen Bozkurt, PhD
 * Knowledge in data analysis and handling large datasets.
 * Interest or background in AI ethics, particularly in healthcare.
 ## **Source Code: New Project.**
-## **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions/29
+## **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
 ## **Effort: 350 Hours**
 ## **Difficulty Level: Medium**
 ***
