@@ -50,8 +50,43 @@ Familiarity with standard web servers like Apache or Nginx, especially with the 
 
 ## **Source Code: New Project**
 
+## **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
 ## **Effort: 350 Hours**
 
 ## **Difficulty Level: Hard**
+
+
+***
+# **[2] Title: Securing Linux Storage with ACLs: An Open-Source Web Management Interface for Enhanced Data Protection**
+
+Mentor(s): Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
+
+## **Overview:** 
+* A foundation model refers to a large-scale model that is pre-trained on extensive, often unlabeled data, capturing a broad understanding of that data. Recent studies have indicated that foundation models could potentially offer enhanced robustness and versatility in the analysis of complex patterns within Electroencephalography (EEG) data. This is particularly relevant in scenarios where EEG data for specific downstream tasks is limited in quantity. This project aims to create an open-source foundation model for EEG data analysis. It will involve developing algorithms for EEG signal processing, automatic feature extraction, and implementing deep learning-based algorithms for pre-training a foundation model on publicly available EEG datasets.
+## **Current Status:** In Progress.
+
+## **Expected Outcomes:** 
+* Literature Review: Research and review existing open-source foundation models for medical data, specifically EEG data. Identify the current limitations and challenges in this field.
+* A robust, open-source EEG foundation model.
+* Documentation and examples demonstrating the model's usage.
+* A report detailing the methodologies used and the performance of the model.
+* The model weights and code will be made publicly available on a platform such as GitHub.
+
+## **Required Skills:**
+* Strong programming skills, preferably in Python.
+* Experience with deep learning frameworks, preferably PyTorch.
+* Knowledge of self-supervised learning and large language models
+* Knowledge in signal processing, neuroscience, or related fields.
+
+## **Source Code:**  In Progress
+
+## **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
+## **Effort:** 350 Hours
+
+## **Difficulty Level:** Hard
+***
+
 ***********
 
