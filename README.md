@@ -99,11 +99,11 @@ OSET will be maintained under the 3-Clause BSD License, a permissive open-source
 ## **Current Status:** Ongoing project.
 ## **Expected Outcomes:**
 * A Python package for OSET, with standard unit tests, installation guidelines and documentation. The codebase should operate exactly identical to the current MATLAB implementation.
-**Key features:** 
+## **Key features:** 
 * Open-source code development for biomedical engineering and biomedical informatics.
 * Identical cross-language performance
 * Standardized unit tests
-**Required Skills:**
+## **Required Skills:**
 * Proficiency in Python and MATLAB.
 * A background in signal processing
 * Experience in biomedical signal processing
