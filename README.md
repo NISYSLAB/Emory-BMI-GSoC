@@ -58,7 +58,7 @@ Familiarity with standard web servers like Apache or Nginx, especially with the 
 
 
 ***
-# **[2] Title: Securing Linux Storage with ACLs: An Open-Source Web Management Interface for Enhanced Data Protection**
+# **[2] Title: Open-Source Framework for Advanced EEG Data Analysis Using Pre-trained Foundation Models**
 
 Mentor(s): Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
 
