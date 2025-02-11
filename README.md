@@ -24,7 +24,7 @@ The ideas are marked easy, medium, and hard in difficulty level. They are also t
 ***
 # **[1] Title: Securing Linux Storage with ACLs: An Open-Source Web Management Interface for Enhanced Data Protection**
 
-Mentor(s): Mahmoud Zeydabadinezhad, PhD (mzeydab -at- emory.edu); Robert Tweedy
+Mentor(s): Robert Tweedy, Mahmoud Zeydabadinezhad, PhD (mzeydab -at- emory.edu)
 
 ## **Overview:**
 While the traditional POSIX permissions used by nearly all common Linux filesystems allow for simple data permissions management based on group membership, this can become complicated to manage in a large research environment where a project's directory tree may not be efficiently structured to permit access via the simple group management achievable via POSIX permissions, especially when a research PI would like to grant different levels of access to a file to users who are otherwise in the same group. Linux ACLs, while a de-facto standard rather than a formally defined one like POSIX, can be used to resolve these types of situations but have a higher learning curve & far fewer management tools available for a large-scale storage system than tools managing POSIX permissions, relying mainly on the command line tools "setfacl" and "getfacl" to view any details. While there is a GUI tool known as "eiciel" that can adjust Linux ACLs, its audience & feature set is aimed towards an individual user on their personal machine & thus is not suitable for large-scale storage system management. This project aims to develop an application with a web-based GUI that can be deployed on a research network's storage system to provide PIs with a graphical overview of all their research data & allow management of the Linux ACLs to grant appropriate levels of access to the PI's research team members.
@@ -60,7 +60,7 @@ Familiarity with standard web servers like Apache or Nginx, especially with the 
 ***
 # **[2] Title: Open-Source Framework for Advanced EEG Data Analysis Using Pre-trained Foundation Models**
 
-Mentor(s): Mahmoud Zeydabadinezhad (mzeydab -at- emory.edu) and Babak Mahmoudi, PhD
+Mentor(s): Babak Mahmoudi, PhD and Mahmoud Zeydabadinezhad, PhD (mzeydab -at- emory.edu)
 
 ## **Overview:** 
 * A foundation model refers to a large-scale model that is pre-trained on extensive, often unlabeled data, capturing a broad understanding of that data. Recent studies have indicated that foundation models could potentially offer enhanced robustness and versatility in the analysis of complex patterns within Electroencephalography (EEG) data. This is particularly relevant in scenarios where EEG data for specific downstream tasks is limited in quantity. This project aims to create an open-source foundation model for EEG data analysis. It will involve developing algorithms for EEG signal processing, automatic feature extraction, and implementing deep learning-based algorithms for pre-training a foundation model on publicly available EEG datasets.
