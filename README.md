@@ -142,5 +142,36 @@ Mentor(s): Selen Bozkurt, PhD
 ## **Effort: 350 Hours**
 ## **Difficulty Level: Medium**
 ***
+# **[5] Health-AI Ethics Atlas**
+Mentor(s): Babak Mahmoudi, PhD and Ozgur Kara
+
+## **Overview:** 
+Functional Magnetic Resonance Imaging (fMRI) is a neuroimaging technique that measures brain activity by detecting changes in blood flow, providing high-dimensional, time-series data representing brain function. By leveraging diffusion models—probabilistic generative models originally designed for image synthesis—this project aims to learn complex spatiotemporal patterns in fMRI data, enabling downstream tasks such as brain decoding, disease prediction, and cognitive state classification.
+
+## **Current Status: New project**
+
+## **Expected Outcomes:**
+Data Preprocessing:
+·      Preprocess data using standard pipelines to normalize, denoise, and align brain scans.
+·      Convert the data into a structured representation suitable for diffusion training, such as voxel-wise time series or connectivity matrices.
+Model Architecture & Training:
+·      Adapt diffusion models to the temporal and spatial characteristics of fMRI data.
+·      Use a U-Net or transformer-based architecture to model the evolution of brain signals.
+·      Train the model with a denoising diffusion probabilistic approach, learning to reconstruct fMRI signals from noise.
+·      Explore conditioning techniques, such as using behavioral or task labels, to guide model learning.
+
+## **Required Skills:**
+* Strong programming skills, preferably in Python.
+* Experience with deep learning frameworks, preferably PyTorch.
+* Knowledge in signal processing, neuroscience, or related fields.
+
+## **Source Code:**  In Progress
+
+## **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
+
+## **Effort:** 350 Hours
+
+## **Difficulty Level:** Hard
+***
 ***********
 
