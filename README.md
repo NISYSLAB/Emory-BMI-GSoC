@@ -142,7 +142,7 @@ Mentor(s): Selen Bozkurt, PhD
 ## **Effort: 350 Hours**
 ## **Difficulty Level: Medium**
 ***
-# **[5] Health-AI Ethics Atlas**
+# **[5] Advancing Brain Decoding and Cognitive Analysis: Leveraging Diffusion Models for Spatiotemporal Pattern Recognition in fMRI Data**
 Mentor(s): Babak Mahmoudi, PhD and Ozgur Kara
 
 ## **Overview:** 
@@ -151,21 +151,21 @@ Functional Magnetic Resonance Imaging (fMRI) is a neuroimaging technique that me
 ## **Current Status: New project**
 
 ## **Expected Outcomes:**
-Data Preprocessing:
-·      Preprocess data using standard pipelines to normalize, denoise, and align brain scans.
-·      Convert the data into a structured representation suitable for diffusion training, such as voxel-wise time series or connectivity matrices.
-Model Architecture & Training:
-·      Adapt diffusion models to the temporal and spatial characteristics of fMRI data.
-·      Use a U-Net or transformer-based architecture to model the evolution of brain signals.
-·      Train the model with a denoising diffusion probabilistic approach, learning to reconstruct fMRI signals from noise.
-·      Explore conditioning techniques, such as using behavioral or task labels, to guide model learning.
+* Data Preprocessing:
+* Preprocess data using standard pipelines to normalize, denoise, and align brain scans.
+* Convert the data into a structured representation suitable for diffusion training, such as voxel-wise time series or connectivity matrices.
+* Model Architecture & Training:
+* Adapt diffusion models to the temporal and spatial characteristics of fMRI data.
+* Use a U-Net or transformer-based architecture to model the evolution of brain signals.
+* Train the model with a denoising diffusion probabilistic approach, learning to reconstruct fMRI signals from noise.
+* Explore conditioning techniques, such as using behavioral or task labels, to guide model learning.
 
 ## **Required Skills:**
 * Strong programming skills, preferably in Python.
 * Experience with deep learning frameworks, preferably PyTorch.
 * Knowledge in signal processing, neuroscience, or related fields.
 
-## **Source Code:**  In Progress
+## **Source Code:**  New Project
 
 ## **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
 
