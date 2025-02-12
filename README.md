@@ -110,7 +110,7 @@ OSET will be maintained under the 3-Clause BSD License, a permissive open-source
   
 ## **Source Code:**  https://github.com/alphanumericslab/OSET
 ## **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
-##**Effort:** 350 Hours
+## **Effort:** 350 Hours
 ## **Difficulty Level:** Medium
 ***
 
