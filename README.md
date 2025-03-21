@@ -114,35 +114,7 @@ OSET will be maintained under the 3-Clause BSD License, a permissive open-source
 ## **Difficulty Level:** Medium
 ***
 
-# **[4] Health-AI Ethics Atlas**
-Mentor(s): Selen Bozkurt, PhD
-
-## **Overview:** 
-* This project aims to develop an interactive global map that visualizes the application and development of ethical principles in medical AI across different countries. It will highlight the diversity in ethical standards, regulatory approaches, and implementation practices in healthcare AI worldwide.##
-## **Key features:** 
-* Interactive world map displaying medical AI ethics initiatives.
-* Filters for different ethical principles and AI applications.
-* Country-specific data on AI healthcare policies and ethics.
-* Time-lapse feature to observe changes over time.
-* Case studies and detailed reports linked to map locations.
-* Dynamic interface allowing users to explore technological ethical dimensions.
-## **Current Status: New project.**
-## **Expected Outcomes:**
-* A comprehensive resource for understanding global trends in medical AI ethics.
-* Enhanced awareness of ethical diversity in medical AI applications.
-* Tool for researchers and policymakers to identify global best practices and gaps.
-## **Required Skills:**
-* Proficiency in web development (e.g., HTML, CSS, JavaScript).
-* Experience with data visualization tools and libraries (e.g., D3.js, Leaflet).
-* Understanding of GIS and mapping software.
-* Knowledge in data analysis and handling large datasets.
-* Interest or background in AI ethics, particularly in healthcare.
-## **Source Code: New Project.**
-## **Discussion Forum**: https://github.com/NISYSLAB/Emory-BMI-GSoC/discussions
-## **Effort: 350 Hours**
-## **Difficulty Level: Medium**
-***
-# **[5] Advancing Brain Decoding and Cognitive Analysis: Leveraging Diffusion Models for Spatiotemporal Pattern Recognition in fMRI Data**
+# **[4] Advancing Brain Decoding and Cognitive Analysis: Leveraging Diffusion Models for Spatiotemporal Pattern Recognition in fMRI Data**
 Mentor(s): Babak Mahmoudi, PhD and Ozgur Kara
 
 ## **Overview:** 
