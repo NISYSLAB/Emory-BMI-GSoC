@@ -1,5 +1,8 @@
 # Dear applicants and contributors, the application period for Summer 2025 is now closed.
-
+#
+#
+#
+#
 
 # Emory BMI's Journey with Google Summer of Code (GSoC) 2025: Pioneering Open Source Biomedical Informatics
 
