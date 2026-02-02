@@ -22,6 +22,10 @@ At Emory BMI, we ardently believe in the power of diversity to drive innovation.
 Please refer to the [contributor guidelines](/CONTRIBUTOR-GUIDANCE.md) for more details on how to apply and a standard template for the application. The ideas list is given below.
 
 # List of Ideas
-Discuss the project on the project's discussion forum (as listed below under each project idea), and once you are ready to submit your application, use the template below. **You must submit your application directly using the GSoC Program Site.** If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
+> [!NOTE]
+> The **GSoC 2026** project ideas list is currently being finalized. Once the organization application period concludes and Emory BMI is officially announced, the specific project ideas will be populated here.
+
+
+Discuss the project on the project's discussion forum (as listed below under each project idea), and once you are ready to submit your application, use this [template](https://github.com/NISYSLAB/Emory-BMI-GSoC/blob/main/CONTRIBUTOR-GUIDANCE.md#application-template). **You must submit your application directly using the GSoC Program Site.** If you have a project idea that is relevant for Emory Biomedical Informatics, but is not listed here, feel free to consult the mentors to discuss your idea. The ideas listed below can be open for interpretation. Feel free to discuss with the mentors for clarifications, questions, or alternative suggestions.
 
 The ideas are marked easy, medium, and hard in difficulty level. They are also tagged 90, 175, and 350 hours. These three values represent small-size, medium, and large projects.

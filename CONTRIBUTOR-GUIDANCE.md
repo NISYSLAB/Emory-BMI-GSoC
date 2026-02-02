@@ -49,13 +49,19 @@ Break the timeline into periods of up to 7 days
 
 **9) Planned GSoC work hours**
 
-This year, the full-time projects are expected a 35 hours a week contribution (large project) and half-time projects are expected a 18 hours a week contribution (medium size project). Please indicate your choice of the project length. All project ideas have an indication how we see a project to be (full-time, half-time, or a potential/flexibility to be either based on the contributor's proposal).
+This year, GSoC offers three project sizes. Please indicate your choice of project length based on the specific project idea:
 
-Please also indicate the work hours (including the timezone), that you hope to work on your project. 
+- Large Projects (~350 hours): Expected ~35 hours/week contribution.
+
+- Medium Projects (~175 hours): Expected ~18 hours/week contribution.
+
+- Small Projects (~90 hours): Expected ~8-10 hours/week contribution.
+
+Please also indicate your expected work hours (including your timezone) and specify if you are applying for a small, medium, or large project as indicated in the ideas list. 
 
 **10) Planned absence/vacation days and other commitments during the GSoC period (including the community bonding period)**
 
-Please indicate if you have any lectures/classes, examinations, or other personal commitments. GSoC 2022 also allows flexibility of an additional two months - to complete the project at a later time frame (a shift of up to 2 additional months). Please indicate if you expect to do that as we can plan accordingly.
+Please indicate if you have any lectures/classes, examinations, or other personal commitments. GSoC 2026 also allows flexibility of an additional two months - to complete the project at a later time frame (a shift of up to 2 additional months). Please indicate if you expect to do that as we can plan accordingly.
 
 **11) Skill Set**
 
